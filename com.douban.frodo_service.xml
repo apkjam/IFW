@@ -1,0 +1,10 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.douban.frodo/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.douban.frodo/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.douban.frodo/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.douban.frodo/com.douban.frodo.fangorns.audio.AudioPlayerDaemonService"/>
+<component-filter name="com.douban.frodo/com.douban.frodo.fangorns.audio.DaemonService"/>
+<component-filter name="com.douban.frodo/com.douban.push.service.PushService"/>
+</service>
+</rules>

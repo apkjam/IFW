@@ -1,0 +1,12 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.quvideo.xiaoying/cn.jpush.android.service.PushService"/>
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.quvideo.xiaoying/com.cloudtech.ads.core.AdGuardService"/>
+<component-filter name="com.quvideo.xiaoying/io.rong.push.PushService"/>
+<component-filter name="com.quvideo.xiaoying/io.rong.push.core.MessageHandleService"/>
+</service>
+</rules>

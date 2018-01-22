@@ -1,0 +1,10 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.cyjh.mobileanjian/com.taobao.accs.ChannelService"/>
+<component-filter name="com.cyjh.mobileanjian/com.taobao.accs.ChannelService$KernelService"/>
+<component-filter name="com.cyjh.mobileanjian/org.android.agoo.accs.AgooService"/>
+<component-filter name="com.cyjh.mobileanjian/com.umeng.message.UmengIntentService"/>
+<component-filter name="com.cyjh.mobileanjian/com.umeng.message.UmengMessageCallbackHandlerService"/>
+<component-filter name="com.cyjh.mobileanjian/com.umeng.message.UmengMessageIntentReceiverService"/>
+</service>
+</rules>

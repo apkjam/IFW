@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.amazon.kindlefc/com.igexin.sdk.PushService"/>
+</service>
+</rules>

@@ -1,0 +1,18 @@
+<rules>
+<activity block="true" log="false">
+<component-filter name="com.miui.securitycenter/com.miui.optimizemanage.settings.SettingsActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.optimizemanage.optimizeresult.OptimizeResultActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.optimizemanage.memoryclean.MemoryCleanActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.optimizemanage.illproc.mediascantimeout.MediaScanTimeoutActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.optimizemanage.MainActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.optimizemanage.memoryclean.LockAppManageActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.optimizemanage.illproc.IllProcHandleActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.gamebooster.ui.GameBoosterMainActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.gamebooster.ui.GuideActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.gamebooster.ui.SelectGameActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.gamebooster.ui.WelcomActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.gamebooster.ui.WhiteListActivity"/>
+<component-filter name="com.miui.securitycenter/com.miui.gamebooster.ui.WifiBoosterDetail"/>
+<component-filter name="com.miui.securitycenter/com.miui.gamebooster.ui.WindowCallActivity"/>
+</activity>
+</rules>

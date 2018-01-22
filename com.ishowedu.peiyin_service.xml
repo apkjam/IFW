@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.ishowedu.peiyin/com.umeng.message.UmengService"/>
+<component-filter name="com.ishowedu.peiyin/com.umeng.message.UmengIntentService"/>
+<component-filter name="com.ishowedu.peiyin/com.umeng.message.UmengMessageIntentReceiverService"/>
+<component-filter name="com.ishowedu.peiyin/com.umeng.message.UmengMessageCallbackHandlerService"/>
+<component-filter name="com.ishowedu.peiyin/io.rong.push.PushService"/>
+<component-filter name="com.ishowedu.peiyin/cn.jpush.android.service.PushService"/>
+<component-filter name="com.ishowedu.peiyin/cn.jpush.android.service.DaemonService"/>
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+</service>
+</rules>

@@ -1,0 +1,8 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.jesson.meishi/com.umeng.message.UmengService"/>
+<component-filter name="com.jesson.meishi/com.umeng.message.UmengIntentService"/>
+<component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageIntentReceiverService"/>
+<component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageCallbackHandlerService"/>
+</service>
+</rules>

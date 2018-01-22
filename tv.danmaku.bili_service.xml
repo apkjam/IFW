@@ -1,0 +1,9 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="tv.danmaku.bili/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="tv.danmaku.bili/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="tv.danmaku.bili/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="tv.danmaku.bili/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="tv.danmaku.bili/com.sobot.chat.core.channel.SobotTCPServer"/>
+</service>
+</rules>

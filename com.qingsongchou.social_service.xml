@@ -1,0 +1,8 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.qingsongchou.social/cn.jpush.android.service.PushService"/>
+<component-filter name="com.qingsongchou.social/cn.jpush.android.service.DaemonService"/>
+<component-filter name="com.qingsongchou.social/io.rong.push.core.MessageHandleService"/>
+<component-filter name="com.qingsongchou.social/io.rong.push.PushService"/>
+</service>
+</rules>

@@ -1,0 +1,7 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService"/>
+<component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+</service>
+</rules>

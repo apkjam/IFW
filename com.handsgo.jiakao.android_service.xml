@@ -1,0 +1,10 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.handsgo.jiakao.android/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.handsgo.jiakao.android/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.handsgo.jiakao.android/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.handsgo.jiakao.android/com.alibaba.sdk.android.push.ChannelService"/>
+<component-filter name="com.handsgo.jiakao.android/com.alibaba.sdk.android.push.channel.TaobaoRecvService"/>
+<component-filter name="com.handsgo.jiakao.android/io.rong.push.PushService"/>
+</service>
+</rules>

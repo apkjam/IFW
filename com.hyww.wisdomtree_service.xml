@@ -1,0 +1,7 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.hyww.wisdomtree/cn.jpush.android.service.PushService"/>
+<component-filter name="com.hyww.wisdomtree/cn.jpush.android.service.DaemonService"/>
+<component-filter name="com.hyww.wisdomtree/org.openudid.OpenUDID_service"/>
+</service>
+</rules>

@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.app.hero.ui/com.baidu.android.pushservice.PushService"/>
+</service>
+</rules>

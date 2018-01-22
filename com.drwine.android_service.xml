@@ -1,0 +1,9 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.drwine.android/com.umeng.message.UmengService"/>
+<component-filter name="com.drwine.android/com.umeng.message.UmengIntentService"/>
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageIntentReceiverService"/>
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageCallbackHandlerService"/>
+<component-filter name="com.drwine.android/com.umeng.message.local.UmengLocalNotificationService"/>
+</service>
+</rules>

@@ -1,0 +1,9 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="cmb.pb/com.gieseckedevrient.android.pushclient.HcePushService"/>
+<component-filter name="cmb.pb/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="cmb.pb/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="cmb.pb/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushService"/>
+</service>
+</rules>
