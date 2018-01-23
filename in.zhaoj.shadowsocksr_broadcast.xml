@@ -1,0 +1,6 @@
+<rules>
+<broadcast block="true" log="false">
+<component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.JobBootReceiver"/>
+<component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v14.PlatformAlarmReceiver"/>
+</broadcast>
+</rules>
