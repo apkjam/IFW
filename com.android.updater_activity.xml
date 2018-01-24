@@ -1,0 +1,6 @@
+<rules>
+<activity block="true" log="false">
+<component-filter name="com.android.updater/com.android.updater.SetAutoModeActivity"/>
+<component-filter name="com.android.updater/com.android.updater.ShareActivity"/>
+</activity>
+</rules>
