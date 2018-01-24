@@ -1,7 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v21.PlatformJobService"/>
-<component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.gcm.PlatformGcmService"/>
-<component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v14.PlatformAlarmService"/>
-</service>
-</rules>

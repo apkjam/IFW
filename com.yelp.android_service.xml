@@ -1,5 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.yelp.android/com.kahuna.sdk.KahunaPushService"/>
-</service>
-</rules>

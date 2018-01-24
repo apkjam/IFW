@@ -1,6 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengService"/>
-<component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengIntentService"/>
-</service>
-</rules>

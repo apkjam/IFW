@@ -1,6 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="tunein.player/tunein.library.push.c2dm.C2DMPushService"/>
-<component-filter name="tunein.player/tunein.services.DebugService"/>
-</service>
-</rules>
