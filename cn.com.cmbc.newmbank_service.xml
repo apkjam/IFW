@@ -1,0 +1,9 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.CmbcPushService"/>
+<component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService"/>
+<component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.GetuiIntentService"/>
+<component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.GetuiPushService"/>
+<component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.HcePushService"/>
+</service>
+</rules>
