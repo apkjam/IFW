@@ -1,0 +1,6 @@
+<rules>
+<broadcast block="true" log="false">
+<component-filter name="com.github.shadowsocks/com.evernote.android.job.JobBootReceiver"/>
+<component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmReceiver"/>
+</broadcast>
+</rules>

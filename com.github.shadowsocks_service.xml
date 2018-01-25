@@ -1,0 +1,7 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.github.shadowsocks/com.evernote.android.job.v21.PlatformJobService"/>
+<component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmServiceExact"/>
+<component-filter name="com.github.shadowsocks/com.google.firebase.iid.FirebaseInstanceIdService"/>
+</service>
+</rules>
