@@ -30,8 +30,6 @@
     <component-filter name="com.ali.money.shield/mtopsdk.xstate.XStateService" />
     <component-filter name="com.ali.money.shield/org.android.agoo.accs.AgooService" />
     <component-filter name="com.ali.money.shield/org.android.agoo.xiaomi.MiPushBroadcastReceiver" />
-    <component-filter name="com.eg.android.AlipayGphone/com.ali.money.shield.mssdk.antifraud.sms.receiver.SmsIntercept" />
-    <component-filter name="com.eg.android.AlipayGphone/com.ali.money.shield.mssdk.service.SmsIntentService" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="com.ali.money.shield/.AliCleaner.pkgevent.PackageEventReceiver" />
@@ -64,8 +62,6 @@
     <component-filter name="com.ali.money.shield/mtopsdk.xstate.XStateService" />
     <component-filter name="com.ali.money.shield/org.android.agoo.accs.AgooService" />
     <component-filter name="com.ali.money.shield/org.android.agoo.xiaomi.MiPushBroadcastReceiver" />
-    <component-filter name="com.eg.android.AlipayGphone/com.ali.money.shield.mssdk.antifraud.sms.receiver.SmsIntercept" />
-    <component-filter name="com.eg.android.AlipayGphone/com.ali.money.shield.mssdk.service.SmsIntentService" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="com.ali.money.shield/.AliCleaner.pkgevent.PackageEventReceiver" />
@@ -98,7 +94,5 @@
     <component-filter name="com.ali.money.shield/mtopsdk.xstate.XStateService" />
     <component-filter name="com.ali.money.shield/org.android.agoo.accs.AgooService" />
     <component-filter name="com.ali.money.shield/org.android.agoo.xiaomi.MiPushBroadcastReceiver" />
-    <component-filter name="com.eg.android.AlipayGphone/com.ali.money.shield.mssdk.antifraud.sms.receiver.SmsIntercept" />
-    <component-filter name="com.eg.android.AlipayGphone/com.ali.money.shield.mssdk.service.SmsIntentService" />
 </activity>
 </rules>

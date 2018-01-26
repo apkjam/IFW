@@ -1,6 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver" />
     <component-filter name="com.facebook.orca/.notify.MessagesNotificationBroadcastReceiver" />
     <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.GooglePlayUploadService" />
     <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.LollipopUploadService" />
@@ -59,7 +58,6 @@
     <component-filter name="com.facebook.orca/com.google.android.gms.gcm.GcmReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver" />
     <component-filter name="com.facebook.orca/.notify.MessagesNotificationBroadcastReceiver" />
     <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.GooglePlayUploadService" />
     <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.LollipopUploadService" />
@@ -118,7 +116,6 @@
     <component-filter name="com.facebook.orca/com.google.android.gms.gcm.GcmReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.facebook.katana/com.facebook.orca.notify.MessagesNotificationBroadcastReceiver" />
     <component-filter name="com.facebook.orca/.notify.MessagesNotificationBroadcastReceiver" />
     <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.GooglePlayUploadService" />
     <component-filter name="com.facebook.orca/com.facebook.analytics2.logger.LollipopUploadService" />

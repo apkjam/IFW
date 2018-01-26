@@ -1,7 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.dropbox.android/com.evernote.android.job.gcm.PlatformGcmService" />
-    <component-filter name="com.dropbox.android/com.evernote.android.job.v21.PlatformJobService" />
     <component-filter name="com.evernote/.BootReceiver" />
     <component-filter name="com.evernote/.android.collect.CollectImageUriJob" />
     <component-filter name="com.evernote/.android.collect.CollectImageUriReceiver" />
@@ -47,22 +45,8 @@
     <component-filter name="com.evernote/com.google.android.gms.measurement.AppMeasurementJobService" />
     <component-filter name="com.evernote/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
     <component-filter name="com.evernote/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.JobBootReceiver" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmReceiver" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmService" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmServiceExact" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v21.PlatformJobService" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.JobBootReceiver" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.gcm.PlatformGcmService" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v14.PlatformAlarmReceiver" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v14.PlatformAlarmService" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v21.PlatformJobService" />
-    <component-filter name="tv.danmaku.bili/com.evernote.android.job.v14.PlatformAlarmReceiver" />
-    <component-filter name="tv.danmaku.bili/com.evernote.android.job.v14.PlatformAlarmService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.dropbox.android/com.evernote.android.job.gcm.PlatformGcmService" />
-    <component-filter name="com.dropbox.android/com.evernote.android.job.v21.PlatformJobService" />
     <component-filter name="com.evernote/.BootReceiver" />
     <component-filter name="com.evernote/.android.collect.CollectImageUriJob" />
     <component-filter name="com.evernote/.android.collect.CollectImageUriReceiver" />
@@ -108,22 +92,8 @@
     <component-filter name="com.evernote/com.google.android.gms.measurement.AppMeasurementJobService" />
     <component-filter name="com.evernote/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
     <component-filter name="com.evernote/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.JobBootReceiver" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmReceiver" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmService" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmServiceExact" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v21.PlatformJobService" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.JobBootReceiver" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.gcm.PlatformGcmService" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v14.PlatformAlarmReceiver" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v14.PlatformAlarmService" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v21.PlatformJobService" />
-    <component-filter name="tv.danmaku.bili/com.evernote.android.job.v14.PlatformAlarmReceiver" />
-    <component-filter name="tv.danmaku.bili/com.evernote.android.job.v14.PlatformAlarmService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.dropbox.android/com.evernote.android.job.gcm.PlatformGcmService" />
-    <component-filter name="com.dropbox.android/com.evernote.android.job.v21.PlatformJobService" />
     <component-filter name="com.evernote/.BootReceiver" />
     <component-filter name="com.evernote/.android.collect.CollectImageUriJob" />
     <component-filter name="com.evernote/.android.collect.CollectImageUriReceiver" />
@@ -169,17 +139,5 @@
     <component-filter name="com.evernote/com.google.android.gms.measurement.AppMeasurementJobService" />
     <component-filter name="com.evernote/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
     <component-filter name="com.evernote/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.JobBootReceiver" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmReceiver" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmService" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v14.PlatformAlarmServiceExact" />
-    <component-filter name="com.github.shadowsocks/com.evernote.android.job.v21.PlatformJobService" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.JobBootReceiver" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.gcm.PlatformGcmService" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v14.PlatformAlarmReceiver" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v14.PlatformAlarmService" />
-    <component-filter name="in.zhaoj.shadowsocksr/com.evernote.android.job.v21.PlatformJobService" />
-    <component-filter name="tv.danmaku.bili/com.evernote.android.job.v14.PlatformAlarmReceiver" />
-    <component-filter name="tv.danmaku.bili/com.evernote.android.job.v14.PlatformAlarmService" />
 </activity>
 </rules>

@@ -12,21 +12,6 @@
     <component-filter name="com.android.email/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.android.email/com.xiaomi.push.service.XMJobService" />
     <component-filter name="com.android.email/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.SecurityPolicy$PolicyAdmin" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.AccountService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.EasAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.EasAuthenticatorServiceAlternate" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.EasTestAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.ImapAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.ImapService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyEasAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyEmailAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyImapAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyImapSyncAdapterService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.PolicyService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.Pop3AuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.Pop3Service" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.Pop3SyncAdapterService" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="com.android.email/com.kingsoft.email.service.AttachmentDownloadService" />
@@ -41,21 +26,6 @@
     <component-filter name="com.android.email/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.android.email/com.xiaomi.push.service.XMJobService" />
     <component-filter name="com.android.email/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.SecurityPolicy$PolicyAdmin" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.AccountService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.EasAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.EasAuthenticatorServiceAlternate" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.EasTestAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.ImapAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.ImapService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyEasAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyEmailAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyImapAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyImapSyncAdapterService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.PolicyService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.Pop3AuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.Pop3Service" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.Pop3SyncAdapterService" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="com.android.email/com.kingsoft.email.service.AttachmentDownloadService" />
@@ -70,20 +40,5 @@
     <component-filter name="com.android.email/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.android.email/com.xiaomi.push.service.XMJobService" />
     <component-filter name="com.android.email/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.SecurityPolicy$PolicyAdmin" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.AccountService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.EasAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.EasAuthenticatorServiceAlternate" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.EasTestAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.ImapAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.ImapService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyEasAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyEmailAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyImapAuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.LegacyImapSyncAdapterService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.PolicyService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.Pop3AuthenticatorService" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.Pop3Service" />
-    <component-filter name="me.bluemail.mail/com.android.emaileas.service.Pop3SyncAdapterService" />
 </activity>
 </rules>

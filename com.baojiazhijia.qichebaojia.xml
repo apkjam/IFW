@@ -23,7 +23,6 @@
     <component-filter name="com.baojiazhijia.qichebaojia/io.rong.push.PushService" />
     <component-filter name="com.baojiazhijia.qichebaojia/io.rong.push.core.MessageHandleService" />
     <component-filter name="com.baojiazhijia.qichebaojia/io.rong.push.core.PushRegistrationService" />
-    <component-filter name="com.handsgo.jiakao.android/com.baojiazhijia.qichebaojia.lib.order.OrderSubmitReceiver" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="com.baojiazhijia.qichebaojia/.lib.order.OrderSubmitReceiver" />
@@ -49,7 +48,6 @@
     <component-filter name="com.baojiazhijia.qichebaojia/io.rong.push.PushService" />
     <component-filter name="com.baojiazhijia.qichebaojia/io.rong.push.core.MessageHandleService" />
     <component-filter name="com.baojiazhijia.qichebaojia/io.rong.push.core.PushRegistrationService" />
-    <component-filter name="com.handsgo.jiakao.android/com.baojiazhijia.qichebaojia.lib.order.OrderSubmitReceiver" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="com.baojiazhijia.qichebaojia/.lib.order.OrderSubmitReceiver" />
@@ -75,6 +73,5 @@
     <component-filter name="com.baojiazhijia.qichebaojia/io.rong.push.PushService" />
     <component-filter name="com.baojiazhijia.qichebaojia/io.rong.push.core.MessageHandleService" />
     <component-filter name="com.baojiazhijia.qichebaojia/io.rong.push.core.PushRegistrationService" />
-    <component-filter name="com.handsgo.jiakao.android/com.baojiazhijia.qichebaojia.lib.order.OrderSubmitReceiver" />
 </activity>
 </rules>

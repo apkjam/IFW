@@ -1,7 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.sohu.inputmethod.sogou.xiaomi/com.sohu.inputmethod.settings.SystemDirectBootUnlockedReceiver" />
-    <component-filter name="com.sohu.inputmethod.sogou.xiaomi/com.sohu.inputmethod.settings.status.TrafficMonitorReceiver" />
     <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.downloads.DownloadService" />
     <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.receiver.SupportReceiver" />
     <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.sdk.downloads.DownloadService" />
@@ -45,8 +43,6 @@
     <component-filter name="com.sohu.inputmethod.sogou/sogou.mobile.explorer.hotwordsbase.mini.download.DownloadService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.sohu.inputmethod.sogou.xiaomi/com.sohu.inputmethod.settings.SystemDirectBootUnlockedReceiver" />
-    <component-filter name="com.sohu.inputmethod.sogou.xiaomi/com.sohu.inputmethod.settings.status.TrafficMonitorReceiver" />
     <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.downloads.DownloadService" />
     <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.receiver.SupportReceiver" />
     <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.sdk.downloads.DownloadService" />
@@ -90,8 +86,6 @@
     <component-filter name="com.sohu.inputmethod.sogou/sogou.mobile.explorer.hotwordsbase.mini.download.DownloadService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.sohu.inputmethod.sogou.xiaomi/com.sohu.inputmethod.settings.SystemDirectBootUnlockedReceiver" />
-    <component-filter name="com.sohu.inputmethod.sogou.xiaomi/com.sohu.inputmethod.settings.status.TrafficMonitorReceiver" />
     <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.downloads.DownloadService" />
     <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.receiver.SupportReceiver" />
     <component-filter name="com.sohu.inputmethod.sogou/com.sogou.androidtool.sdk.downloads.DownloadService" />

@@ -1,6 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.android.htmlviewer/com.android.settings.wifi.openwifi.OpenWifiReceiver" />
     <component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
     <component-filter name="com.android.settings/com.android.settings.MiuiSettingsReceiver" />
     <component-filter name="com.android.settings/com.android.settings.Settings$DataUsageSummaryActivity" />
@@ -17,7 +16,6 @@
     <component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.android.htmlviewer/com.android.settings.wifi.openwifi.OpenWifiReceiver" />
     <component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
     <component-filter name="com.android.settings/com.android.settings.MiuiSettingsReceiver" />
     <component-filter name="com.android.settings/com.android.settings.Settings$DataUsageSummaryActivity" />
@@ -34,7 +32,6 @@
     <component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.android.htmlviewer/com.android.settings.wifi.openwifi.OpenWifiReceiver" />
     <component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
     <component-filter name="com.android.settings/com.android.settings.MiuiSettingsReceiver" />
     <component-filter name="com.android.settings/com.android.settings.Settings$DataUsageSummaryActivity" />

@@ -1,7 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="cmb.pb/com.unionpay.uphce.service.HceBankService" />
-    <component-filter name="com.citiccard.mobilebank/com.unionpay.uphce.service.HceBankService" />
     <component-filter name="com.unionpay/.broadcast.NetBroadcastReceiver" />
     <component-filter name="com.unionpay/.push.UPPushReceiver" />
     <component-filter name="com.unionpay/.push.receiver.huawei.UPPushEventReceiverHuawei" />
@@ -25,8 +23,6 @@
     <component-filter name="com.unionpay/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="cmb.pb/com.unionpay.uphce.service.HceBankService" />
-    <component-filter name="com.citiccard.mobilebank/com.unionpay.uphce.service.HceBankService" />
     <component-filter name="com.unionpay/.broadcast.NetBroadcastReceiver" />
     <component-filter name="com.unionpay/.push.UPPushReceiver" />
     <component-filter name="com.unionpay/.push.receiver.huawei.UPPushEventReceiverHuawei" />
@@ -50,8 +46,6 @@
     <component-filter name="com.unionpay/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="cmb.pb/com.unionpay.uphce.service.HceBankService" />
-    <component-filter name="com.citiccard.mobilebank/com.unionpay.uphce.service.HceBankService" />
     <component-filter name="com.unionpay/.broadcast.NetBroadcastReceiver" />
     <component-filter name="com.unionpay/.push.UPPushReceiver" />
     <component-filter name="com.unionpay/.push.receiver.huawei.UPPushEventReceiverHuawei" />

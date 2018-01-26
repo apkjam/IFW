@@ -1,6 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.mi.liveassistant/com.wali.live.receiver.NetworkReceiver" />
     <component-filter name="com.wali.live/.receiver.AppInstallReceiver" />
     <component-filter name="com.wali.live/.receiver.ConfigurationReceiver" />
     <component-filter name="com.wali.live/.receiver.CustomReceiver" />
@@ -29,7 +28,6 @@
     <component-filter name="com.wali.live/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.mi.liveassistant/com.wali.live.receiver.NetworkReceiver" />
     <component-filter name="com.wali.live/.receiver.AppInstallReceiver" />
     <component-filter name="com.wali.live/.receiver.ConfigurationReceiver" />
     <component-filter name="com.wali.live/.receiver.CustomReceiver" />
@@ -58,7 +56,6 @@
     <component-filter name="com.wali.live/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.mi.liveassistant/com.wali.live.receiver.NetworkReceiver" />
     <component-filter name="com.wali.live/.receiver.AppInstallReceiver" />
     <component-filter name="com.wali.live/.receiver.ConfigurationReceiver" />
     <component-filter name="com.wali.live/.receiver.CustomReceiver" />

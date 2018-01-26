@@ -1,13 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.android.email/com.kingsoft.email.service.AttachmentDownloadService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.EmailUpgradeBroadcastReceiver" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.ImapPushService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.ImapService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.LegacyEasAuthenticatorService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.LegacyEmailAuthenticatorService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.Pop3Service" />
-    <component-filter name="com.android.email/com.kingsoft.exchange.service.EmailSyncAdapterService" />
     <component-filter name="com.kingsoft/.AppWidgetTryProvider" />
     <component-filter name="com.kingsoft/.DailyWidgetPri" />
     <component-filter name="com.kingsoft/.accessibility.KAccessibilityService" />
@@ -40,14 +32,6 @@
     <component-filter name="com.kingsoft/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.android.email/com.kingsoft.email.service.AttachmentDownloadService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.EmailUpgradeBroadcastReceiver" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.ImapPushService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.ImapService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.LegacyEasAuthenticatorService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.LegacyEmailAuthenticatorService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.Pop3Service" />
-    <component-filter name="com.android.email/com.kingsoft.exchange.service.EmailSyncAdapterService" />
     <component-filter name="com.kingsoft/.AppWidgetTryProvider" />
     <component-filter name="com.kingsoft/.DailyWidgetPri" />
     <component-filter name="com.kingsoft/.accessibility.KAccessibilityService" />
@@ -80,14 +64,6 @@
     <component-filter name="com.kingsoft/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.android.email/com.kingsoft.email.service.AttachmentDownloadService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.EmailUpgradeBroadcastReceiver" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.ImapPushService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.ImapService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.LegacyEasAuthenticatorService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.LegacyEmailAuthenticatorService" />
-    <component-filter name="com.android.email/com.kingsoft.email.service.Pop3Service" />
-    <component-filter name="com.android.email/com.kingsoft.exchange.service.EmailSyncAdapterService" />
     <component-filter name="com.kingsoft/.AppWidgetTryProvider" />
     <component-filter name="com.kingsoft/.DailyWidgetPri" />
     <component-filter name="com.kingsoft/.accessibility.KAccessibilityService" />

@@ -28,9 +28,6 @@
     <component-filter name="cmb.pb/com.xiaomi.push.service.XMPushService" />
     <component-filter name="cmb.pb/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
     <component-filter name="cmb.pb/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmb.pboc.hce.service.HCEPaymentService" />
-    <component-filter name="com.youku.phone/cmb.pb.cmbsafe.CmbService" />
-    <component-filter name="me.ele/cmb.pb.cmbsafe.CmbService" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="cmb.pb/.pbpush.PMReciver" />
@@ -61,9 +58,6 @@
     <component-filter name="cmb.pb/com.xiaomi.push.service.XMPushService" />
     <component-filter name="cmb.pb/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
     <component-filter name="cmb.pb/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmb.pboc.hce.service.HCEPaymentService" />
-    <component-filter name="com.youku.phone/cmb.pb.cmbsafe.CmbService" />
-    <component-filter name="me.ele/cmb.pb.cmbsafe.CmbService" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="cmb.pb/.pbpush.PMReciver" />
@@ -94,8 +88,5 @@
     <component-filter name="cmb.pb/com.xiaomi.push.service.XMPushService" />
     <component-filter name="cmb.pb/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
     <component-filter name="cmb.pb/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmb.pboc.hce.service.HCEPaymentService" />
-    <component-filter name="com.youku.phone/cmb.pb.cmbsafe.CmbService" />
-    <component-filter name="me.ele/cmb.pb.cmbsafe.CmbService" />
 </activity>
 </rules>

@@ -1,6 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.tencent.news/com.tencent.qqmusic.module.ipcframework.toolbox.IPCService" />
     <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushBootReceiver" />
     <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushEventReceiver" />
     <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushService" />
@@ -33,7 +32,6 @@
     <component-filter name="com.tencent.qqmusic/jackpal.androidterm.TermService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.tencent.news/com.tencent.qqmusic.module.ipcframework.toolbox.IPCService" />
     <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushBootReceiver" />
     <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushEventReceiver" />
     <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushService" />
@@ -66,7 +64,6 @@
     <component-filter name="com.tencent.qqmusic/jackpal.androidterm.TermService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.tencent.news/com.tencent.qqmusic.module.ipcframework.toolbox.IPCService" />
     <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushBootReceiver" />
     <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushEventReceiver" />
     <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushService" />

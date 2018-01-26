@@ -1,8 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="air.tv.douyu.android/com.sina.weibo.sdk.net.DownloadService" />
-    <component-filter name="com.duowan.kiwi/com.sina.weibo.sdk.net.DownloadService" />
-    <component-filter name="com.immomo.momo/com.sina.weibo.sdk.net.DownloadService" />
     <component-filter name="com.sina.weibo/.BootCompletedReceiver" />
     <component-filter name="com.sina.weibo/.ConnectivityReceiver" />
     <component-filter name="com.sina.weibo/.appmarket.service.AppMarketService" />
@@ -123,9 +120,6 @@
     <component-filter name="com.sina.weibo/tv.xiaoka.play.service.DownloadGiftServer" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="air.tv.douyu.android/com.sina.weibo.sdk.net.DownloadService" />
-    <component-filter name="com.duowan.kiwi/com.sina.weibo.sdk.net.DownloadService" />
-    <component-filter name="com.immomo.momo/com.sina.weibo.sdk.net.DownloadService" />
     <component-filter name="com.sina.weibo/.BootCompletedReceiver" />
     <component-filter name="com.sina.weibo/.ConnectivityReceiver" />
     <component-filter name="com.sina.weibo/.appmarket.service.AppMarketService" />
@@ -246,9 +240,6 @@
     <component-filter name="com.sina.weibo/tv.xiaoka.play.service.DownloadGiftServer" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="air.tv.douyu.android/com.sina.weibo.sdk.net.DownloadService" />
-    <component-filter name="com.duowan.kiwi/com.sina.weibo.sdk.net.DownloadService" />
-    <component-filter name="com.immomo.momo/com.sina.weibo.sdk.net.DownloadService" />
     <component-filter name="com.sina.weibo/.BootCompletedReceiver" />
     <component-filter name="com.sina.weibo/.ConnectivityReceiver" />
     <component-filter name="com.sina.weibo/.appmarket.service.AppMarketService" />

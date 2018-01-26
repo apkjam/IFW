@@ -106,8 +106,6 @@
     <component-filter name="com.tencent.mm/com.tencent.mm.ui.friend.InviteFacebookFriendsUI" />
     <component-filter name="com.tencent.mm/com.tencent.recovery.wx.service.WXRecoveryUploadService" />
     <component-filter name="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
-    <component-filter name="com.xiaomi.o2o/com.tencent.mm.sdk.channel.MMessage$Receiver" />
-    <component-filter name="com.xiaomi.o2o/com.tencent.mm.sdk.plugin.MMPluginOAuth$Receiver" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="com.tencent.mm/com.tencent.mm.booter.InstallReceiver" />
@@ -216,8 +214,6 @@
     <component-filter name="com.tencent.mm/com.tencent.mm.ui.friend.InviteFacebookFriendsUI" />
     <component-filter name="com.tencent.mm/com.tencent.recovery.wx.service.WXRecoveryUploadService" />
     <component-filter name="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
-    <component-filter name="com.xiaomi.o2o/com.tencent.mm.sdk.channel.MMessage$Receiver" />
-    <component-filter name="com.xiaomi.o2o/com.tencent.mm.sdk.plugin.MMPluginOAuth$Receiver" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="com.tencent.mm/com.tencent.mm.booter.InstallReceiver" />
@@ -326,7 +322,5 @@
     <component-filter name="com.tencent.mm/com.tencent.mm.ui.friend.InviteFacebookFriendsUI" />
     <component-filter name="com.tencent.mm/com.tencent.recovery.wx.service.WXRecoveryUploadService" />
     <component-filter name="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
-    <component-filter name="com.xiaomi.o2o/com.tencent.mm.sdk.channel.MMessage$Receiver" />
-    <component-filter name="com.xiaomi.o2o/com.tencent.mm.sdk.plugin.MMPluginOAuth$Receiver" />
 </activity>
 </rules>

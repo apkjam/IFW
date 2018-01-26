@@ -1,23 +1,17 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.miui.miuibbs/com.xiaomi.market.sdk.DownloadCompleteReceiver" />
     <component-filter name="com.xiaomi.market/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.xiaomi.market/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.xiaomi.market/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.o2o/com.xiaomi.market.sdk.DownloadCompleteReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.miui.miuibbs/com.xiaomi.market.sdk.DownloadCompleteReceiver" />
     <component-filter name="com.xiaomi.market/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.xiaomi.market/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.xiaomi.market/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.o2o/com.xiaomi.market.sdk.DownloadCompleteReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.miui.miuibbs/com.xiaomi.market.sdk.DownloadCompleteReceiver" />
     <component-filter name="com.xiaomi.market/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.xiaomi.market/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.xiaomi.market/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.o2o/com.xiaomi.market.sdk.DownloadCompleteReceiver" />
 </activity>
 </rules>

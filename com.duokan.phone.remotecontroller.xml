@@ -15,8 +15,6 @@
     <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMPushService" />
     <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
     <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.AirkanService" />
-    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.ArickanService" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="com.duokan.phone.remotecontroller/.RCClientService" />
@@ -34,8 +32,6 @@
     <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMPushService" />
     <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
     <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.AirkanService" />
-    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.ArickanService" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="com.duokan.phone.remotecontroller/.RCClientService" />
@@ -53,7 +49,5 @@
     <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMPushService" />
     <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
     <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.AirkanService" />
-    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.ArickanService" />
 </activity>
 </rules>

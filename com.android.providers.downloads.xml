@@ -3,18 +3,15 @@
     <component-filter name="com.android.providers.downloads/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.android.providers.downloads/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.android.providers.downloads/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.miui.player/com.android.providers.downloads.receiver.DownloadReceiver" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="com.android.providers.downloads/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.android.providers.downloads/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.android.providers.downloads/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.miui.player/com.android.providers.downloads.receiver.DownloadReceiver" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="com.android.providers.downloads/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.android.providers.downloads/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.android.providers.downloads/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.miui.player/com.android.providers.downloads.receiver.DownloadReceiver" />
 </activity>
 </rules>

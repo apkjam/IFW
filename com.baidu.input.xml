@@ -41,13 +41,6 @@
     <component-filter name="com.baidu.input/com.tencent.tinker.lib.service.DefaultTinkerResultService" />
     <component-filter name="com.baidu.input/com.tencent.tinker.lib.service.TinkerPatchService" />
     <component-filter name="com.baidu.input/com.tencent.tinker.lib.service.TinkerPatchService\$InnerService" />
-    <component-filter name="com.baidu.input_mi/com.baidu.mipush.MiPushMessageReceiver" />
-    <component-filter name="com.baidu.input_mi/com.baidu.sapi2.share.ShareService" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="com.baidu.input/com.baidu.acs.service.AcsService" />
@@ -91,13 +84,6 @@
     <component-filter name="com.baidu.input/com.tencent.tinker.lib.service.DefaultTinkerResultService" />
     <component-filter name="com.baidu.input/com.tencent.tinker.lib.service.TinkerPatchService" />
     <component-filter name="com.baidu.input/com.tencent.tinker.lib.service.TinkerPatchService\$InnerService" />
-    <component-filter name="com.baidu.input_mi/com.baidu.mipush.MiPushMessageReceiver" />
-    <component-filter name="com.baidu.input_mi/com.baidu.sapi2.share.ShareService" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="com.baidu.input/com.baidu.acs.service.AcsService" />
@@ -141,12 +127,5 @@
     <component-filter name="com.baidu.input/com.tencent.tinker.lib.service.DefaultTinkerResultService" />
     <component-filter name="com.baidu.input/com.tencent.tinker.lib.service.TinkerPatchService" />
     <component-filter name="com.baidu.input/com.tencent.tinker.lib.service.TinkerPatchService\$InnerService" />
-    <component-filter name="com.baidu.input_mi/com.baidu.mipush.MiPushMessageReceiver" />
-    <component-filter name="com.baidu.input_mi/com.baidu.sapi2.share.ShareService" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.PingReceiver" />
 </activity>
 </rules>

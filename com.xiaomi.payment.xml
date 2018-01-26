@@ -1,6 +1,5 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.duokan.reader/com.xiaomi.payment.PaymentService" />
     <component-filter name="com.xiaomi.payment/com.unicom.channel.paysecurity.TouchPayService" />
     <component-filter name="com.xiaomi.payment/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.xiaomi.payment/com.xiaomi.mipush.sdk.PushMessageHandler" />
@@ -9,7 +8,6 @@
     <component-filter name="com.xiaomi.payment/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.duokan.reader/com.xiaomi.payment.PaymentService" />
     <component-filter name="com.xiaomi.payment/com.unicom.channel.paysecurity.TouchPayService" />
     <component-filter name="com.xiaomi.payment/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.xiaomi.payment/com.xiaomi.mipush.sdk.PushMessageHandler" />
@@ -18,7 +16,6 @@
     <component-filter name="com.xiaomi.payment/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.duokan.reader/com.xiaomi.payment.PaymentService" />
     <component-filter name="com.xiaomi.payment/com.unicom.channel.paysecurity.TouchPayService" />
     <component-filter name="com.xiaomi.payment/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.xiaomi.payment/com.xiaomi.mipush.sdk.PushMessageHandler" />
