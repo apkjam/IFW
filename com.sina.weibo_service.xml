@@ -10,5 +10,9 @@
 <component-filter name="com.sina.weibo/com.xiaomi.mipush.sdk.MessageHandleService"/>
 <component-filter name="com.sina.weibo/com.sina.weibo.push.syschannel.letv.LETVPushIntentService"/>
 <component-filter name="com.sina.weibo/com.huawei.android.pushagent.PushService"/>
+<component-filter name="com.sina.weibo/com.sina.weibo.oem.hwtouch.HuaweiQuickActionService"/>
+<component-filter name="com.sina.weibo/com.alipay.notify.push.NotificationService"/>
+<component-filter name="com.sina.weibo/com.alipay.notify.report.PushDistributer"/>
+<component-filter name="com.sina.weibo/com.alipay.notify.poll.config.ConfigService"/>
 </service>
 </rules>

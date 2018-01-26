@@ -1,0 +1,5 @@
+<rules>
+<broadcast block="true" log="false">
+<component-filter name="com.sina.weibo/com.sina.weibo.statistic.log.uploadmanager.UploadLogReceiver"/>
+</broadcast>
+</rules>

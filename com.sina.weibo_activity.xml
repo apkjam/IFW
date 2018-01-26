@@ -1,0 +1,14 @@
+<rules>
+<activity block="true" log="false">
+<component-filter name="com.sina.weibo/com.sina.weibo.statistic.UploadRemoteLogActivity"/>
+<component-filter name="com.sina.weibo/com.sina.weibo.page.AlipayCardListActivity"/>
+<component-filter name="com.sina.weibo/com.alipay.android.app.pay.HyperlinkActivity"/>
+<component-filter name="com.sina.weibo/com.alipay.android.app.pay.MainActivity"/>
+<component-filter name="com.sina.weibo/com.alipay.android.app.pay.MiniLaucherActivity"/>
+<component-filter name="com.sina.weibo/com.alipay.android.app.ui.quickpay.window.MiniPayActivity"/>
+<component-filter name="com.sina.weibo/com.alipay.android.app.ui.quickpay.window.MiniWebActivity"/>
+<component-filter name="com.sina.weibo/com.alipay.android.app.pay.PageForBrowser"/>
+<component-filter name="com.sina.weibo/com.alipay.mobile.command.trigger.WebViewTrigger"/>
+<component-filter name="com.sina.weibo/com.alipay.android.app.pay.TransContainer"/>
+</activity>
+</rules>
