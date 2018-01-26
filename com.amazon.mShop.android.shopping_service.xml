@@ -1,5 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.amazon.mShop.android.shopping/com.amazon.alexa.sdk.audio.channel.content.amp.service.AmpService"/>
-</service>
-</rules>

@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.neonroots.trbu/.network.NetworkChangeReceiver" />
+    <component-filter name="com.neonroots.trbu/com.mixpanel.android.mpmetrics.GCMReceiver" />
+    <component-filter name="com.neonroots.trbu/com.google.android.gms.measurement.AppMeasurementReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.neonroots.trbu/.network.NetworkChangeReceiver" />
+    <component-filter name="com.neonroots.trbu/com.mixpanel.android.mpmetrics.GCMReceiver" />
+    <component-filter name="com.neonroots.trbu/com.google.android.gms.measurement.AppMeasurementReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.neonroots.trbu/.network.NetworkChangeReceiver" />
+    <component-filter name="com.neonroots.trbu/com.mixpanel.android.mpmetrics.GCMReceiver" />
+    <component-filter name="com.neonroots.trbu/com.google.android.gms.measurement.AppMeasurementReceiver" />
+</activity>
+</rules>

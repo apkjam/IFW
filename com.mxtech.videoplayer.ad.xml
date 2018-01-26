@@ -1,0 +1,38 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.firebase.messaging.FirebaseMessagingService" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.adjust.sdk.AdjustReferrerReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.mxtech.videoplayer.MediaButtonReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.firebase.messaging.FirebaseMessagingService" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.adjust.sdk.AdjustReferrerReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.mxtech.videoplayer.MediaButtonReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.firebase.messaging.FirebaseMessagingService" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.adjust.sdk.AdjustReferrerReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.inmobi.commons.core.utilities.uid.ImIdShareBroadCastReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="com.mxtech.videoplayer.ad/com.mxtech.videoplayer.MediaButtonReceiver" />
+</activity>
+</rules>

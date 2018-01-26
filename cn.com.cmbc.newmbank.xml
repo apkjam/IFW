@@ -1,0 +1,77 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.CmbcPushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService" />
+    <component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.GetuiIntentService" />
+    <component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.GetuiPushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.HcePushService" />
+    <component-filter name="cn.com.cmbc.newmbank/.hce.online.HceOnlineService" />
+    <component-filter name="cn.com.cmbc.newmbank/.hce.ApduService" />
+    <component-filter name="cn.com.cmbc.newmbank/.push.GetuiPushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.huawei.hms.support.api.push.PushEventReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/.push.PushReceiverHms" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/.hce.ApduService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.download.DownloadReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.huawei.hms.support.api.push.PushEventReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/.push.PushReceiverHms" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.CmbcPushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService" />
+    <component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.GetuiIntentService" />
+    <component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.GetuiPushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.HcePushService" />
+    <component-filter name="cn.com.cmbc.newmbank/.hce.online.HceOnlineService" />
+    <component-filter name="cn.com.cmbc.newmbank/.hce.ApduService" />
+    <component-filter name="cn.com.cmbc.newmbank/.push.GetuiPushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.huawei.hms.support.api.push.PushEventReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/.push.PushReceiverHms" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/.hce.ApduService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.download.DownloadReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.huawei.hms.support.api.push.PushEventReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/.push.PushReceiverHms" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.CmbcPushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService" />
+    <component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.GetuiIntentService" />
+    <component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.GetuiPushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.HcePushService" />
+    <component-filter name="cn.com.cmbc.newmbank/.hce.online.HceOnlineService" />
+    <component-filter name="cn.com.cmbc.newmbank/.hce.ApduService" />
+    <component-filter name="cn.com.cmbc.newmbank/.push.GetuiPushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.huawei.hms.support.api.push.PushEventReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/.push.PushReceiverHms" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/.hce.ApduService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushService" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.download.DownloadReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.huawei.hms.support.api.push.PushEventReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/.push.PushReceiverHms" />
+    <component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushReceiver" />
+    <component-filter name="cn.com.cmbc.newmbank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+</activity>
+</rules>

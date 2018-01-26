@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.google.android.youtube/com.google.android.apps.youtube.app.common.ads.AdIdListenerService" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.google.android.youtube/com.google.android.apps.youtube.app.common.ads.AdIdListenerService" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.google.android.youtube/com.google.android.apps.youtube.app.common.ads.AdIdListenerService" />
+</activity>
+</rules>

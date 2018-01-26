@@ -1,0 +1,29 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.wuba/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.wuba/com.wuba.push.MiPushRegisterService" />
+    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.wuba/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.wuba/com.wuba.push.PushService" />
+    <component-filter name="com.wuba/com.wuba.im.service.ChannelService" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.wuba/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.wuba/com.wuba.push.MiPushRegisterService" />
+    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.wuba/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.wuba/com.wuba.push.PushService" />
+    <component-filter name="com.wuba/com.wuba.im.service.ChannelService" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.wuba/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.wuba/com.wuba.push.MiPushRegisterService" />
+    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.wuba/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.wuba/com.wuba.push.PushService" />
+    <component-filter name="com.wuba/com.wuba.im.service.ChannelService" />
+</activity>
+</rules>

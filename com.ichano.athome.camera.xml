@@ -1,0 +1,86 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.download.DownloadService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengIntentService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageCallbackHandlerService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.local.UmengLocalNotificationService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageBootReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.ElectionReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.SystemReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageBootReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.ElectionReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.SystemReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.download.DownloadService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengIntentService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageCallbackHandlerService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.local.UmengLocalNotificationService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageBootReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.ElectionReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.SystemReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageBootReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.ElectionReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.SystemReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.download.DownloadService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengIntentService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageCallbackHandlerService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.local.UmengLocalNotificationService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageBootReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.ElectionReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.SystemReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengService" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushService" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.UmengMessageBootReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.ElectionReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.ichano.athome.camera/com.umeng.message.SystemReceiver" />
+</activity>
+</rules>

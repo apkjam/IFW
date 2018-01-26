@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.UpdateWidgetService" />
+    <component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.OrientationChangeTrackingService" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.UpdateWidgetService" />
+    <component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.OrientationChangeTrackingService" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.UpdateWidgetService" />
+    <component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.OrientationChangeTrackingService" />
+</activity>
+</rules>

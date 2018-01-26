@@ -1,0 +1,68 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.aide.ui/.UserPresentBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.aide.ui/.debugger.ADRTReceiver" />
+    <component-filter name="com.aide.ui/.TrainerRuntimeReceiver" />
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.aide.ui/.PackageUpgradedBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.aide.analytics.AnalyticsInstallReferrerReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmUserPresentBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.aide.ui/.UserPresentBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.aide.ui/.debugger.ADRTReceiver" />
+    <component-filter name="com.aide.ui/.TrainerRuntimeReceiver" />
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.aide.ui/.PackageUpgradedBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.aide.analytics.AnalyticsInstallReferrerReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmUserPresentBroadcastReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.aide.ui/.UserPresentBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.aide.ui/.debugger.ADRTReceiver" />
+    <component-filter name="com.aide.ui/.TrainerRuntimeReceiver" />
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.aide.ui/.PackageUpgradedBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.aide.analytics.AnalyticsInstallReferrerReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmUserPresentBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.aide.ui/.UserPresentBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.aide.ui/.debugger.ADRTReceiver" />
+    <component-filter name="com.aide.ui/.TrainerRuntimeReceiver" />
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.aide.ui/.PackageUpgradedBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.aide.analytics.AnalyticsInstallReferrerReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmUserPresentBroadcastReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.aide.ui/.UserPresentBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.aide.ui/.debugger.ADRTReceiver" />
+    <component-filter name="com.aide.ui/.TrainerRuntimeReceiver" />
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.aide.ui/.PackageUpgradedBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.aide.analytics.AnalyticsInstallReferrerReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmUserPresentBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.aide.ui/.UserPresentBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.aide.ui/.debugger.ADRTReceiver" />
+    <component-filter name="com.aide.ui/.TrainerRuntimeReceiver" />
+    <component-filter name="com.aide.ui/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.aide.ui/.PackageUpgradedBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.aide.analytics.AnalyticsInstallReferrerReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmBroadcastReceiver" />
+    <component-filter name="com.aide.ui/com.appfour.common.gcm.GcmUserPresentBroadcastReceiver" />
+</activity>
+</rules>

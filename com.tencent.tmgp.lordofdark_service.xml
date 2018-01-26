@@ -1,7 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.tencent.tmgp.lordofdark/com.tencent.android.tpush.service.XGPushService"/>
-<component-filter name="com.tencent.tmgp.lordofdark/com.tencent.android.tpush.rpc.XGRemoteService"/>
-<component-filter name="com.tencent.tmgp.lordofdark/com.tencent.android.tpush.service.XGDaemonService"/>
-</service>
-</rules>

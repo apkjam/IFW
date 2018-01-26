@@ -1,0 +1,50 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.PushService" />
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.starbucks.cn/.core.broadcastreceiver.SmsBroadcastReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.starbucks.cn/.ui.widget.AppWidgetProvider2x1" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.starbucks.cn/.core.broadcastreceiver.SmsBroadcastReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.starbucks.cn/.ui.widget.AppWidgetProvider2x1" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.PushService" />
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.starbucks.cn/.core.broadcastreceiver.SmsBroadcastReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.starbucks.cn/.ui.widget.AppWidgetProvider2x1" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.starbucks.cn/.core.broadcastreceiver.SmsBroadcastReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.starbucks.cn/.ui.widget.AppWidgetProvider2x1" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.PushService" />
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.starbucks.cn/.core.broadcastreceiver.SmsBroadcastReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.starbucks.cn/.ui.widget.AppWidgetProvider2x1" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.starbucks.cn/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.starbucks.cn/.core.broadcastreceiver.SmsBroadcastReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.starbucks.cn/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.starbucks.cn/.ui.widget.AppWidgetProvider2x1" />
+</activity>
+</rules>

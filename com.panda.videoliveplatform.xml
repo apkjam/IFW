@@ -1,0 +1,65 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.panda.videoliveplatform/com.panda.videoliveplatform.service.MiniVideoService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengIntentService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengMessageCallbackHandlerService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengDownloadResourceService" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.statistic.rbistatistics.service.TimerService" />
+    <component-filter name="com.panda.videoliveplatform/com.panda.videoliveplatform.receiver.EnterRoomReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.NotificationProxyBroadcastReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.SystemReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.MessageReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.ElectionReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.RegistrationReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengMessageBootReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.WakeUpReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.NotificationEventReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.PSGeneralReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.statistic.StatisticEventReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.panda.videoliveplatform.pandasocket.LoginReceiverForPs" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.panda.videoliveplatform/com.panda.videoliveplatform.service.MiniVideoService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengIntentService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengMessageCallbackHandlerService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengDownloadResourceService" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.statistic.rbistatistics.service.TimerService" />
+    <component-filter name="com.panda.videoliveplatform/com.panda.videoliveplatform.receiver.EnterRoomReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.NotificationProxyBroadcastReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.SystemReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.MessageReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.ElectionReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.RegistrationReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengMessageBootReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.WakeUpReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.NotificationEventReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.PSGeneralReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.statistic.StatisticEventReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.panda.videoliveplatform.pandasocket.LoginReceiverForPs" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.panda.videoliveplatform/com.panda.videoliveplatform.service.MiniVideoService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengIntentService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengMessageCallbackHandlerService" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengDownloadResourceService" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.statistic.rbistatistics.service.TimerService" />
+    <component-filter name="com.panda.videoliveplatform/com.panda.videoliveplatform.receiver.EnterRoomReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.NotificationProxyBroadcastReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.SystemReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.MessageReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.ElectionReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.RegistrationReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.umeng.message.UmengMessageBootReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.WakeUpReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.NotificationEventReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.PSGeneralReceiver" />
+    <component-filter name="com.panda.videoliveplatform/tv.panda.component.statistic.StatisticEventReceiver" />
+    <component-filter name="com.panda.videoliveplatform/com.panda.videoliveplatform.pandasocket.LoginReceiverForPs" />
+</activity>
+</rules>

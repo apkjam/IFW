@@ -1,9 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.android.email/com.kingsoft.email.service.ImapPushService"/>
-<component-filter name="com.android.email/com.xiaomi.push.service.XMPushService"/>
-<component-filter name="com.android.email/com.xiaomi.push.service.XMJobService"/>
-<component-filter name="com.android.email/com.xiaomi.mipush.sdk.PushMessageHandler"/>
-<component-filter name="com.android.email/com.xiaomi.mipush.sdk.MessageHandleService"/>
-</service>
-</rules>

@@ -1,6 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.xiaomi.ab/anetwork.channel.aidl.NetworkService"/>
-<component-filter name="com.xiaomi.ab/mtopsdk.xstate.XStateService"/>
-</service>
-</rules>

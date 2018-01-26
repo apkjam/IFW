@@ -1,6 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.airbnb.android/cn.jpush.android.service.PushService"/>
-<component-filter name="com.airbnb.android/cn.jpush.android.service.DaemonService"/>
-</service>
-</rules>

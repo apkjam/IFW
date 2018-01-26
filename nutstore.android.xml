@@ -1,0 +1,26 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="nutstore.android/.service.NutstoreSyncAdapterService" />
+    <component-filter name="nutstore.android/.service.AccountAuthenticatorService" />
+    <component-filter name="nutstore.android/.receiver.NetworkReceiver" />
+    <component-filter name="nutstore.android/.service.NutstoreSyncAdapterService" />
+    <component-filter name="nutstore.android/.service.AccountAuthenticatorService" />
+    <component-filter name="nutstore.android/.receiver.NetworkReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="nutstore.android/.service.NutstoreSyncAdapterService" />
+    <component-filter name="nutstore.android/.service.AccountAuthenticatorService" />
+    <component-filter name="nutstore.android/.receiver.NetworkReceiver" />
+    <component-filter name="nutstore.android/.service.NutstoreSyncAdapterService" />
+    <component-filter name="nutstore.android/.service.AccountAuthenticatorService" />
+    <component-filter name="nutstore.android/.receiver.NetworkReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="nutstore.android/.service.NutstoreSyncAdapterService" />
+    <component-filter name="nutstore.android/.service.AccountAuthenticatorService" />
+    <component-filter name="nutstore.android/.receiver.NetworkReceiver" />
+    <component-filter name="nutstore.android/.service.NutstoreSyncAdapterService" />
+    <component-filter name="nutstore.android/.service.AccountAuthenticatorService" />
+    <component-filter name="nutstore.android/.receiver.NetworkReceiver" />
+</activity>
+</rules>

@@ -1,0 +1,29 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushService" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushService" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.douban.book.reader/.receiver.NotificationActionReceiver" />
+    <component-filter name="com.douban.book.reader/.receiver.ConnectionChangeReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushService" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushService" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.douban.book.reader/.receiver.NotificationActionReceiver" />
+    <component-filter name="com.douban.book.reader/.receiver.ConnectionChangeReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushService" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushService" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.douban.book.reader/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.douban.book.reader/.receiver.NotificationActionReceiver" />
+    <component-filter name="com.douban.book.reader/.receiver.ConnectionChangeReceiver" />
+</activity>
+</rules>

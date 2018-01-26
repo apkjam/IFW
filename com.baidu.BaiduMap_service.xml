@@ -1,9 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.baidu.BaiduMap/com.baidu.android.pushservice.CommandService"/>
-<component-filter name="com.baidu.BaiduMap/com.xiaomi.mipush.sdk.PushMessageHandler"/>
-<component-filter name="com.baidu.BaiduMap/com.xiaomi.mipush.sdk.MessageHandleService"/>
-<component-filter name="com.baidu.BaiduMap/com.coloros.mcssdk.PushService"/>
-<component-filter name="com.baidu.BaiduMap/com.baidu.android.pushservice.PushService"/>
-</service>
-</rules>

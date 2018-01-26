@@ -1,8 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.HcePushService"/>
-<component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.server.PushService"/>
-<component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushService"/>
-<component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.DaemonService"/>
-</service>
-</rules>

@@ -1,6 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.sand.airdroid/com.sand.airdroid.services.PushMessageHandleService"/>
-<component-filter name="com.sand.airdroid/com.sand.airdroid.servers.push.PushService"/>
-</service>
-</rules>

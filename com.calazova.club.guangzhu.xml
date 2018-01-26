@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.calazova.club.guangzhu/cn.jpush.android.service.PushService" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.calazova.club.guangzhu/cn.jpush.android.service.PushService" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.calazova.club.guangzhu/cn.jpush.android.service.PushService" />
+</activity>
+</rules>

@@ -1,6 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.abbyy.mobile.textgrabber.full/com.batch.android.BatchPushService"/>
-<component-filter name="com.abbyy.mobile.textgrabber.full/com.abbyy.mobile.textgrabber.full.push.TextGrabberPushService"/>
-</service>
-</rules>

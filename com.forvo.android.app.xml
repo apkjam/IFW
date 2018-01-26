@@ -1,0 +1,26 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.forvo.android.app/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="com.forvo.android.app/.utils.NetworkStateReceiver" />
+    <component-filter name="com.forvo.android.app/.utils.notifications.GCMBroadcastReceiver" />
+    <component-filter name="com.forvo.android.app/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="com.forvo.android.app/.utils.NetworkStateReceiver" />
+    <component-filter name="com.forvo.android.app/.utils.notifications.GCMBroadcastReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.forvo.android.app/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="com.forvo.android.app/.utils.NetworkStateReceiver" />
+    <component-filter name="com.forvo.android.app/.utils.notifications.GCMBroadcastReceiver" />
+    <component-filter name="com.forvo.android.app/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="com.forvo.android.app/.utils.NetworkStateReceiver" />
+    <component-filter name="com.forvo.android.app/.utils.notifications.GCMBroadcastReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.forvo.android.app/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="com.forvo.android.app/.utils.NetworkStateReceiver" />
+    <component-filter name="com.forvo.android.app/.utils.notifications.GCMBroadcastReceiver" />
+    <component-filter name="com.forvo.android.app/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="com.forvo.android.app/.utils.NetworkStateReceiver" />
+    <component-filter name="com.forvo.android.app/.utils.notifications.GCMBroadcastReceiver" />
+</activity>
+</rules>

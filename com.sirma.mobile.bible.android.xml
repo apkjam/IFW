@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.sirma.mobile.bible.android/com.youversion.push.adm.YvAdmMessageHandler" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.sirma.mobile.bible.android/com.youversion.push.adm.YvAdmMessageHandler" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.sirma.mobile.bible.android/com.youversion.push.adm.YvAdmMessageHandler" />
+</activity>
+</rules>

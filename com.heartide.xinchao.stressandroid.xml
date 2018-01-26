@@ -1,0 +1,68 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.NetService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.DService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.qihoo.util.CommonService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.TimeChangeReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.MiPushMessageReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.NetService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.qihoo.util.CommonService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.DService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.TimeChangeReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.MiPushMessageReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.NetService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.DService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.qihoo.util.CommonService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.TimeChangeReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.MiPushMessageReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.NetService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.qihoo.util.CommonService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.DService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.TimeChangeReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.MiPushMessageReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.NetService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.DService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.qihoo.util.CommonService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.TimeChangeReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.MiPushMessageReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.NetService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.qihoo.util.CommonService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.service.DService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.TimeChangeReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.heartide.xinchao.stressandroid/.receiver.MiPushMessageReceiver" />
+</activity>
+</rules>

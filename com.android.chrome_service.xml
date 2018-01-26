@@ -1,7 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.GcmRegistrationTaskService"/>
-<component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.AndroidInstanceIDListenerService"/>
-<component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService"/>
-</service>
-</rules>

@@ -1,0 +1,38 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="org.wordpress.android/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="org.wordpress.android/.ui.notifications.receivers.NotificationsPendingDraftsReceiver" />
+    <component-filter name="org.wordpress.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="org.wordpress.android/.networking.ConnectionChangeReceiver" />
+    <component-filter name="org.wordpress.android/.ui.stats.StatsWidgetProvider" />
+    <component-filter name="org.wordpress.android/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="org.wordpress.android/.ui.notifications.receivers.NotificationsPendingDraftsReceiver" />
+    <component-filter name="org.wordpress.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="org.wordpress.android/.networking.ConnectionChangeReceiver" />
+    <component-filter name="org.wordpress.android/.ui.stats.StatsWidgetProvider" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="org.wordpress.android/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="org.wordpress.android/.ui.notifications.receivers.NotificationsPendingDraftsReceiver" />
+    <component-filter name="org.wordpress.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="org.wordpress.android/.networking.ConnectionChangeReceiver" />
+    <component-filter name="org.wordpress.android/.ui.stats.StatsWidgetProvider" />
+    <component-filter name="org.wordpress.android/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="org.wordpress.android/.ui.notifications.receivers.NotificationsPendingDraftsReceiver" />
+    <component-filter name="org.wordpress.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="org.wordpress.android/.networking.ConnectionChangeReceiver" />
+    <component-filter name="org.wordpress.android/.ui.stats.StatsWidgetProvider" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="org.wordpress.android/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="org.wordpress.android/.ui.notifications.receivers.NotificationsPendingDraftsReceiver" />
+    <component-filter name="org.wordpress.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="org.wordpress.android/.networking.ConnectionChangeReceiver" />
+    <component-filter name="org.wordpress.android/.ui.stats.StatsWidgetProvider" />
+    <component-filter name="org.wordpress.android/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+    <component-filter name="org.wordpress.android/.ui.notifications.receivers.NotificationsPendingDraftsReceiver" />
+    <component-filter name="org.wordpress.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="org.wordpress.android/.networking.ConnectionChangeReceiver" />
+    <component-filter name="org.wordpress.android/.ui.stats.StatsWidgetProvider" />
+</activity>
+</rules>

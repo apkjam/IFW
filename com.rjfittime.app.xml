@@ -1,0 +1,47 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.rjfittime.app/com.igexin.download.DownloadService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.rjfittime.app/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.rjfittime.app/.receiver.ConnectivityReceiver" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.rjfittime.app/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.rjfittime.app/.receiver.ConnectivityReceiver" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.rjfittime.app/com.igexin.download.DownloadService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.rjfittime.app/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.rjfittime.app/.receiver.ConnectivityReceiver" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.rjfittime.app/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.rjfittime.app/.receiver.ConnectivityReceiver" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.rjfittime.app/com.igexin.download.DownloadService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.rjfittime.app/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.rjfittime.app/.receiver.ConnectivityReceiver" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushService" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.rjfittime.app/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.rjfittime.app/.receiver.ConnectivityReceiver" />
+    <component-filter name="com.rjfittime.app/com.igexin.sdk.PushReceiver" />
+</activity>
+</rules>

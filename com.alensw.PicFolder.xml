@@ -1,0 +1,65 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.alensw.PicFolder/com.google.firebase.messaging.FirebaseMessagingService" />
+    <component-filter name="com.alensw.PicFolder/.MyFirebaseMessagingService" />
+    <component-filter name="com.alensw.PicFolder/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.alensw.PicFolder/.MyFirebaseInstanceIDService" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.quickpic.crash.CrashReportService" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.AlarmBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.cloud.push.gcm.sdk.GCMBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.analytics.tracking.android.ReferrerReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.ConnectionChangeReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.PermanentReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.quickpic.crash.CrashReportService" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.AlarmBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.cloud.push.gcm.sdk.GCMBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.InfinityReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.analytics.tracking.android.ReferrerReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.ConnectionChangeReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.PermanentReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.alensw.PicFolder/com.google.firebase.messaging.FirebaseMessagingService" />
+    <component-filter name="com.alensw.PicFolder/.MyFirebaseMessagingService" />
+    <component-filter name="com.alensw.PicFolder/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.alensw.PicFolder/.MyFirebaseInstanceIDService" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.quickpic.crash.CrashReportService" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.AlarmBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.cloud.push.gcm.sdk.GCMBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.analytics.tracking.android.ReferrerReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.ConnectionChangeReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.PermanentReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.quickpic.crash.CrashReportService" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.AlarmBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.cloud.push.gcm.sdk.GCMBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.InfinityReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.analytics.tracking.android.ReferrerReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.ConnectionChangeReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.PermanentReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.alensw.PicFolder/com.google.firebase.messaging.FirebaseMessagingService" />
+    <component-filter name="com.alensw.PicFolder/.MyFirebaseMessagingService" />
+    <component-filter name="com.alensw.PicFolder/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.alensw.PicFolder/.MyFirebaseInstanceIDService" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.quickpic.crash.CrashReportService" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.AlarmBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.cloud.push.gcm.sdk.GCMBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.analytics.tracking.android.ReferrerReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.ConnectionChangeReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.PermanentReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.quickpic.crash.CrashReportService" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.AlarmBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.cmcm.cloud.push.gcm.sdk.GCMBroadcastReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.InfinityReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.google.analytics.tracking.android.ReferrerReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.ConnectionChangeReceiver" />
+    <component-filter name="com.alensw.PicFolder/com.alensw.receiver.PermanentReceiver" />
+</activity>
+</rules>

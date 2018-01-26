@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.travelsky.bluesky/.service.OpenfireService" />
+    <component-filter name="com.travelsky.bluesky/.receiver.OpenfireReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.travelsky.bluesky/.service.OpenfireService" />
+    <component-filter name="com.travelsky.bluesky/.receiver.OpenfireReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.travelsky.bluesky/.service.OpenfireService" />
+    <component-filter name="com.travelsky.bluesky/.receiver.OpenfireReceiver" />
+</activity>
+</rules>

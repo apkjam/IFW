@@ -1,0 +1,68 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.AirkanService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.ArickanService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.AirkanService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.duokan.mdnssd.listener.ListenService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.push.BackgroundService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.ArickanService" />
+    <component-filter name="com.duokan.phone.remotecontroller/.RCClientService" />
+    <component-filter name="com.duokan.phone.remotecontroller/.airkan.AirkanService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.push.RcPushMessageReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.epg.EPGBookAlarmReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/.wxapi.AppRegister" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.assistant.receiver.AccountChangerReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.utils.download.DownloadReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.AirkanService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.ArickanService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.AirkanService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.duokan.mdnssd.listener.ListenService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.push.BackgroundService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.ArickanService" />
+    <component-filter name="com.duokan.phone.remotecontroller/.RCClientService" />
+    <component-filter name="com.duokan.phone.remotecontroller/.airkan.AirkanService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.push.RcPushMessageReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.epg.EPGBookAlarmReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/.wxapi.AppRegister" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.assistant.receiver.AccountChangerReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.utils.download.DownloadReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.AirkanService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.ArickanService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.AirkanService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.duokan.mdnssd.listener.ListenService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.push.BackgroundService" />
+    <component-filter name="com.xiaomi.mitv.phone.tvassistant/com.duokan.phone.remotecontroller.airkan.ArickanService" />
+    <component-filter name="com.duokan.phone.remotecontroller/.RCClientService" />
+    <component-filter name="com.duokan.phone.remotecontroller/.airkan.AirkanService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.push.RcPushMessageReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.epg.EPGBookAlarmReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/.wxapi.AppRegister" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.assistant.receiver.AccountChangerReceiver" />
+    <component-filter name="com.duokan.phone.remotecontroller/com.xiaomi.mitv.phone.remotecontroller.utils.download.DownloadReceiver" />
+</activity>
+</rules>

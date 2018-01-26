@@ -1,0 +1,50 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/.receiver.WIFIReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.AccountChangeReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.AlarmReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.BootReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.NetworkReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.SystemPhoneStatReceiver" />
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/.receiver.WIFIReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.AccountChangeReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.AlarmReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.BootReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.NetworkReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.SystemPhoneStatReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/.receiver.WIFIReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.AccountChangeReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.AlarmReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.BootReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.NetworkReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.SystemPhoneStatReceiver" />
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/.receiver.WIFIReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.AccountChangeReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.AlarmReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.BootReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.NetworkReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.SystemPhoneStatReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/.receiver.WIFIReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.AccountChangeReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.AlarmReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.BootReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.NetworkReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.SystemPhoneStatReceiver" />
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/.receiver.WIFIReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.AccountChangeReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.AlarmReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.BootReceiver" />
+    <component-filter name="com.mi.misupport/com.mi.milink.sdk.receiver.NetworkReceiver" />
+    <component-filter name="com.mi.misupport/.receiver.SystemPhoneStatReceiver" />
+</activity>
+</rules>

@@ -1,0 +1,35 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.PushService" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.PushService" />
+    <component-filter name="com.daimajia.gold/.receiver.GoldPushReceiver" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.daimajia.gold/.receiver.NetworkChangeReceiver" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.PushService" />
+    <component-filter name="com.daimajia.gold/.receiver.GoldPushReceiver" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.daimajia.gold/.receiver.NetworkChangeReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.PushService" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.PushService" />
+    <component-filter name="com.daimajia.gold/.receiver.GoldPushReceiver" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.daimajia.gold/.receiver.NetworkChangeReceiver" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.PushService" />
+    <component-filter name="com.daimajia.gold/.receiver.GoldPushReceiver" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.daimajia.gold/.receiver.NetworkChangeReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.PushService" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.PushService" />
+    <component-filter name="com.daimajia.gold/.receiver.GoldPushReceiver" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.daimajia.gold/.receiver.NetworkChangeReceiver" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.PushService" />
+    <component-filter name="com.daimajia.gold/.receiver.GoldPushReceiver" />
+    <component-filter name="com.daimajia.gold/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.daimajia.gold/.receiver.NetworkChangeReceiver" />
+</activity>
+</rules>

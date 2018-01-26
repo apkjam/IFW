@@ -1,0 +1,65 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.PushService" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.gcm.InstabugGcmListenerService" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.PushService" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="com.zhihu.circlely.android/.push.PushReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.InstabugNetworkReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.gcm.InstabugGcmListenerService" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.PushService" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="com.zhihu.circlely.android/.push.PushReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.InstabugNetworkReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.PushService" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.gcm.InstabugGcmListenerService" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.PushService" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="com.zhihu.circlely.android/.push.PushReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.InstabugNetworkReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.gcm.InstabugGcmListenerService" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.PushService" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="com.zhihu.circlely.android/.push.PushReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.InstabugNetworkReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.PushService" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.gcm.InstabugGcmListenerService" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.PushService" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="com.zhihu.circlely.android/.push.PushReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.InstabugNetworkReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.gcm.InstabugGcmListenerService" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.PushService" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="com.zhihu.circlely.android/.push.PushReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.instabug.library.InstabugNetworkReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.measurement.AppMeasurementReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.gcm.GcmReceiver" />
+    <component-filter name="com.zhihu.circlely.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+</activity>
+</rules>

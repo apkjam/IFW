@@ -1,0 +1,26 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.userfeedback.android.api.SendUserFeedbackService" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.android.gms.auth.signin.RevocationBoundService" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.android.apps.inputmethod.libs.framework.core.LauncherIconVisibilityInitializer" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.userfeedback.android.api.SendUserFeedbackService" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.android.gms.auth.signin.RevocationBoundService" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.android.apps.inputmethod.libs.framework.core.LauncherIconVisibilityInitializer" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.userfeedback.android.api.SendUserFeedbackService" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.android.gms.auth.signin.RevocationBoundService" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.android.apps.inputmethod.libs.framework.core.LauncherIconVisibilityInitializer" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="com.google.android.inputmethod.pinyin/com.google.firebase.iid.FirebaseInstanceIdInternalReceiver" />
+</activity>
+</rules>

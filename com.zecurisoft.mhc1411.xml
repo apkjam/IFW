@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyReceiver" />
+    <component-filter name="com.zecurisoft.mhc1411/com.amazon.inapp.purchasing.ResponseReceiver" />
+    <component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyReceiver" />
+    <component-filter name="com.zecurisoft.mhc1411/com.amazon.inapp.purchasing.ResponseReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyReceiver" />
+    <component-filter name="com.zecurisoft.mhc1411/com.amazon.inapp.purchasing.ResponseReceiver" />
+    <component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyReceiver" />
+    <component-filter name="com.zecurisoft.mhc1411/com.amazon.inapp.purchasing.ResponseReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyReceiver" />
+    <component-filter name="com.zecurisoft.mhc1411/com.amazon.inapp.purchasing.ResponseReceiver" />
+    <component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyReceiver" />
+    <component-filter name="com.zecurisoft.mhc1411/com.amazon.inapp.purchasing.ResponseReceiver" />
+</activity>
+</rules>

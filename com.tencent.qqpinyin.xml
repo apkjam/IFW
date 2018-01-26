@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.CoreService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.activity.DownloadService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.voice.DownloadApkService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.thirdparty.ThirdExpressionService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.AlarmReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.CoreService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.activity.DownloadService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.voice.DownloadApkService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.thirdparty.ThirdExpressionService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.AlarmReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.CoreService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.activity.DownloadService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.voice.DownloadApkService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.thirdparty.ThirdExpressionService" />
+    <component-filter name="com.tencent.qqpinyin/com.tencent.qqpinyin.AlarmReceiver" />
+</activity>
+</rules>

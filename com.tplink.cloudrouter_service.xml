@@ -1,5 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.tplink.cloudrouter/com.tplink.cloudrouter.service.CloudMsgPushService"/>
-</service>
-</rules>

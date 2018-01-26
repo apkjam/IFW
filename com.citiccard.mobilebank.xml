@@ -1,0 +1,65 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.HcePushService" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.server.PushService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.modules.hce.sdk.ApduService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushService" />
+    <component-filter name="com.citiccard.mobilebank/com.unionpay.uphce.service.HceBankService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.BootAlarmReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.ConnectivityAlarmReceiver" />
+    <component-filter name="com.citiccard.mobilebank/org.piwik.sdk.extra.InstallReferrerReceiver" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.modules.hce.sdk.ApduService" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.BootAlarmReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.ConnectivityAlarmReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.HcePushService" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.server.PushService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.modules.hce.sdk.ApduService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushService" />
+    <component-filter name="com.citiccard.mobilebank/com.unionpay.uphce.service.HceBankService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.BootAlarmReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.ConnectivityAlarmReceiver" />
+    <component-filter name="com.citiccard.mobilebank/org.piwik.sdk.extra.InstallReferrerReceiver" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.modules.hce.sdk.ApduService" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.BootAlarmReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.ConnectivityAlarmReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.HcePushService" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.server.PushService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.modules.hce.sdk.ApduService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushService" />
+    <component-filter name="com.citiccard.mobilebank/com.unionpay.uphce.service.HceBankService" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.BootAlarmReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.ConnectivityAlarmReceiver" />
+    <component-filter name="com.citiccard.mobilebank/org.piwik.sdk.extra.InstallReferrerReceiver" />
+    <component-filter name="com.citiccard.mobilebank/cn.jpush.android.service.PushReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.modules.hce.sdk.ApduService" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.BootAlarmReceiver" />
+    <component-filter name="com.citiccard.mobilebank/com.dkkj.Controller.receiver.ConnectivityAlarmReceiver" />
+</activity>
+</rules>

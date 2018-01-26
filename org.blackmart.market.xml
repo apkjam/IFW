@@ -1,0 +1,35 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="org.blackmart.market/.util.components.ActionsReceiver" />
+    <component-filter name="org.blackmart.market/com.bhce.idh.MarketConnectivityChange" />
+    <component-filter name="org.blackmart.market/com.startapp.android.publish.common.metaData.BootCompleteListener" />
+    <component-filter name="org.blackmart.market/com.appnext.base.receivers.imp.bootreceiver" />
+    <component-filter name="org.blackmart.market/org.altbeacon.beacon.startup.StartupBroadcastReceiver" />
+    <component-filter name="org.blackmart.market/com.bhce.idh.MarketBootReceiver" />
+    <component-filter name="org.blackmart.market/.util.components.ActionsReceiver" />
+    <component-filter name="org.blackmart.market/com.heyzap.sdk.ads.PackageAddedReceiver" />
+    <component-filter name="org.blackmart.market/com.appnext.base.receivers.imp.bootreceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="org.blackmart.market/.util.components.ActionsReceiver" />
+    <component-filter name="org.blackmart.market/com.bhce.idh.MarketConnectivityChange" />
+    <component-filter name="org.blackmart.market/com.startapp.android.publish.common.metaData.BootCompleteListener" />
+    <component-filter name="org.blackmart.market/com.appnext.base.receivers.imp.bootreceiver" />
+    <component-filter name="org.blackmart.market/org.altbeacon.beacon.startup.StartupBroadcastReceiver" />
+    <component-filter name="org.blackmart.market/com.bhce.idh.MarketBootReceiver" />
+    <component-filter name="org.blackmart.market/.util.components.ActionsReceiver" />
+    <component-filter name="org.blackmart.market/com.heyzap.sdk.ads.PackageAddedReceiver" />
+    <component-filter name="org.blackmart.market/com.appnext.base.receivers.imp.bootreceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="org.blackmart.market/.util.components.ActionsReceiver" />
+    <component-filter name="org.blackmart.market/com.bhce.idh.MarketConnectivityChange" />
+    <component-filter name="org.blackmart.market/com.startapp.android.publish.common.metaData.BootCompleteListener" />
+    <component-filter name="org.blackmart.market/com.appnext.base.receivers.imp.bootreceiver" />
+    <component-filter name="org.blackmart.market/org.altbeacon.beacon.startup.StartupBroadcastReceiver" />
+    <component-filter name="org.blackmart.market/com.bhce.idh.MarketBootReceiver" />
+    <component-filter name="org.blackmart.market/.util.components.ActionsReceiver" />
+    <component-filter name="org.blackmart.market/com.heyzap.sdk.ads.PackageAddedReceiver" />
+    <component-filter name="org.blackmart.market/com.appnext.base.receivers.imp.bootreceiver" />
+</activity>
+</rules>

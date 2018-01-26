@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.sina.vdun/.receiver.BootReceiver" />
+    <component-filter name="com.sina.vdun/.widget.PasscodeWidget" />
+    <component-filter name="com.sina.vdun/.receiver.BootReceiver" />
+    <component-filter name="com.sina.vdun/.widget.PasscodeWidget" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.sina.vdun/.receiver.BootReceiver" />
+    <component-filter name="com.sina.vdun/.widget.PasscodeWidget" />
+    <component-filter name="com.sina.vdun/.receiver.BootReceiver" />
+    <component-filter name="com.sina.vdun/.widget.PasscodeWidget" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.sina.vdun/.receiver.BootReceiver" />
+    <component-filter name="com.sina.vdun/.widget.PasscodeWidget" />
+    <component-filter name="com.sina.vdun/.receiver.BootReceiver" />
+    <component-filter name="com.sina.vdun/.widget.PasscodeWidget" />
+</activity>
+</rules>

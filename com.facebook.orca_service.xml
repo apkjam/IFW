@@ -1,6 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.facebook.orca/com.facebook.bugreporter.scheduler.GCMBugReportService"/>
-<component-filter name="com.facebook.orca/com.facebook.bugreporter.scheduler.LollipopBugReportService"/>
-</service>
-</rules>

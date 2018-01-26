@@ -1,0 +1,74 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.AnalyticsJobService" />
+    <component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementJobService" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="video.vue.android/.AppRegister" />
+    <component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="video.vue.android/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="video.vue.android/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="video.vue.android/com.avos.avoscloud.AVMiPushMessageReceiver" />
+    <component-filter name="video.vue.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="video.vue.android/.AppRegister" />
+    <component-filter name="video.vue.android/com.huawei.android.pushagent.PushEventReceiver" />
+    <component-filter name="video.vue.android/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="video.vue.android/com.huawei.android.pushagent.PushBootReceiver" />
+    <component-filter name="video.vue.android/.push.PushReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="video.vue.android/com.avos.avoscloud.AVHwPushMessageReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.AnalyticsJobService" />
+    <component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementJobService" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="video.vue.android/.AppRegister" />
+    <component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="video.vue.android/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="video.vue.android/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="video.vue.android/com.avos.avoscloud.AVMiPushMessageReceiver" />
+    <component-filter name="video.vue.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="video.vue.android/.AppRegister" />
+    <component-filter name="video.vue.android/com.huawei.android.pushagent.PushEventReceiver" />
+    <component-filter name="video.vue.android/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="video.vue.android/com.huawei.android.pushagent.PushBootReceiver" />
+    <component-filter name="video.vue.android/.push.PushReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="video.vue.android/com.avos.avoscloud.AVHwPushMessageReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.AnalyticsJobService" />
+    <component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementJobService" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="video.vue.android/.AppRegister" />
+    <component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdService" />
+    <component-filter name="video.vue.android/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="video.vue.android/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="video.vue.android/com.avos.avoscloud.AVMiPushMessageReceiver" />
+    <component-filter name="video.vue.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="video.vue.android/.AppRegister" />
+    <component-filter name="video.vue.android/com.huawei.android.pushagent.PushEventReceiver" />
+    <component-filter name="video.vue.android/com.avos.avoscloud.AVBroadcastReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="video.vue.android/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="video.vue.android/com.huawei.android.pushagent.PushBootReceiver" />
+    <component-filter name="video.vue.android/.push.PushReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="video.vue.android/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+    <component-filter name="video.vue.android/com.avos.avoscloud.AVHwPushMessageReceiver" />
+</activity>
+</rules>

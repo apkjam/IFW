@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.achievo.vipshop/com.huawei.android.pushagent.PushService" />
+    <component-filter name="com.achievo.vipshop/com.achievo.vipshop.weiaixing.daemon.services.NotificationDaemonService" />
+    <component-filter name="com.achievo.vipshop/com.achievo.vipshop.weiaixing.daemon.services.DaemonService" />
+    <component-filter name="com.achievo.vipshop/com.achievo.vipshop.commons.push.VipsHttpPushService" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.achievo.vipshop/com.huawei.android.pushagent.PushService" />
+    <component-filter name="com.achievo.vipshop/com.achievo.vipshop.weiaixing.daemon.services.NotificationDaemonService" />
+    <component-filter name="com.achievo.vipshop/com.achievo.vipshop.weiaixing.daemon.services.DaemonService" />
+    <component-filter name="com.achievo.vipshop/com.achievo.vipshop.commons.push.VipsHttpPushService" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.achievo.vipshop/com.huawei.android.pushagent.PushService" />
+    <component-filter name="com.achievo.vipshop/com.achievo.vipshop.weiaixing.daemon.services.NotificationDaemonService" />
+    <component-filter name="com.achievo.vipshop/com.achievo.vipshop.weiaixing.daemon.services.DaemonService" />
+    <component-filter name="com.achievo.vipshop/com.achievo.vipshop.commons.push.VipsHttpPushService" />
+</activity>
+</rules>

@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService" />
+    <component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService" />
+    <component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService" />
+    <component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
+</activity>
+</rules>

@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.diandian.android.easylife/com.igexin.sdk.PushService" />
+    <component-filter name="com.diandian.android.easylife/com.igexin.getuiext.service.GetuiExtService" />
+    <component-filter name="com.diandian.android.easylife/com.igexin.download.DownloadService" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.diandian.android.easylife/com.igexin.sdk.PushService" />
+    <component-filter name="com.diandian.android.easylife/com.igexin.getuiext.service.GetuiExtService" />
+    <component-filter name="com.diandian.android.easylife/com.igexin.download.DownloadService" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.diandian.android.easylife/com.igexin.sdk.PushService" />
+    <component-filter name="com.diandian.android.easylife/com.igexin.getuiext.service.GetuiExtService" />
+    <component-filter name="com.diandian.android.easylife/com.igexin.download.DownloadService" />
+</activity>
+</rules>

@@ -1,0 +1,35 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.getuiext.service.GetuiExtService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.download.DownloadService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.download.DownloadReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.getuiext.service.GetuiExtService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.download.DownloadService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.download.DownloadReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.getuiext.service.GetuiExtService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.download.DownloadService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushReceiver" />
+    <component-filter name="com.ecitic.bank.mobile/com.igexin.download.DownloadReceiver" />
+</activity>
+</rules>

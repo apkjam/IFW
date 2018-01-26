@@ -1,7 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.zhaopin.social/com.igexin.sdk.PushService"/>
-<component-filter name="com.zhaopin.social/com.igexin.download.DownloadService"/>
-<component-filter name="com.zhaopin.social/com.igexin.getuiext.service.GetuiExtService"/>
-</service>
-</rules>

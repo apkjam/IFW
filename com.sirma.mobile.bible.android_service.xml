@@ -1,5 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.sirma.mobile.bible.android/com.youversion.push.adm.YvAdmMessageHandler"/>
-</service>
-</rules>

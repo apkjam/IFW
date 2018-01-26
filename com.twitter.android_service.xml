@@ -1,5 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.twitter.android/com.twitter.notification.service.PushService"/>
-</service>
-</rules>

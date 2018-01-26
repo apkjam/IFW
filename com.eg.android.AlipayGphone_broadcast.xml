@@ -1,5 +1,0 @@
-<rules>
-<broadcast block="true" log="false">
-<component-filter name="com.eg.android.AlipayGphone/com.meizu.cloud.pushsdk.SystemReceiver"/>
-</broadcast>
-</rules>

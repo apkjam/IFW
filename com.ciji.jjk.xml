@@ -1,0 +1,74 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.ciji.jjk/cn.jpush.android.service.PushService" />
+    <component-filter name="com.ciji.jjk/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.core.MessageHandleService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.PushService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.PushService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.core.MessageHandleService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.ciji.jjk/io.rong.imlib.ReConnectService" />
+    <component-filter name="com.ciji.jjk/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.ciji.jjk/io.rong.imlib.ipc.RongService" />
+    <component-filter name="com.ciji.jjk/io.rong.imlib.ConnectChangeReceiver" />
+    <component-filter name="com.ciji.jjk/com.jjk.receiver.StepCallReceiver" />
+    <component-filter name="com.ciji.jjk/com.jjk.receiver.RongPushReceiver" />
+    <component-filter name="com.ciji.jjk/com.jjk.BootReciever" />
+    <component-filter name="com.ciji.jjk/io.rong.push.platform.MiMessageReceiver" />
+    <component-filter name="com.ciji.jjk/io.rong.push.PushReceiver" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.ciji.jjk/cn.jpush.android.service.PushService" />
+    <component-filter name="com.ciji.jjk/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.core.MessageHandleService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.PushService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.PushService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.core.MessageHandleService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.ciji.jjk/io.rong.imlib.ReConnectService" />
+    <component-filter name="com.ciji.jjk/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.ciji.jjk/io.rong.imlib.ipc.RongService" />
+    <component-filter name="com.ciji.jjk/io.rong.imlib.ConnectChangeReceiver" />
+    <component-filter name="com.ciji.jjk/com.jjk.receiver.StepCallReceiver" />
+    <component-filter name="com.ciji.jjk/com.jjk.receiver.RongPushReceiver" />
+    <component-filter name="com.ciji.jjk/com.jjk.BootReciever" />
+    <component-filter name="com.ciji.jjk/io.rong.push.platform.MiMessageReceiver" />
+    <component-filter name="com.ciji.jjk/io.rong.push.PushReceiver" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.ciji.jjk/cn.jpush.android.service.PushService" />
+    <component-filter name="com.ciji.jjk/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.core.MessageHandleService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.PushService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.PushService" />
+    <component-filter name="com.ciji.jjk/io.rong.push.core.MessageHandleService" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.ciji.jjk/io.rong.imlib.ReConnectService" />
+    <component-filter name="com.ciji.jjk/cn.jpush.android.service.DaemonService" />
+    <component-filter name="com.ciji.jjk/io.rong.imlib.ipc.RongService" />
+    <component-filter name="com.ciji.jjk/io.rong.imlib.ConnectChangeReceiver" />
+    <component-filter name="com.ciji.jjk/com.jjk.receiver.StepCallReceiver" />
+    <component-filter name="com.ciji.jjk/com.jjk.receiver.RongPushReceiver" />
+    <component-filter name="com.ciji.jjk/com.jjk.BootReciever" />
+    <component-filter name="com.ciji.jjk/io.rong.push.platform.MiMessageReceiver" />
+    <component-filter name="com.ciji.jjk/io.rong.push.PushReceiver" />
+    <component-filter name="com.ciji.jjk/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+</activity>
+</rules>

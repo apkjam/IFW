@@ -1,6 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.CommandService"/>
-<component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushService"/>
-</service>
-</rules>

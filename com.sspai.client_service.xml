@@ -1,7 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.sspai.client/com.umeng.message.UmengService"/>
-<component-filter name="com.sspai.client/org.android.agoo.service.ElectionService"/>
-<component-filter name="com.sspai.client/com.umeng.message.UmengIntentService"/>
-</service>
-</rules>

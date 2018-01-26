@@ -1,6 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.qianyan.eudic/io.rong.push.core.MessageHandleService"/>
-<component-filter name="com.qianyan.eudic/io.rong.push.PushService"/>
-</service>
-</rules>

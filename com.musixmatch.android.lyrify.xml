@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.musixmatch.android.lyrify/com.musixmatch.android.core.utils.openuid.OpenUDID_service" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.musixmatch.android.lyrify/com.musixmatch.android.core.utils.openuid.OpenUDID_service" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.musixmatch.android.lyrify/com.musixmatch.android.core.utils.openuid.OpenUDID_service" />
+</activity>
+</rules>

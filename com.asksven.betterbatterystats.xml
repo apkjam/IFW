@@ -1,0 +1,32 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.asksven.betterbatterystats/.services.BbsDashClockExtension" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.SmallWidgetProvider" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.MediumWidgetProvider" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.AppWidget" />
+    <component-filter name="com.asksven.betterbatterystats/.handlers.OnUnplugHandler" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.LargeWidgetProvider" />
+    <component-filter name="com.asksven.betterbatterystats/.handlers.OnBootHandler" />
+    <component-filter name="com.asksven.betterbatterystats/.localeplugin.receiver.FireReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.asksven.betterbatterystats/.services.BbsDashClockExtension" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.SmallWidgetProvider" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.MediumWidgetProvider" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.AppWidget" />
+    <component-filter name="com.asksven.betterbatterystats/.handlers.OnUnplugHandler" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.LargeWidgetProvider" />
+    <component-filter name="com.asksven.betterbatterystats/.handlers.OnBootHandler" />
+    <component-filter name="com.asksven.betterbatterystats/.localeplugin.receiver.FireReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.asksven.betterbatterystats/.services.BbsDashClockExtension" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.SmallWidgetProvider" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.MediumWidgetProvider" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.AppWidget" />
+    <component-filter name="com.asksven.betterbatterystats/.handlers.OnUnplugHandler" />
+    <component-filter name="com.asksven.betterbatterystats/.widgetproviders.LargeWidgetProvider" />
+    <component-filter name="com.asksven.betterbatterystats/.handlers.OnBootHandler" />
+    <component-filter name="com.asksven.betterbatterystats/.localeplugin.receiver.FireReceiver" />
+</activity>
+</rules>

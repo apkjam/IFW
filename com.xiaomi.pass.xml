@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.xiaomi.o2o/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.xiaomi.o2o/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.xiaomi.o2o/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+    <component-filter name="com.mi.misupport/com.xiaomi.passport.accountmanager.MiAuthenticatorService" />
+</activity>
+</rules>

@@ -1,5 +1,0 @@
-<rules>
-<service block="true" log="false">
-<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.core.NetEasePushMessageService_V1"/>
-</service>
-</rules>
