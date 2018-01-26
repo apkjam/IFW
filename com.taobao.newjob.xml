@@ -1,23 +1,23 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.taobao.newjob/anetwork.channel.aidl.NetworkService" />
-    <component-filter name="com.taobao.newjob/com.taobao.agoo.PushService" />
-    <component-filter name="com.taobao.newjob/com.taobao.agoo.TaobaoMessageIntentReceiverService" />
-    <component-filter name="com.taobao.newjob/com.taobao.nbcache.service.NBCacheService" />
-    <component-filter name="com.taobao.newjob/mtopsdk.xstate.XStateService" />
+<component-filter name="com.taobao.newjob/anetwork.channel.aidl.NetworkService" />
+<component-filter name="com.taobao.newjob/com.taobao.agoo.PushService" />
+<component-filter name="com.taobao.newjob/com.taobao.agoo.TaobaoMessageIntentReceiverService" />
+<component-filter name="com.taobao.newjob/com.taobao.nbcache.service.NBCacheService" />
+<component-filter name="com.taobao.newjob/mtopsdk.xstate.XStateService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.taobao.newjob/anetwork.channel.aidl.NetworkService" />
-    <component-filter name="com.taobao.newjob/com.taobao.agoo.PushService" />
-    <component-filter name="com.taobao.newjob/com.taobao.agoo.TaobaoMessageIntentReceiverService" />
-    <component-filter name="com.taobao.newjob/com.taobao.nbcache.service.NBCacheService" />
-    <component-filter name="com.taobao.newjob/mtopsdk.xstate.XStateService" />
+<component-filter name="com.taobao.newjob/anetwork.channel.aidl.NetworkService" />
+<component-filter name="com.taobao.newjob/com.taobao.agoo.PushService" />
+<component-filter name="com.taobao.newjob/com.taobao.agoo.TaobaoMessageIntentReceiverService" />
+<component-filter name="com.taobao.newjob/com.taobao.nbcache.service.NBCacheService" />
+<component-filter name="com.taobao.newjob/mtopsdk.xstate.XStateService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.taobao.newjob/anetwork.channel.aidl.NetworkService" />
-    <component-filter name="com.taobao.newjob/com.taobao.agoo.PushService" />
-    <component-filter name="com.taobao.newjob/com.taobao.agoo.TaobaoMessageIntentReceiverService" />
-    <component-filter name="com.taobao.newjob/com.taobao.nbcache.service.NBCacheService" />
-    <component-filter name="com.taobao.newjob/mtopsdk.xstate.XStateService" />
+<component-filter name="com.taobao.newjob/anetwork.channel.aidl.NetworkService" />
+<component-filter name="com.taobao.newjob/com.taobao.agoo.PushService" />
+<component-filter name="com.taobao.newjob/com.taobao.agoo.TaobaoMessageIntentReceiverService" />
+<component-filter name="com.taobao.newjob/com.taobao.nbcache.service.NBCacheService" />
+<component-filter name="com.taobao.newjob/mtopsdk.xstate.XStateService" />
 </activity>
 </rules>

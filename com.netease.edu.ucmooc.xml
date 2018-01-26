@@ -1,29 +1,29 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.netease.edu.ucmooc/.receiver.PushNotificationReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.cosine.target.CosineReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceBootReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServicePackageReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
+<component-filter name="com.netease.edu.ucmooc/.receiver.PushNotificationReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.cosine.target.CosineReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.core.NetEasePushMessageService_V1" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceBootReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServicePackageReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.netease.edu.ucmooc/.receiver.PushNotificationReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.cosine.target.CosineReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceBootReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServicePackageReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
+<component-filter name="com.netease.edu.ucmooc/.receiver.PushNotificationReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.cosine.target.CosineReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.core.NetEasePushMessageService_V1" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceBootReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServicePackageReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.netease.edu.ucmooc/.receiver.PushNotificationReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.cosine.target.CosineReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceBootReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServicePackageReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
-    <component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
+<component-filter name="com.netease.edu.ucmooc/.receiver.PushNotificationReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.cosine.target.CosineReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.core.NetEasePushMessageService_V1" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceBootReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServicePackageReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
+<component-filter name="com.netease.edu.ucmooc/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
 </activity>
 </rules>

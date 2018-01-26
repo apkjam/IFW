@@ -1,14 +1,14 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.estrongs.android.pop/com.android.apps.pros.LocalCReceiver" />
-    <component-filter name="com.estrongs.android.pop/com.estrongs.android.pop.app.StartServiceReceiver" />
+<component-filter name="com.estrongs.android.pop/com.android.apps.pros.LocalCReceiver" />
+<component-filter name="com.estrongs.android.pop/com.estrongs.android.pop.app.StartServiceReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.estrongs.android.pop/com.android.apps.pros.LocalCReceiver" />
-    <component-filter name="com.estrongs.android.pop/com.estrongs.android.pop.app.StartServiceReceiver" />
+<component-filter name="com.estrongs.android.pop/com.android.apps.pros.LocalCReceiver" />
+<component-filter name="com.estrongs.android.pop/com.estrongs.android.pop.app.StartServiceReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.estrongs.android.pop/com.android.apps.pros.LocalCReceiver" />
-    <component-filter name="com.estrongs.android.pop/com.estrongs.android.pop.app.StartServiceReceiver" />
+<component-filter name="com.estrongs.android.pop/com.android.apps.pros.LocalCReceiver" />
+<component-filter name="com.estrongs.android.pop/com.estrongs.android.pop.app.StartServiceReceiver" />
 </activity>
 </rules>

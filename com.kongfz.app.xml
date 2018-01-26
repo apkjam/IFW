@@ -1,17 +1,17 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.kongfz.app/.chat.service.ChatServiceReceiver" />
-    <component-filter name="com.kongfz.app/.chat.service.PushService" />
-    <component-filter name="com.kongfz.app/.chat.service.SocketIoService" />
+<component-filter name="com.kongfz.app/.chat.service.ChatServiceReceiver" />
+<component-filter name="com.kongfz.app/.chat.service.PushService" />
+<component-filter name="com.kongfz.app/.chat.service.SocketIoService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.kongfz.app/.chat.service.ChatServiceReceiver" />
-    <component-filter name="com.kongfz.app/.chat.service.PushService" />
-    <component-filter name="com.kongfz.app/.chat.service.SocketIoService" />
+<component-filter name="com.kongfz.app/.chat.service.ChatServiceReceiver" />
+<component-filter name="com.kongfz.app/.chat.service.PushService" />
+<component-filter name="com.kongfz.app/.chat.service.SocketIoService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.kongfz.app/.chat.service.ChatServiceReceiver" />
-    <component-filter name="com.kongfz.app/.chat.service.PushService" />
-    <component-filter name="com.kongfz.app/.chat.service.SocketIoService" />
+<component-filter name="com.kongfz.app/.chat.service.ChatServiceReceiver" />
+<component-filter name="com.kongfz.app/.chat.service.PushService" />
+<component-filter name="com.kongfz.app/.chat.service.SocketIoService" />
 </activity>
 </rules>

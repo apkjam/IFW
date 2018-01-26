@@ -1,26 +1,26 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.xiaomi.channel/com.mi.milink.sdk.receiver.AlarmReceiver" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.chat.resend.ResendMessageService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.gameService.GameService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.mucinfo.service.ExportChatRecordService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.NetworkTestService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.PacketProcessService" />
+<component-filter name="com.xiaomi.channel/com.mi.milink.sdk.receiver.AlarmReceiver" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.chat.resend.ResendMessageService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.gameService.GameService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.mucinfo.service.ExportChatRecordService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.NetworkTestService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.PacketProcessService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.xiaomi.channel/com.mi.milink.sdk.receiver.AlarmReceiver" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.chat.resend.ResendMessageService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.gameService.GameService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.mucinfo.service.ExportChatRecordService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.NetworkTestService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.PacketProcessService" />
+<component-filter name="com.xiaomi.channel/com.mi.milink.sdk.receiver.AlarmReceiver" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.chat.resend.ResendMessageService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.gameService.GameService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.mucinfo.service.ExportChatRecordService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.NetworkTestService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.PacketProcessService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.xiaomi.channel/com.mi.milink.sdk.receiver.AlarmReceiver" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.chat.resend.ResendMessageService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.gameService.GameService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.mucinfo.service.ExportChatRecordService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.NetworkTestService" />
-    <component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.PacketProcessService" />
+<component-filter name="com.xiaomi.channel/com.mi.milink.sdk.receiver.AlarmReceiver" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.chat.resend.ResendMessageService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.gameService.GameService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.mucinfo.service.ExportChatRecordService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.NetworkTestService" />
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.PacketProcessService" />
 </activity>
 </rules>

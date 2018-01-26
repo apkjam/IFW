@@ -1,47 +1,47 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.smzdm.client.android/.receiver.AmapAlertReceiver" />
-    <component-filter name="com.smzdm.client.android/.receiver.BootReceiver" />
-    <component-filter name="com.smzdm.client.android/.receiver.PushReciever" />
-    <component-filter name="com.smzdm.client.android/.receiver.XiaoMiPushMessageReceiver" />
-    <component-filter name="com.smzdm.client.android/anetwork.channel.aidl.NetworkService" />
-    <component-filter name="com.smzdm.client.android/com.google.android.gms.analytics.AnalyticsReceiver" />
-    <component-filter name="com.smzdm.client.android/com.smzdm.client.android.receiver.XiaoMiPushMessageReceiver" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.smzdm.client.android/mtopsdk.xstate.XStateService" />
+<component-filter name="com.smzdm.client.android/.receiver.AmapAlertReceiver" />
+<component-filter name="com.smzdm.client.android/.receiver.BootReceiver" />
+<component-filter name="com.smzdm.client.android/.receiver.PushReciever" />
+<component-filter name="com.smzdm.client.android/.receiver.XiaoMiPushMessageReceiver" />
+<component-filter name="com.smzdm.client.android/anetwork.channel.aidl.NetworkService" />
+<component-filter name="com.smzdm.client.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+<component-filter name="com.smzdm.client.android/com.smzdm.client.android.receiver.XiaoMiPushMessageReceiver" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.smzdm.client.android/mtopsdk.xstate.XStateService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.smzdm.client.android/.receiver.AmapAlertReceiver" />
-    <component-filter name="com.smzdm.client.android/.receiver.BootReceiver" />
-    <component-filter name="com.smzdm.client.android/.receiver.PushReciever" />
-    <component-filter name="com.smzdm.client.android/.receiver.XiaoMiPushMessageReceiver" />
-    <component-filter name="com.smzdm.client.android/anetwork.channel.aidl.NetworkService" />
-    <component-filter name="com.smzdm.client.android/com.google.android.gms.analytics.AnalyticsReceiver" />
-    <component-filter name="com.smzdm.client.android/com.smzdm.client.android.receiver.XiaoMiPushMessageReceiver" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.smzdm.client.android/mtopsdk.xstate.XStateService" />
+<component-filter name="com.smzdm.client.android/.receiver.AmapAlertReceiver" />
+<component-filter name="com.smzdm.client.android/.receiver.BootReceiver" />
+<component-filter name="com.smzdm.client.android/.receiver.PushReciever" />
+<component-filter name="com.smzdm.client.android/.receiver.XiaoMiPushMessageReceiver" />
+<component-filter name="com.smzdm.client.android/anetwork.channel.aidl.NetworkService" />
+<component-filter name="com.smzdm.client.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+<component-filter name="com.smzdm.client.android/com.smzdm.client.android.receiver.XiaoMiPushMessageReceiver" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.smzdm.client.android/mtopsdk.xstate.XStateService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.smzdm.client.android/.receiver.AmapAlertReceiver" />
-    <component-filter name="com.smzdm.client.android/.receiver.BootReceiver" />
-    <component-filter name="com.smzdm.client.android/.receiver.PushReciever" />
-    <component-filter name="com.smzdm.client.android/.receiver.XiaoMiPushMessageReceiver" />
-    <component-filter name="com.smzdm.client.android/anetwork.channel.aidl.NetworkService" />
-    <component-filter name="com.smzdm.client.android/com.google.android.gms.analytics.AnalyticsReceiver" />
-    <component-filter name="com.smzdm.client.android/com.smzdm.client.android.receiver.XiaoMiPushMessageReceiver" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.smzdm.client.android/mtopsdk.xstate.XStateService" />
+<component-filter name="com.smzdm.client.android/.receiver.AmapAlertReceiver" />
+<component-filter name="com.smzdm.client.android/.receiver.BootReceiver" />
+<component-filter name="com.smzdm.client.android/.receiver.PushReciever" />
+<component-filter name="com.smzdm.client.android/.receiver.XiaoMiPushMessageReceiver" />
+<component-filter name="com.smzdm.client.android/anetwork.channel.aidl.NetworkService" />
+<component-filter name="com.smzdm.client.android/com.google.android.gms.analytics.AnalyticsReceiver" />
+<component-filter name="com.smzdm.client.android/com.smzdm.client.android.receiver.XiaoMiPushMessageReceiver" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.smzdm.client.android/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.smzdm.client.android/mtopsdk.xstate.XStateService" />
 </activity>
 </rules>

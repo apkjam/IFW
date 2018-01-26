@@ -1,44 +1,44 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.mobisystems.editor.office_registered/com.google.analytics.tracking.android.CampaignTrackingReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.boxonecloud.MSBoxOneCloudReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.BootCompletedReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawChartService" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawXlsChartService" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.io.NetworkChangeReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Provider" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Service" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.search.FileSearchProvider" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.wifi_direct.StartWifiDirectReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.ExtensionReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.Sw2ExtensionService" />
+<component-filter name="com.mobisystems.editor.office_registered/com.google.analytics.tracking.android.CampaignTrackingReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.boxonecloud.MSBoxOneCloudReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.BootCompletedReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawChartService" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawXlsChartService" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.io.NetworkChangeReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Provider" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Service" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.search.FileSearchProvider" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.wifi_direct.StartWifiDirectReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.ExtensionReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.Sw2ExtensionService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.mobisystems.editor.office_registered/com.google.analytics.tracking.android.CampaignTrackingReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.boxonecloud.MSBoxOneCloudReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.BootCompletedReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawChartService" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawXlsChartService" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.io.NetworkChangeReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Provider" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Service" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.search.FileSearchProvider" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.wifi_direct.StartWifiDirectReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.ExtensionReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.Sw2ExtensionService" />
+<component-filter name="com.mobisystems.editor.office_registered/com.google.analytics.tracking.android.CampaignTrackingReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.boxonecloud.MSBoxOneCloudReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.BootCompletedReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawChartService" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawXlsChartService" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.io.NetworkChangeReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Provider" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Service" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.search.FileSearchProvider" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.wifi_direct.StartWifiDirectReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.ExtensionReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.Sw2ExtensionService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.mobisystems.editor.office_registered/com.google.analytics.tracking.android.CampaignTrackingReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.boxonecloud.MSBoxOneCloudReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.BootCompletedReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawChartService" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawXlsChartService" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.io.NetworkChangeReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Provider" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Service" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.search.FileSearchProvider" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.wifi_direct.StartWifiDirectReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.ExtensionReceiver" />
-    <component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.Sw2ExtensionService" />
+<component-filter name="com.mobisystems.editor.office_registered/com.google.analytics.tracking.android.CampaignTrackingReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.boxonecloud.MSBoxOneCloudReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.BootCompletedReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawChartService" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.excel.DrawXlsChartService" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.io.NetworkChangeReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Provider" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.recentFiles.widget.Service" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.search.FileSearchProvider" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.wifi_direct.StartWifiDirectReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.ExtensionReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.sonymobile.smartconnect.extension.officesuite.Sw2ExtensionService" />
 </activity>
 </rules>

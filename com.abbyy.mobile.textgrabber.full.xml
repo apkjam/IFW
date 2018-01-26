@@ -1,14 +1,14 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.abbyy.mobile.textgrabber.full/com.abbyy.mobile.textgrabber.full.push.TextGrabberPushService" />
-    <component-filter name="com.abbyy.mobile.textgrabber.full/com.batch.android.BatchPushService" />
+<component-filter name="com.abbyy.mobile.textgrabber.full/com.abbyy.mobile.textgrabber.full.push.TextGrabberPushService" />
+<component-filter name="com.abbyy.mobile.textgrabber.full/com.batch.android.BatchPushService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.abbyy.mobile.textgrabber.full/com.abbyy.mobile.textgrabber.full.push.TextGrabberPushService" />
-    <component-filter name="com.abbyy.mobile.textgrabber.full/com.batch.android.BatchPushService" />
+<component-filter name="com.abbyy.mobile.textgrabber.full/com.abbyy.mobile.textgrabber.full.push.TextGrabberPushService" />
+<component-filter name="com.abbyy.mobile.textgrabber.full/com.batch.android.BatchPushService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.abbyy.mobile.textgrabber.full/com.abbyy.mobile.textgrabber.full.push.TextGrabberPushService" />
-    <component-filter name="com.abbyy.mobile.textgrabber.full/com.batch.android.BatchPushService" />
+<component-filter name="com.abbyy.mobile.textgrabber.full/com.abbyy.mobile.textgrabber.full.push.TextGrabberPushService" />
+<component-filter name="com.abbyy.mobile.textgrabber.full/com.batch.android.BatchPushService" />
 </activity>
 </rules>

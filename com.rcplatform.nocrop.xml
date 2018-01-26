@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.rcplatform.nocrop/com.google.android.gcm.RCPushService" />
+<component-filter name="com.rcplatform.nocrop/com.google.android.gcm.RCPushService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.rcplatform.nocrop/com.google.android.gcm.RCPushService" />
+<component-filter name="com.rcplatform.nocrop/com.google.android.gcm.RCPushService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.rcplatform.nocrop/com.google.android.gcm.RCPushService" />
+<component-filter name="com.rcplatform.nocrop/com.google.android.gcm.RCPushService" />
 </activity>
 </rules>

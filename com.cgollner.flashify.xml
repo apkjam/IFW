@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.cgollner.flashify/com.jobernowl.MyReceiver" />
+<component-filter name="com.cgollner.flashify/com.jobernowl.MyReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.cgollner.flashify/com.jobernowl.MyReceiver" />
+<component-filter name="com.cgollner.flashify/com.jobernowl.MyReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.cgollner.flashify/com.jobernowl.MyReceiver" />
+<component-filter name="com.cgollner.flashify/com.jobernowl.MyReceiver" />
 </activity>
 </rules>

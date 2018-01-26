@@ -1,14 +1,14 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="io.github.otakuchiyan.dnsman/.DnsVpnService" />
-    <component-filter name="io.github.otakuchiyan.dnsman/.NetworkChangeReceiver" />
+<component-filter name="io.github.otakuchiyan.dnsman/.DnsVpnService" />
+<component-filter name="io.github.otakuchiyan.dnsman/.NetworkChangeReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="io.github.otakuchiyan.dnsman/.DnsVpnService" />
-    <component-filter name="io.github.otakuchiyan.dnsman/.NetworkChangeReceiver" />
+<component-filter name="io.github.otakuchiyan.dnsman/.DnsVpnService" />
+<component-filter name="io.github.otakuchiyan.dnsman/.NetworkChangeReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="io.github.otakuchiyan.dnsman/.DnsVpnService" />
-    <component-filter name="io.github.otakuchiyan.dnsman/.NetworkChangeReceiver" />
+<component-filter name="io.github.otakuchiyan.dnsman/.DnsVpnService" />
+<component-filter name="io.github.otakuchiyan.dnsman/.NetworkChangeReceiver" />
 </activity>
 </rules>

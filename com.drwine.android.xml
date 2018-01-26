@@ -1,38 +1,38 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.drwine.android/.receiver.ConnectionChangeReceiver" />
-    <component-filter name="com.drwine.android/com.tendcloud.appcpa.ReferralReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.ElectionReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.SystemReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengIntentService" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengMessageBootReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengMessageCallbackHandlerService" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengMessageIntentReceiverService" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengService" />
-    <component-filter name="com.drwine.android/com.umeng.message.local.UmengLocalNotificationService" />
+<component-filter name="com.drwine.android/.receiver.ConnectionChangeReceiver" />
+<component-filter name="com.drwine.android/com.tendcloud.appcpa.ReferralReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.ElectionReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.SystemReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengIntentService" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageBootReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageCallbackHandlerService" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageIntentReceiverService" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengService" />
+<component-filter name="com.drwine.android/com.umeng.message.local.UmengLocalNotificationService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.drwine.android/.receiver.ConnectionChangeReceiver" />
-    <component-filter name="com.drwine.android/com.tendcloud.appcpa.ReferralReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.ElectionReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.SystemReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengIntentService" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengMessageBootReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengMessageCallbackHandlerService" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengMessageIntentReceiverService" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengService" />
-    <component-filter name="com.drwine.android/com.umeng.message.local.UmengLocalNotificationService" />
+<component-filter name="com.drwine.android/.receiver.ConnectionChangeReceiver" />
+<component-filter name="com.drwine.android/com.tendcloud.appcpa.ReferralReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.ElectionReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.SystemReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengIntentService" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageBootReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageCallbackHandlerService" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageIntentReceiverService" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengService" />
+<component-filter name="com.drwine.android/com.umeng.message.local.UmengLocalNotificationService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.drwine.android/.receiver.ConnectionChangeReceiver" />
-    <component-filter name="com.drwine.android/com.tendcloud.appcpa.ReferralReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.ElectionReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.SystemReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengIntentService" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengMessageBootReceiver" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengMessageCallbackHandlerService" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengMessageIntentReceiverService" />
-    <component-filter name="com.drwine.android/com.umeng.message.UmengService" />
-    <component-filter name="com.drwine.android/com.umeng.message.local.UmengLocalNotificationService" />
+<component-filter name="com.drwine.android/.receiver.ConnectionChangeReceiver" />
+<component-filter name="com.drwine.android/com.tendcloud.appcpa.ReferralReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.ElectionReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.SystemReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengIntentService" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageBootReceiver" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageCallbackHandlerService" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengMessageIntentReceiverService" />
+<component-filter name="com.drwine.android/com.umeng.message.UmengService" />
+<component-filter name="com.drwine.android/com.umeng.message.local.UmengLocalNotificationService" />
 </activity>
 </rules>

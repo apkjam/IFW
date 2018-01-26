@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.android.musicfx/com.android.musicfx.ControlPanelReceiver" />
+<component-filter name="com.android.musicfx/com.android.musicfx.ControlPanelReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.android.musicfx/com.android.musicfx.ControlPanelReceiver" />
+<component-filter name="com.android.musicfx/com.android.musicfx.ControlPanelReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.android.musicfx/com.android.musicfx.ControlPanelReceiver" />
+<component-filter name="com.android.musicfx/com.android.musicfx.ControlPanelReceiver" />
 </activity>
 </rules>

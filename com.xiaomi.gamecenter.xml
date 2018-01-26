@@ -1,32 +1,32 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.xiaomi.gamecenter/com.mi.milink.sdk.receiver.AlarmReceiver" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GameCenterPushMessageReceiver" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GamecenterPushService" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.service.GlobalReceiver" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.mi.milink.sdk.receiver.AlarmReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GameCenterPushMessageReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GamecenterPushService" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.service.GlobalReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.xiaomi.gamecenter/com.mi.milink.sdk.receiver.AlarmReceiver" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GameCenterPushMessageReceiver" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GamecenterPushService" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.service.GlobalReceiver" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.mi.milink.sdk.receiver.AlarmReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GameCenterPushMessageReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GamecenterPushService" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.service.GlobalReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.xiaomi.gamecenter/com.mi.milink.sdk.receiver.AlarmReceiver" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GameCenterPushMessageReceiver" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GamecenterPushService" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.service.GlobalReceiver" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.mi.milink.sdk.receiver.AlarmReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GameCenterPushMessageReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.push.GamecenterPushService" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.gamecenter.service.GlobalReceiver" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiaomi.gamecenter/com.xiaomi.push.service.receivers.PingReceiver" />
 </activity>
 </rules>

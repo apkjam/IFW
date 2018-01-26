@@ -1,32 +1,32 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.iflytek.speechcloud/.TtsService" />
-    <component-filter name="com.iflytek.speechcloud/.binder.BinderService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.business.BootReceiver" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.business.BusinessService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.business.download.DownloadHandlerService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.iatservice.SpeechService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.speechcloud.TtsService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.speechsuite.binder.SuiteBinderService" />
+<component-filter name="com.iflytek.speechcloud/.TtsService" />
+<component-filter name="com.iflytek.speechcloud/.binder.BinderService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.business.BootReceiver" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.business.BusinessService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.business.download.DownloadHandlerService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.iatservice.SpeechService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.speechcloud.TtsService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.speechsuite.binder.SuiteBinderService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.iflytek.speechcloud/.TtsService" />
-    <component-filter name="com.iflytek.speechcloud/.binder.BinderService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.business.BootReceiver" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.business.BusinessService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.business.download.DownloadHandlerService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.iatservice.SpeechService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.speechcloud.TtsService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.speechsuite.binder.SuiteBinderService" />
+<component-filter name="com.iflytek.speechcloud/.TtsService" />
+<component-filter name="com.iflytek.speechcloud/.binder.BinderService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.business.BootReceiver" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.business.BusinessService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.business.download.DownloadHandlerService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.iatservice.SpeechService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.speechcloud.TtsService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.speechsuite.binder.SuiteBinderService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.iflytek.speechcloud/.TtsService" />
-    <component-filter name="com.iflytek.speechcloud/.binder.BinderService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.business.BootReceiver" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.business.BusinessService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.business.download.DownloadHandlerService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.iatservice.SpeechService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.speechcloud.TtsService" />
-    <component-filter name="com.iflytek.speechcloud/com.iflytek.speechsuite.binder.SuiteBinderService" />
+<component-filter name="com.iflytek.speechcloud/.TtsService" />
+<component-filter name="com.iflytek.speechcloud/.binder.BinderService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.business.BootReceiver" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.business.BusinessService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.business.download.DownloadHandlerService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.iatservice.SpeechService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.speechcloud.TtsService" />
+<component-filter name="com.iflytek.speechcloud/com.iflytek.speechsuite.binder.SuiteBinderService" />
 </activity>
 </rules>

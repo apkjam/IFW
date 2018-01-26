@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.tencent.token/com.tencent.token.core.push.PushService" />
+<component-filter name="com.tencent.token/com.tencent.token.core.push.PushService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.tencent.token/com.tencent.token.core.push.PushService" />
+<component-filter name="com.tencent.token/com.tencent.token.core.push.PushService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.tencent.token/com.tencent.token.core.push.PushService" />
+<component-filter name="com.tencent.token/com.tencent.token.core.push.PushService" />
 </activity>
 </rules>

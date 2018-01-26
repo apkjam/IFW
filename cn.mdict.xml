@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="cn.mdict/cn.mdict.services.ClipboardMonitorStarter" />
+<component-filter name="cn.mdict/cn.mdict.services.ClipboardMonitorStarter" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="cn.mdict/cn.mdict.services.ClipboardMonitorStarter" />
+<component-filter name="cn.mdict/cn.mdict.services.ClipboardMonitorStarter" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="cn.mdict/cn.mdict.services.ClipboardMonitorStarter" />
+<component-filter name="cn.mdict/cn.mdict.services.ClipboardMonitorStarter" />
 </activity>
 </rules>

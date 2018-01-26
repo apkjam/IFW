@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.twitter.android/com.twitter.notification.service.PushService" />
+<component-filter name="com.twitter.android/com.twitter.notification.service.PushService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.twitter.android/com.twitter.notification.service.PushService" />
+<component-filter name="com.twitter.android/com.twitter.notification.service.PushService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.twitter.android/com.twitter.notification.service.PushService" />
+<component-filter name="com.twitter.android/com.twitter.notification.service.PushService" />
 </activity>
 </rules>

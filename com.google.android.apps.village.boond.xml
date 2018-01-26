@@ -1,29 +1,29 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.google.android.apps.village.boond/.notification.CancelNotificationReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/.offline.NetworkConnectivityReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/.util.AppInstallReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.android.gms.analytics.CampaignTrackingReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdService" />
+<component-filter name="com.google.android.apps.village.boond/.notification.CancelNotificationReceiver" />
+<component-filter name="com.google.android.apps.village.boond/.offline.NetworkConnectivityReceiver" />
+<component-filter name="com.google.android.apps.village.boond/.util.AppInstallReceiver" />
+<component-filter name="com.google.android.apps.village.boond/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+<component-filter name="com.google.android.apps.village.boond/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+<component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+<component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.google.android.apps.village.boond/.notification.CancelNotificationReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/.offline.NetworkConnectivityReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/.util.AppInstallReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.android.gms.analytics.CampaignTrackingReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdService" />
+<component-filter name="com.google.android.apps.village.boond/.notification.CancelNotificationReceiver" />
+<component-filter name="com.google.android.apps.village.boond/.offline.NetworkConnectivityReceiver" />
+<component-filter name="com.google.android.apps.village.boond/.util.AppInstallReceiver" />
+<component-filter name="com.google.android.apps.village.boond/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+<component-filter name="com.google.android.apps.village.boond/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+<component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+<component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.google.android.apps.village.boond/.notification.CancelNotificationReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/.offline.NetworkConnectivityReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/.util.AppInstallReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.android.gms.analytics.CampaignTrackingReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-    <component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdService" />
+<component-filter name="com.google.android.apps.village.boond/.notification.CancelNotificationReceiver" />
+<component-filter name="com.google.android.apps.village.boond/.offline.NetworkConnectivityReceiver" />
+<component-filter name="com.google.android.apps.village.boond/.util.AppInstallReceiver" />
+<component-filter name="com.google.android.apps.village.boond/com.google.android.gms.analytics.CampaignTrackingReceiver" />
+<component-filter name="com.google.android.apps.village.boond/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+<component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+<component-filter name="com.google.android.apps.village.boond/com.google.firebase.iid.FirebaseInstanceIdService" />
 </activity>
 </rules>

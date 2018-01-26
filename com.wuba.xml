@@ -1,41 +1,41 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.wuba/com.wuba.im.service.ChannelService" />
-    <component-filter name="com.wuba/com.wuba.push.MiPushRegisterService" />
-    <component-filter name="com.wuba/com.wuba.push.NotificationReceiver" />
-    <component-filter name="com.wuba/com.wuba.push.PhoneStateReceiver" />
-    <component-filter name="com.wuba/com.wuba.push.PushService" />
-    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.wuba/com.wuba.im.service.ChannelService" />
+<component-filter name="com.wuba/com.wuba.push.MiPushRegisterService" />
+<component-filter name="com.wuba/com.wuba.push.NotificationReceiver" />
+<component-filter name="com.wuba/com.wuba.push.PhoneStateReceiver" />
+<component-filter name="com.wuba/com.wuba.push.PushService" />
+<component-filter name="com.wuba/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.wuba/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.wuba/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.wuba/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.wuba/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.wuba/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.wuba/com.wuba.im.service.ChannelService" />
-    <component-filter name="com.wuba/com.wuba.push.MiPushRegisterService" />
-    <component-filter name="com.wuba/com.wuba.push.NotificationReceiver" />
-    <component-filter name="com.wuba/com.wuba.push.PhoneStateReceiver" />
-    <component-filter name="com.wuba/com.wuba.push.PushService" />
-    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.wuba/com.wuba.im.service.ChannelService" />
+<component-filter name="com.wuba/com.wuba.push.MiPushRegisterService" />
+<component-filter name="com.wuba/com.wuba.push.NotificationReceiver" />
+<component-filter name="com.wuba/com.wuba.push.PhoneStateReceiver" />
+<component-filter name="com.wuba/com.wuba.push.PushService" />
+<component-filter name="com.wuba/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.wuba/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.wuba/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.wuba/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.wuba/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.wuba/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.wuba/com.wuba.im.service.ChannelService" />
-    <component-filter name="com.wuba/com.wuba.push.MiPushRegisterService" />
-    <component-filter name="com.wuba/com.wuba.push.NotificationReceiver" />
-    <component-filter name="com.wuba/com.wuba.push.PhoneStateReceiver" />
-    <component-filter name="com.wuba/com.wuba.push.PushService" />
-    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.wuba/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.wuba/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.wuba/com.wuba.im.service.ChannelService" />
+<component-filter name="com.wuba/com.wuba.push.MiPushRegisterService" />
+<component-filter name="com.wuba/com.wuba.push.NotificationReceiver" />
+<component-filter name="com.wuba/com.wuba.push.PhoneStateReceiver" />
+<component-filter name="com.wuba/com.wuba.push.PushService" />
+<component-filter name="com.wuba/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.wuba/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.wuba/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.wuba/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.wuba/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.wuba/com.xiaomi.push.service.receivers.PingReceiver" />
 </activity>
 </rules>

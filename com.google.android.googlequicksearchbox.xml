@@ -1,44 +1,44 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.AddItemActivity" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.InstallShortcutReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.PackageSessionCommitReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.StartupReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.WallpaperCropActivity" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.launcher.GelWallpaperPickerActivity" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.reflection.ReflectionReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityEyesLauncher" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromAssistantShortcut" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromDeeplink" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.launcher.GEL" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.libraries.flashmanagement.cleardatadetector.DummyReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.AddItemActivity" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.InstallShortcutReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.PackageSessionCommitReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.StartupReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.WallpaperCropActivity" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.launcher.GelWallpaperPickerActivity" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.reflection.ReflectionReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityEyesLauncher" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromAssistantShortcut" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromDeeplink" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.launcher.GEL" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.libraries.flashmanagement.cleardatadetector.DummyReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.AddItemActivity" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.InstallShortcutReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.PackageSessionCommitReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.StartupReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.WallpaperCropActivity" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.launcher.GelWallpaperPickerActivity" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.reflection.ReflectionReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityEyesLauncher" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromAssistantShortcut" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromDeeplink" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.launcher.GEL" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.libraries.flashmanagement.cleardatadetector.DummyReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.AddItemActivity" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.InstallShortcutReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.PackageSessionCommitReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.StartupReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.WallpaperCropActivity" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.launcher.GelWallpaperPickerActivity" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.reflection.ReflectionReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityEyesLauncher" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromAssistantShortcut" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromDeeplink" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.launcher.GEL" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.libraries.flashmanagement.cleardatadetector.DummyReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.AddItemActivity" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.InstallShortcutReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.PackageSessionCommitReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.StartupReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.WallpaperCropActivity" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.launcher.GelWallpaperPickerActivity" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.reflection.ReflectionReceiver" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityEyesLauncher" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromAssistantShortcut" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromDeeplink" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.launcher.GEL" />
-    <component-filter name="com.google.android.googlequicksearchbox/com.google.android.libraries.flashmanagement.cleardatadetector.DummyReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.AddItemActivity" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.InstallShortcutReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.PackageSessionCommitReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.StartupReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.android.launcher3.WallpaperCropActivity" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.launcher.GelWallpaperPickerActivity" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.reflection.ReflectionReceiver" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityEyesLauncher" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromAssistantShortcut" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.apps.gsa.staticplugins.opa.EnterOpaActivityFromDeeplink" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.launcher.GEL" />
+<component-filter name="com.google.android.googlequicksearchbox/com.google.android.libraries.flashmanagement.cleardatadetector.DummyReceiver" />
 </activity>
 </rules>

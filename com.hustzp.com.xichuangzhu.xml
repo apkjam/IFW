@@ -1,35 +1,35 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.AVBroadcastReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.PushService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/com.hustzp.com.xichuangzhu.push.MyCustomReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ConnectChangeReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ReConnectService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ipc.RongService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.core.MessageHandleService" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.PushService" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.hustzp.com.xichuangzhu.push.MyCustomReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ConnectChangeReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ReConnectService" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ipc.RongService" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushService" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.core.MessageHandleService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.AVBroadcastReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.PushService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/com.hustzp.com.xichuangzhu.push.MyCustomReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ConnectChangeReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ReConnectService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ipc.RongService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.core.MessageHandleService" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.PushService" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.hustzp.com.xichuangzhu.push.MyCustomReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ConnectChangeReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ReConnectService" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ipc.RongService" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushService" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.core.MessageHandleService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.AVBroadcastReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.PushService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/com.hustzp.com.xichuangzhu.push.MyCustomReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ConnectChangeReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ReConnectService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ipc.RongService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushReceiver" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushService" />
-    <component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.core.MessageHandleService" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.PushService" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.hustzp.com.xichuangzhu.push.MyCustomReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ConnectChangeReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ReConnectService" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.imlib.ipc.RongService" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushService" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.core.MessageHandleService" />
 </activity>
 </rules>

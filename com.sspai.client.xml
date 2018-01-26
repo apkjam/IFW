@@ -1,23 +1,23 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.sspai.client/com.umeng.message.RegistrationReceiver" />
-    <component-filter name="com.sspai.client/com.umeng.message.UmengBroadcastReceiver" />
-    <component-filter name="com.sspai.client/com.umeng.message.UmengIntentService" />
-    <component-filter name="com.sspai.client/com.umeng.message.UmengService" />
-    <component-filter name="com.sspai.client/org.android.agoo.service.ElectionService" />
+<component-filter name="com.sspai.client/com.umeng.message.RegistrationReceiver" />
+<component-filter name="com.sspai.client/com.umeng.message.UmengBroadcastReceiver" />
+<component-filter name="com.sspai.client/com.umeng.message.UmengIntentService" />
+<component-filter name="com.sspai.client/com.umeng.message.UmengService" />
+<component-filter name="com.sspai.client/org.android.agoo.service.ElectionService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.sspai.client/com.umeng.message.RegistrationReceiver" />
-    <component-filter name="com.sspai.client/com.umeng.message.UmengBroadcastReceiver" />
-    <component-filter name="com.sspai.client/com.umeng.message.UmengIntentService" />
-    <component-filter name="com.sspai.client/com.umeng.message.UmengService" />
-    <component-filter name="com.sspai.client/org.android.agoo.service.ElectionService" />
+<component-filter name="com.sspai.client/com.umeng.message.RegistrationReceiver" />
+<component-filter name="com.sspai.client/com.umeng.message.UmengBroadcastReceiver" />
+<component-filter name="com.sspai.client/com.umeng.message.UmengIntentService" />
+<component-filter name="com.sspai.client/com.umeng.message.UmengService" />
+<component-filter name="com.sspai.client/org.android.agoo.service.ElectionService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.sspai.client/com.umeng.message.RegistrationReceiver" />
-    <component-filter name="com.sspai.client/com.umeng.message.UmengBroadcastReceiver" />
-    <component-filter name="com.sspai.client/com.umeng.message.UmengIntentService" />
-    <component-filter name="com.sspai.client/com.umeng.message.UmengService" />
-    <component-filter name="com.sspai.client/org.android.agoo.service.ElectionService" />
+<component-filter name="com.sspai.client/com.umeng.message.RegistrationReceiver" />
+<component-filter name="com.sspai.client/com.umeng.message.UmengBroadcastReceiver" />
+<component-filter name="com.sspai.client/com.umeng.message.UmengIntentService" />
+<component-filter name="com.sspai.client/com.umeng.message.UmengService" />
+<component-filter name="com.sspai.client/org.android.agoo.service.ElectionService" />
 </activity>
 </rules>

@@ -1,38 +1,38 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.qianyan.eudic/com.eusoft.dict.dashboard.DictWidgetProvider" />
-    <component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.NotifyLearningReceiver" />
-    <component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.ScreenStateReceiver" />
-    <component-filter name="com.qianyan.eudic/com.kf5.sdk.im.service.MessageService" />
-    <component-filter name="com.qianyan.eudic/io.rong.imlib.ConnectChangeReceiver" />
-    <component-filter name="com.qianyan.eudic/io.rong.imlib.ReConnectService" />
-    <component-filter name="com.qianyan.eudic/io.rong.imlib.ipc.RongService" />
-    <component-filter name="com.qianyan.eudic/io.rong.push.PushReceiver" />
-    <component-filter name="com.qianyan.eudic/io.rong.push.PushService" />
-    <component-filter name="com.qianyan.eudic/io.rong.push.core.MessageHandleService" />
+<component-filter name="com.qianyan.eudic/com.eusoft.dict.dashboard.DictWidgetProvider" />
+<component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.NotifyLearningReceiver" />
+<component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.ScreenStateReceiver" />
+<component-filter name="com.qianyan.eudic/com.kf5.sdk.im.service.MessageService" />
+<component-filter name="com.qianyan.eudic/io.rong.imlib.ConnectChangeReceiver" />
+<component-filter name="com.qianyan.eudic/io.rong.imlib.ReConnectService" />
+<component-filter name="com.qianyan.eudic/io.rong.imlib.ipc.RongService" />
+<component-filter name="com.qianyan.eudic/io.rong.push.PushReceiver" />
+<component-filter name="com.qianyan.eudic/io.rong.push.PushService" />
+<component-filter name="com.qianyan.eudic/io.rong.push.core.MessageHandleService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.qianyan.eudic/com.eusoft.dict.dashboard.DictWidgetProvider" />
-    <component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.NotifyLearningReceiver" />
-    <component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.ScreenStateReceiver" />
-    <component-filter name="com.qianyan.eudic/com.kf5.sdk.im.service.MessageService" />
-    <component-filter name="com.qianyan.eudic/io.rong.imlib.ConnectChangeReceiver" />
-    <component-filter name="com.qianyan.eudic/io.rong.imlib.ReConnectService" />
-    <component-filter name="com.qianyan.eudic/io.rong.imlib.ipc.RongService" />
-    <component-filter name="com.qianyan.eudic/io.rong.push.PushReceiver" />
-    <component-filter name="com.qianyan.eudic/io.rong.push.PushService" />
-    <component-filter name="com.qianyan.eudic/io.rong.push.core.MessageHandleService" />
+<component-filter name="com.qianyan.eudic/com.eusoft.dict.dashboard.DictWidgetProvider" />
+<component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.NotifyLearningReceiver" />
+<component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.ScreenStateReceiver" />
+<component-filter name="com.qianyan.eudic/com.kf5.sdk.im.service.MessageService" />
+<component-filter name="com.qianyan.eudic/io.rong.imlib.ConnectChangeReceiver" />
+<component-filter name="com.qianyan.eudic/io.rong.imlib.ReConnectService" />
+<component-filter name="com.qianyan.eudic/io.rong.imlib.ipc.RongService" />
+<component-filter name="com.qianyan.eudic/io.rong.push.PushReceiver" />
+<component-filter name="com.qianyan.eudic/io.rong.push.PushService" />
+<component-filter name="com.qianyan.eudic/io.rong.push.core.MessageHandleService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.qianyan.eudic/com.eusoft.dict.dashboard.DictWidgetProvider" />
-    <component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.NotifyLearningReceiver" />
-    <component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.ScreenStateReceiver" />
-    <component-filter name="com.qianyan.eudic/com.kf5.sdk.im.service.MessageService" />
-    <component-filter name="com.qianyan.eudic/io.rong.imlib.ConnectChangeReceiver" />
-    <component-filter name="com.qianyan.eudic/io.rong.imlib.ReConnectService" />
-    <component-filter name="com.qianyan.eudic/io.rong.imlib.ipc.RongService" />
-    <component-filter name="com.qianyan.eudic/io.rong.push.PushReceiver" />
-    <component-filter name="com.qianyan.eudic/io.rong.push.PushService" />
-    <component-filter name="com.qianyan.eudic/io.rong.push.core.MessageHandleService" />
+<component-filter name="com.qianyan.eudic/com.eusoft.dict.dashboard.DictWidgetProvider" />
+<component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.NotifyLearningReceiver" />
+<component-filter name="com.qianyan.eudic/com.eusoft.recite.receiver.ScreenStateReceiver" />
+<component-filter name="com.qianyan.eudic/com.kf5.sdk.im.service.MessageService" />
+<component-filter name="com.qianyan.eudic/io.rong.imlib.ConnectChangeReceiver" />
+<component-filter name="com.qianyan.eudic/io.rong.imlib.ReConnectService" />
+<component-filter name="com.qianyan.eudic/io.rong.imlib.ipc.RongService" />
+<component-filter name="com.qianyan.eudic/io.rong.push.PushReceiver" />
+<component-filter name="com.qianyan.eudic/io.rong.push.PushService" />
+<component-filter name="com.qianyan.eudic/io.rong.push.core.MessageHandleService" />
 </activity>
 </rules>

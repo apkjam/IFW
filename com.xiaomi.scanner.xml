@@ -1,14 +1,14 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.xiaomi.scanner/anetwork.channel.aidl.NetworkService" />
-    <component-filter name="com.xiaomi.scanner/mtopsdk.xstate.XStateService" />
+<component-filter name="com.xiaomi.scanner/anetwork.channel.aidl.NetworkService" />
+<component-filter name="com.xiaomi.scanner/mtopsdk.xstate.XStateService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.xiaomi.scanner/anetwork.channel.aidl.NetworkService" />
-    <component-filter name="com.xiaomi.scanner/mtopsdk.xstate.XStateService" />
+<component-filter name="com.xiaomi.scanner/anetwork.channel.aidl.NetworkService" />
+<component-filter name="com.xiaomi.scanner/mtopsdk.xstate.XStateService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.xiaomi.scanner/anetwork.channel.aidl.NetworkService" />
-    <component-filter name="com.xiaomi.scanner/mtopsdk.xstate.XStateService" />
+<component-filter name="com.xiaomi.scanner/anetwork.channel.aidl.NetworkService" />
+<component-filter name="com.xiaomi.scanner/mtopsdk.xstate.XStateService" />
 </activity>
 </rules>

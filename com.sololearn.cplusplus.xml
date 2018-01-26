@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.sololearn.cplusplus/com.sololearn.app.xapp.XAppReceiver" />
+<component-filter name="com.sololearn.cplusplus/com.sololearn.app.xapp.XAppReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.sololearn.cplusplus/com.sololearn.app.xapp.XAppReceiver" />
+<component-filter name="com.sololearn.cplusplus/com.sololearn.app.xapp.XAppReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.sololearn.cplusplus/com.sololearn.app.xapp.XAppReceiver" />
+<component-filter name="com.sololearn.cplusplus/com.sololearn.app.xapp.XAppReceiver" />
 </activity>
 </rules>

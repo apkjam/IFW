@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.android.managedprovisioning/com.android.managedprovisioning.uiflows.PostEncryptionActivity" />
+<component-filter name="com.android.managedprovisioning/com.android.managedprovisioning.uiflows.PostEncryptionActivity" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.android.managedprovisioning/com.android.managedprovisioning.uiflows.PostEncryptionActivity" />
+<component-filter name="com.android.managedprovisioning/com.android.managedprovisioning.uiflows.PostEncryptionActivity" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.android.managedprovisioning/com.android.managedprovisioning.uiflows.PostEncryptionActivity" />
+<component-filter name="com.android.managedprovisioning/com.android.managedprovisioning.uiflows.PostEncryptionActivity" />
 </activity>
 </rules>

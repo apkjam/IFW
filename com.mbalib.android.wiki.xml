@@ -1,32 +1,32 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.mbalib.android.wiki/.receiver.SwitchLanguageReceiver" />
-    <component-filter name="com.mbalib.android.wiki/.service.ReceiveMsgService" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.BootBroadcastReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.ElectionReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.MessageReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.SystemReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengIntentService" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengService" />
+<component-filter name="com.mbalib.android.wiki/.receiver.SwitchLanguageReceiver" />
+<component-filter name="com.mbalib.android.wiki/.service.ReceiveMsgService" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.BootBroadcastReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.ElectionReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.MessageReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.SystemReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengIntentService" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.mbalib.android.wiki/.receiver.SwitchLanguageReceiver" />
-    <component-filter name="com.mbalib.android.wiki/.service.ReceiveMsgService" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.BootBroadcastReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.ElectionReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.MessageReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.SystemReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengIntentService" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengService" />
+<component-filter name="com.mbalib.android.wiki/.receiver.SwitchLanguageReceiver" />
+<component-filter name="com.mbalib.android.wiki/.service.ReceiveMsgService" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.BootBroadcastReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.ElectionReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.MessageReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.SystemReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengIntentService" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.mbalib.android.wiki/.receiver.SwitchLanguageReceiver" />
-    <component-filter name="com.mbalib.android.wiki/.service.ReceiveMsgService" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.BootBroadcastReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.ElectionReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.MessageReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.SystemReceiver" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengIntentService" />
-    <component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengService" />
+<component-filter name="com.mbalib.android.wiki/.receiver.SwitchLanguageReceiver" />
+<component-filter name="com.mbalib.android.wiki/.service.ReceiveMsgService" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.BootBroadcastReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.ElectionReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.MessageReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.SystemReceiver" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengIntentService" />
+<component-filter name="com.mbalib.android.wiki/com.umeng.message.UmengService" />
 </activity>
 </rules>

@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.instorepay.service.NfcPaymentService" />
+<component-filter name="com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.instorepay.service.NfcPaymentService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.instorepay.service.NfcPaymentService" />
+<component-filter name="com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.instorepay.service.NfcPaymentService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.instorepay.service.NfcPaymentService" />
+<component-filter name="com.paypal.android.p2pmobile/com.paypal.android.p2pmobile.instorepay.service.NfcPaymentService" />
 </activity>
 </rules>

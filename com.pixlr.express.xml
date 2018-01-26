@@ -1,38 +1,38 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.pixlr.express/.MyFirebaseInstanceIDService" />
-    <component-filter name="com.pixlr.express/.MyFirebaseMessagingService" />
-    <component-filter name="com.pixlr.express/.cast.PXMediaButtonReceiver" />
-    <component-filter name="com.pixlr.express/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-    <component-filter name="com.pixlr.express/com.google.android.gms.measurement.AppMeasurementReceiver" />
-    <component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-    <component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.pixlr.express/com.google.firebase.messaging.FirebaseMessagingService" />
-    <component-filter name="com.pixlr.express/com.inmobi.commons.analytics.androidsdk.IMAdTrackerReceiver" />
-    <component-filter name="com.pixlr.express/com.mixpanel.android.mpmetrics.InstallReferrerReceiver" />
+<component-filter name="com.pixlr.express/.MyFirebaseInstanceIDService" />
+<component-filter name="com.pixlr.express/.MyFirebaseMessagingService" />
+<component-filter name="com.pixlr.express/.cast.PXMediaButtonReceiver" />
+<component-filter name="com.pixlr.express/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+<component-filter name="com.pixlr.express/com.google.android.gms.measurement.AppMeasurementReceiver" />
+<component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+<component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdService" />
+<component-filter name="com.pixlr.express/com.google.firebase.messaging.FirebaseMessagingService" />
+<component-filter name="com.pixlr.express/com.inmobi.commons.analytics.androidsdk.IMAdTrackerReceiver" />
+<component-filter name="com.pixlr.express/com.mixpanel.android.mpmetrics.InstallReferrerReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.pixlr.express/.MyFirebaseInstanceIDService" />
-    <component-filter name="com.pixlr.express/.MyFirebaseMessagingService" />
-    <component-filter name="com.pixlr.express/.cast.PXMediaButtonReceiver" />
-    <component-filter name="com.pixlr.express/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-    <component-filter name="com.pixlr.express/com.google.android.gms.measurement.AppMeasurementReceiver" />
-    <component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-    <component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.pixlr.express/com.google.firebase.messaging.FirebaseMessagingService" />
-    <component-filter name="com.pixlr.express/com.inmobi.commons.analytics.androidsdk.IMAdTrackerReceiver" />
-    <component-filter name="com.pixlr.express/com.mixpanel.android.mpmetrics.InstallReferrerReceiver" />
+<component-filter name="com.pixlr.express/.MyFirebaseInstanceIDService" />
+<component-filter name="com.pixlr.express/.MyFirebaseMessagingService" />
+<component-filter name="com.pixlr.express/.cast.PXMediaButtonReceiver" />
+<component-filter name="com.pixlr.express/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+<component-filter name="com.pixlr.express/com.google.android.gms.measurement.AppMeasurementReceiver" />
+<component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+<component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdService" />
+<component-filter name="com.pixlr.express/com.google.firebase.messaging.FirebaseMessagingService" />
+<component-filter name="com.pixlr.express/com.inmobi.commons.analytics.androidsdk.IMAdTrackerReceiver" />
+<component-filter name="com.pixlr.express/com.mixpanel.android.mpmetrics.InstallReferrerReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.pixlr.express/.MyFirebaseInstanceIDService" />
-    <component-filter name="com.pixlr.express/.MyFirebaseMessagingService" />
-    <component-filter name="com.pixlr.express/.cast.PXMediaButtonReceiver" />
-    <component-filter name="com.pixlr.express/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-    <component-filter name="com.pixlr.express/com.google.android.gms.measurement.AppMeasurementReceiver" />
-    <component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-    <component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.pixlr.express/com.google.firebase.messaging.FirebaseMessagingService" />
-    <component-filter name="com.pixlr.express/com.inmobi.commons.analytics.androidsdk.IMAdTrackerReceiver" />
-    <component-filter name="com.pixlr.express/com.mixpanel.android.mpmetrics.InstallReferrerReceiver" />
+<component-filter name="com.pixlr.express/.MyFirebaseInstanceIDService" />
+<component-filter name="com.pixlr.express/.MyFirebaseMessagingService" />
+<component-filter name="com.pixlr.express/.cast.PXMediaButtonReceiver" />
+<component-filter name="com.pixlr.express/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+<component-filter name="com.pixlr.express/com.google.android.gms.measurement.AppMeasurementReceiver" />
+<component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+<component-filter name="com.pixlr.express/com.google.firebase.iid.FirebaseInstanceIdService" />
+<component-filter name="com.pixlr.express/com.google.firebase.messaging.FirebaseMessagingService" />
+<component-filter name="com.pixlr.express/com.inmobi.commons.analytics.androidsdk.IMAdTrackerReceiver" />
+<component-filter name="com.pixlr.express/com.mixpanel.android.mpmetrics.InstallReferrerReceiver" />
 </activity>
 </rules>

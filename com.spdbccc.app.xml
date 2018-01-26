@@ -1,35 +1,35 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.spdbccc.app/.my.activity.hcecard.service.HceBankService" />
-    <component-filter name="com.spdbccc.app/.service.ApduService" />
-    <component-filter name="com.spdbccc.app/cn.jpush.android.service.DaemonService" />
-    <component-filter name="com.spdbccc.app/cn.jpush.android.service.PushReceiver" />
-    <component-filter name="com.spdbccc.app/cn.jpush.android.service.PushService" />
-    <component-filter name="com.spdbccc.app/com.eguan.monitor.receiver.SystemStartReceiver" />
-    <component-filter name="com.spdbccc.app/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
-    <component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.HcePushService" />
-    <component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+<component-filter name="com.spdbccc.app/.my.activity.hcecard.service.HceBankService" />
+<component-filter name="com.spdbccc.app/.service.ApduService" />
+<component-filter name="com.spdbccc.app/cn.jpush.android.service.DaemonService" />
+<component-filter name="com.spdbccc.app/cn.jpush.android.service.PushReceiver" />
+<component-filter name="com.spdbccc.app/cn.jpush.android.service.PushService" />
+<component-filter name="com.spdbccc.app/com.eguan.monitor.receiver.SystemStartReceiver" />
+<component-filter name="com.spdbccc.app/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+<component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.HcePushService" />
+<component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.spdbccc.app/.my.activity.hcecard.service.HceBankService" />
-    <component-filter name="com.spdbccc.app/.service.ApduService" />
-    <component-filter name="com.spdbccc.app/cn.jpush.android.service.DaemonService" />
-    <component-filter name="com.spdbccc.app/cn.jpush.android.service.PushReceiver" />
-    <component-filter name="com.spdbccc.app/cn.jpush.android.service.PushService" />
-    <component-filter name="com.spdbccc.app/com.eguan.monitor.receiver.SystemStartReceiver" />
-    <component-filter name="com.spdbccc.app/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
-    <component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.HcePushService" />
-    <component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+<component-filter name="com.spdbccc.app/.my.activity.hcecard.service.HceBankService" />
+<component-filter name="com.spdbccc.app/.service.ApduService" />
+<component-filter name="com.spdbccc.app/cn.jpush.android.service.DaemonService" />
+<component-filter name="com.spdbccc.app/cn.jpush.android.service.PushReceiver" />
+<component-filter name="com.spdbccc.app/cn.jpush.android.service.PushService" />
+<component-filter name="com.spdbccc.app/com.eguan.monitor.receiver.SystemStartReceiver" />
+<component-filter name="com.spdbccc.app/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+<component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.HcePushService" />
+<component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.spdbccc.app/.my.activity.hcecard.service.HceBankService" />
-    <component-filter name="com.spdbccc.app/.service.ApduService" />
-    <component-filter name="com.spdbccc.app/cn.jpush.android.service.DaemonService" />
-    <component-filter name="com.spdbccc.app/cn.jpush.android.service.PushReceiver" />
-    <component-filter name="com.spdbccc.app/cn.jpush.android.service.PushService" />
-    <component-filter name="com.spdbccc.app/com.eguan.monitor.receiver.SystemStartReceiver" />
-    <component-filter name="com.spdbccc.app/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
-    <component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.HcePushService" />
-    <component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
+<component-filter name="com.spdbccc.app/.my.activity.hcecard.service.HceBankService" />
+<component-filter name="com.spdbccc.app/.service.ApduService" />
+<component-filter name="com.spdbccc.app/cn.jpush.android.service.DaemonService" />
+<component-filter name="com.spdbccc.app/cn.jpush.android.service.PushReceiver" />
+<component-filter name="com.spdbccc.app/cn.jpush.android.service.PushService" />
+<component-filter name="com.spdbccc.app/com.eguan.monitor.receiver.SystemStartReceiver" />
+<component-filter name="com.spdbccc.app/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
+<component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.HcePushService" />
+<component-filter name="com.spdbccc.app/com.gieseckedevrient.android.pushclient.PushBroadCastReceiver" />
 </activity>
 </rules>

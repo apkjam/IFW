@@ -1,23 +1,23 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.pass.PassMessageReceiver" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.pass.receiver.NetWorkChangeReceiver" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.pass.PassMessageReceiver" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.pass.receiver.NetWorkChangeReceiver" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.pass.PassMessageReceiver" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.pass.receiver.NetWorkChangeReceiver" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.pass.PassMessageReceiver" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.pass.receiver.NetWorkChangeReceiver" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.pass.PassMessageReceiver" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.pass.receiver.NetWorkChangeReceiver" />
-    <component-filter name="com.xiaomi.pass/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.pass.PassMessageReceiver" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.pass.receiver.NetWorkChangeReceiver" />
+<component-filter name="com.xiaomi.pass/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </activity>
 </rules>

@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.android.provision/com.android.provision.activities.DefaultActivity" />
+<component-filter name="com.android.provision/com.android.provision.activities.DefaultActivity" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.android.provision/com.android.provision.activities.DefaultActivity" />
+<component-filter name="com.android.provision/com.android.provision.activities.DefaultActivity" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.android.provision/com.android.provision.activities.DefaultActivity" />
+<component-filter name="com.android.provision/com.android.provision.activities.DefaultActivity" />
 </activity>
 </rules>

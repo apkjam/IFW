@@ -1,26 +1,26 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.snapchat.android/.AppInstallBroadcastReceiver" />
-    <component-filter name="com.snapchat.android/.widgets.BestFriendsWidget" />
-    <component-filter name="com.snapchat.android/.widgets.FriendWidget" />
-    <component-filter name="com.snapchat.android/com.google.android.gms.gcm.GcmReceiver" />
-    <component-filter name="com.snapchat.android/com.snapchat.laguna.service.LagunaWakefulReceiver" />
-    <component-filter name="com.snapchat.android/com.snapchat.spectacles.laguna.service.LagunaWakefulReceiver" />
+<component-filter name="com.snapchat.android/.AppInstallBroadcastReceiver" />
+<component-filter name="com.snapchat.android/.widgets.BestFriendsWidget" />
+<component-filter name="com.snapchat.android/.widgets.FriendWidget" />
+<component-filter name="com.snapchat.android/com.google.android.gms.gcm.GcmReceiver" />
+<component-filter name="com.snapchat.android/com.snapchat.laguna.service.LagunaWakefulReceiver" />
+<component-filter name="com.snapchat.android/com.snapchat.spectacles.laguna.service.LagunaWakefulReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.snapchat.android/.AppInstallBroadcastReceiver" />
-    <component-filter name="com.snapchat.android/.widgets.BestFriendsWidget" />
-    <component-filter name="com.snapchat.android/.widgets.FriendWidget" />
-    <component-filter name="com.snapchat.android/com.google.android.gms.gcm.GcmReceiver" />
-    <component-filter name="com.snapchat.android/com.snapchat.laguna.service.LagunaWakefulReceiver" />
-    <component-filter name="com.snapchat.android/com.snapchat.spectacles.laguna.service.LagunaWakefulReceiver" />
+<component-filter name="com.snapchat.android/.AppInstallBroadcastReceiver" />
+<component-filter name="com.snapchat.android/.widgets.BestFriendsWidget" />
+<component-filter name="com.snapchat.android/.widgets.FriendWidget" />
+<component-filter name="com.snapchat.android/com.google.android.gms.gcm.GcmReceiver" />
+<component-filter name="com.snapchat.android/com.snapchat.laguna.service.LagunaWakefulReceiver" />
+<component-filter name="com.snapchat.android/com.snapchat.spectacles.laguna.service.LagunaWakefulReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.snapchat.android/.AppInstallBroadcastReceiver" />
-    <component-filter name="com.snapchat.android/.widgets.BestFriendsWidget" />
-    <component-filter name="com.snapchat.android/.widgets.FriendWidget" />
-    <component-filter name="com.snapchat.android/com.google.android.gms.gcm.GcmReceiver" />
-    <component-filter name="com.snapchat.android/com.snapchat.laguna.service.LagunaWakefulReceiver" />
-    <component-filter name="com.snapchat.android/com.snapchat.spectacles.laguna.service.LagunaWakefulReceiver" />
+<component-filter name="com.snapchat.android/.AppInstallBroadcastReceiver" />
+<component-filter name="com.snapchat.android/.widgets.BestFriendsWidget" />
+<component-filter name="com.snapchat.android/.widgets.FriendWidget" />
+<component-filter name="com.snapchat.android/com.google.android.gms.gcm.GcmReceiver" />
+<component-filter name="com.snapchat.android/com.snapchat.laguna.service.LagunaWakefulReceiver" />
+<component-filter name="com.snapchat.android/com.snapchat.spectacles.laguna.service.LagunaWakefulReceiver" />
 </activity>
 </rules>

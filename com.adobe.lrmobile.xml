@@ -1,29 +1,29 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.adobe.lrmobile/.LrImporterReceiver" />
-    <component-filter name="com.adobe.lrmobile/.application.capture.CaptureImportReceiver" />
-    <component-filter name="com.adobe.lrmobile/.lrimport.ptpimport.PtpDeviceReceiver" />
-    <component-filter name="com.adobe.lrmobile/.profilecorrection.NetworkStatusReceiver" />
-    <component-filter name="com.adobe.lrmobile/.thfoundation.analytics.THAnalyticsBroadcastReceiver" />
-    <component-filter name="com.adobe.lrmobile/.thfoundation.android.THBroadcastReceiver" />
-    <component-filter name="com.adobe.lrmobile/com.adobe.lrmobile.profilecorrection.NetworkStatusReceiver" />
+<component-filter name="com.adobe.lrmobile/.LrImporterReceiver" />
+<component-filter name="com.adobe.lrmobile/.application.capture.CaptureImportReceiver" />
+<component-filter name="com.adobe.lrmobile/.lrimport.ptpimport.PtpDeviceReceiver" />
+<component-filter name="com.adobe.lrmobile/.profilecorrection.NetworkStatusReceiver" />
+<component-filter name="com.adobe.lrmobile/.thfoundation.analytics.THAnalyticsBroadcastReceiver" />
+<component-filter name="com.adobe.lrmobile/.thfoundation.android.THBroadcastReceiver" />
+<component-filter name="com.adobe.lrmobile/com.adobe.lrmobile.profilecorrection.NetworkStatusReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.adobe.lrmobile/.LrImporterReceiver" />
-    <component-filter name="com.adobe.lrmobile/.application.capture.CaptureImportReceiver" />
-    <component-filter name="com.adobe.lrmobile/.lrimport.ptpimport.PtpDeviceReceiver" />
-    <component-filter name="com.adobe.lrmobile/.profilecorrection.NetworkStatusReceiver" />
-    <component-filter name="com.adobe.lrmobile/.thfoundation.analytics.THAnalyticsBroadcastReceiver" />
-    <component-filter name="com.adobe.lrmobile/.thfoundation.android.THBroadcastReceiver" />
-    <component-filter name="com.adobe.lrmobile/com.adobe.lrmobile.profilecorrection.NetworkStatusReceiver" />
+<component-filter name="com.adobe.lrmobile/.LrImporterReceiver" />
+<component-filter name="com.adobe.lrmobile/.application.capture.CaptureImportReceiver" />
+<component-filter name="com.adobe.lrmobile/.lrimport.ptpimport.PtpDeviceReceiver" />
+<component-filter name="com.adobe.lrmobile/.profilecorrection.NetworkStatusReceiver" />
+<component-filter name="com.adobe.lrmobile/.thfoundation.analytics.THAnalyticsBroadcastReceiver" />
+<component-filter name="com.adobe.lrmobile/.thfoundation.android.THBroadcastReceiver" />
+<component-filter name="com.adobe.lrmobile/com.adobe.lrmobile.profilecorrection.NetworkStatusReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.adobe.lrmobile/.LrImporterReceiver" />
-    <component-filter name="com.adobe.lrmobile/.application.capture.CaptureImportReceiver" />
-    <component-filter name="com.adobe.lrmobile/.lrimport.ptpimport.PtpDeviceReceiver" />
-    <component-filter name="com.adobe.lrmobile/.profilecorrection.NetworkStatusReceiver" />
-    <component-filter name="com.adobe.lrmobile/.thfoundation.analytics.THAnalyticsBroadcastReceiver" />
-    <component-filter name="com.adobe.lrmobile/.thfoundation.android.THBroadcastReceiver" />
-    <component-filter name="com.adobe.lrmobile/com.adobe.lrmobile.profilecorrection.NetworkStatusReceiver" />
+<component-filter name="com.adobe.lrmobile/.LrImporterReceiver" />
+<component-filter name="com.adobe.lrmobile/.application.capture.CaptureImportReceiver" />
+<component-filter name="com.adobe.lrmobile/.lrimport.ptpimport.PtpDeviceReceiver" />
+<component-filter name="com.adobe.lrmobile/.profilecorrection.NetworkStatusReceiver" />
+<component-filter name="com.adobe.lrmobile/.thfoundation.analytics.THAnalyticsBroadcastReceiver" />
+<component-filter name="com.adobe.lrmobile/.thfoundation.android.THBroadcastReceiver" />
+<component-filter name="com.adobe.lrmobile/com.adobe.lrmobile.profilecorrection.NetworkStatusReceiver" />
 </activity>
 </rules>

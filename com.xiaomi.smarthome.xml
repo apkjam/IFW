@@ -1,26 +1,26 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.framework.push.PushReceiver" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.framework.push.PushReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.framework.push.PushReceiver" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.framework.push.PushReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.receivers.PingReceiver" />
-    <component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.framework.push.PushReceiver" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xiaomi.smarthome/com.xiaomi.smarthome.framework.push.PushReceiver" />
 </activity>
 </rules>

@@ -1,11 +1,11 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.yelp.android/com.kahuna.sdk.KahunaPushService" />
+<component-filter name="com.yelp.android/com.kahuna.sdk.KahunaPushService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.yelp.android/com.kahuna.sdk.KahunaPushService" />
+<component-filter name="com.yelp.android/com.kahuna.sdk.KahunaPushService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.yelp.android/com.kahuna.sdk.KahunaPushService" />
+<component-filter name="com.yelp.android/com.kahuna.sdk.KahunaPushService" />
 </activity>
 </rules>

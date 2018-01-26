@@ -1,44 +1,44 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.pinterest/.pushnotification.InstanceIDListenerService" />
-    <component-filter name="com.pinterest/.pushnotification.MessagingService" />
-    <component-filter name="com.pinterest/.receiver.DeviceStartReceiver" />
-    <component-filter name="com.pinterest/.receiver.MasterInstallReferrerReceiver" />
-    <component-filter name="com.pinterest/.receiver.MultiDexingAppUpdateReceiver" />
-    <component-filter name="com.pinterest/com.firebase.jobdispatcher.GooglePlayReceiver" />
-    <component-filter name="com.pinterest/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-    <component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-    <component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementJobService" />
-    <component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-    <component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.pinterest/com.google.firebase.messaging.FirebaseMessagingService" />
+<component-filter name="com.pinterest/.pushnotification.InstanceIDListenerService" />
+<component-filter name="com.pinterest/.pushnotification.MessagingService" />
+<component-filter name="com.pinterest/.receiver.DeviceStartReceiver" />
+<component-filter name="com.pinterest/.receiver.MasterInstallReferrerReceiver" />
+<component-filter name="com.pinterest/.receiver.MultiDexingAppUpdateReceiver" />
+<component-filter name="com.pinterest/com.firebase.jobdispatcher.GooglePlayReceiver" />
+<component-filter name="com.pinterest/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+<component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+<component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementJobService" />
+<component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+<component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdService" />
+<component-filter name="com.pinterest/com.google.firebase.messaging.FirebaseMessagingService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.pinterest/.pushnotification.InstanceIDListenerService" />
-    <component-filter name="com.pinterest/.pushnotification.MessagingService" />
-    <component-filter name="com.pinterest/.receiver.DeviceStartReceiver" />
-    <component-filter name="com.pinterest/.receiver.MasterInstallReferrerReceiver" />
-    <component-filter name="com.pinterest/.receiver.MultiDexingAppUpdateReceiver" />
-    <component-filter name="com.pinterest/com.firebase.jobdispatcher.GooglePlayReceiver" />
-    <component-filter name="com.pinterest/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-    <component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-    <component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementJobService" />
-    <component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-    <component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.pinterest/com.google.firebase.messaging.FirebaseMessagingService" />
+<component-filter name="com.pinterest/.pushnotification.InstanceIDListenerService" />
+<component-filter name="com.pinterest/.pushnotification.MessagingService" />
+<component-filter name="com.pinterest/.receiver.DeviceStartReceiver" />
+<component-filter name="com.pinterest/.receiver.MasterInstallReferrerReceiver" />
+<component-filter name="com.pinterest/.receiver.MultiDexingAppUpdateReceiver" />
+<component-filter name="com.pinterest/com.firebase.jobdispatcher.GooglePlayReceiver" />
+<component-filter name="com.pinterest/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+<component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+<component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementJobService" />
+<component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+<component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdService" />
+<component-filter name="com.pinterest/com.google.firebase.messaging.FirebaseMessagingService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.pinterest/.pushnotification.InstanceIDListenerService" />
-    <component-filter name="com.pinterest/.pushnotification.MessagingService" />
-    <component-filter name="com.pinterest/.receiver.DeviceStartReceiver" />
-    <component-filter name="com.pinterest/.receiver.MasterInstallReferrerReceiver" />
-    <component-filter name="com.pinterest/.receiver.MultiDexingAppUpdateReceiver" />
-    <component-filter name="com.pinterest/com.firebase.jobdispatcher.GooglePlayReceiver" />
-    <component-filter name="com.pinterest/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-    <component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-    <component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementJobService" />
-    <component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-    <component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.pinterest/com.google.firebase.messaging.FirebaseMessagingService" />
+<component-filter name="com.pinterest/.pushnotification.InstanceIDListenerService" />
+<component-filter name="com.pinterest/.pushnotification.MessagingService" />
+<component-filter name="com.pinterest/.receiver.DeviceStartReceiver" />
+<component-filter name="com.pinterest/.receiver.MasterInstallReferrerReceiver" />
+<component-filter name="com.pinterest/.receiver.MultiDexingAppUpdateReceiver" />
+<component-filter name="com.pinterest/com.firebase.jobdispatcher.GooglePlayReceiver" />
+<component-filter name="com.pinterest/com.google.android.gms.auth.api.signin.RevocationBoundService" />
+<component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+<component-filter name="com.pinterest/com.google.android.gms.measurement.AppMeasurementJobService" />
+<component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+<component-filter name="com.pinterest/com.google.firebase.iid.FirebaseInstanceIdService" />
+<component-filter name="com.pinterest/com.google.firebase.messaging.FirebaseMessagingService" />
 </activity>
 </rules>

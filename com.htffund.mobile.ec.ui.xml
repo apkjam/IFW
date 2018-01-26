@@ -1,14 +1,14 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.htffund.mobile.ec.ui/cn.jpush.android.service.DaemonService" />
-    <component-filter name="com.htffund.mobile.ec.ui/com.htffund.mobile.ec.receiver.PushReceiver" />
+<component-filter name="com.htffund.mobile.ec.ui/cn.jpush.android.service.DaemonService" />
+<component-filter name="com.htffund.mobile.ec.ui/com.htffund.mobile.ec.receiver.PushReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.htffund.mobile.ec.ui/cn.jpush.android.service.DaemonService" />
-    <component-filter name="com.htffund.mobile.ec.ui/com.htffund.mobile.ec.receiver.PushReceiver" />
+<component-filter name="com.htffund.mobile.ec.ui/cn.jpush.android.service.DaemonService" />
+<component-filter name="com.htffund.mobile.ec.ui/com.htffund.mobile.ec.receiver.PushReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.htffund.mobile.ec.ui/cn.jpush.android.service.DaemonService" />
-    <component-filter name="com.htffund.mobile.ec.ui/com.htffund.mobile.ec.receiver.PushReceiver" />
+<component-filter name="com.htffund.mobile.ec.ui/cn.jpush.android.service.DaemonService" />
+<component-filter name="com.htffund.mobile.ec.ui/com.htffund.mobile.ec.receiver.PushReceiver" />
 </activity>
 </rules>

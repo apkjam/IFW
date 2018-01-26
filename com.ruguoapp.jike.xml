@@ -1,44 +1,44 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.ruguoapp.jike/com.huawei.hms.support.api.push.PushEventReceiver" />
-    <component-filter name="com.ruguoapp.jike/com.igexin.download.DownloadService" />
-    <component-filter name="com.ruguoapp.jike/com.igexin.sdk.PushService" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.PureBackground" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.gt.GTPushService" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.hw.HwPushReceiver" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.mi.MiPushReceiver" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ruguoapp.jike/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.ruguoapp.jike/com.igexin.download.DownloadService" />
+<component-filter name="com.ruguoapp.jike/com.igexin.sdk.PushService" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.PureBackground" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.gt.GTPushService" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.hw.HwPushReceiver" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.mi.MiPushReceiver" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.ruguoapp.jike/com.huawei.hms.support.api.push.PushEventReceiver" />
-    <component-filter name="com.ruguoapp.jike/com.igexin.download.DownloadService" />
-    <component-filter name="com.ruguoapp.jike/com.igexin.sdk.PushService" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.PureBackground" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.gt.GTPushService" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.hw.HwPushReceiver" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.mi.MiPushReceiver" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ruguoapp.jike/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.ruguoapp.jike/com.igexin.download.DownloadService" />
+<component-filter name="com.ruguoapp.jike/com.igexin.sdk.PushService" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.PureBackground" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.gt.GTPushService" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.hw.HwPushReceiver" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.mi.MiPushReceiver" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.ruguoapp.jike/com.huawei.hms.support.api.push.PushEventReceiver" />
-    <component-filter name="com.ruguoapp.jike/com.igexin.download.DownloadService" />
-    <component-filter name="com.ruguoapp.jike/com.igexin.sdk.PushService" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.PureBackground" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.gt.GTPushService" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.hw.HwPushReceiver" />
-    <component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.mi.MiPushReceiver" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.MessageHandleService" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ruguoapp.jike/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.ruguoapp.jike/com.igexin.download.DownloadService" />
+<component-filter name="com.ruguoapp.jike/com.igexin.sdk.PushService" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.PureBackground" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.gt.GTPushService" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.hw.HwPushReceiver" />
+<component-filter name="com.ruguoapp.jike/com.ruguoapp.jike.push.mi.MiPushReceiver" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.ruguoapp.jike/com.xiaomi.push.service.receivers.PingReceiver" />
 </activity>
 </rules>
