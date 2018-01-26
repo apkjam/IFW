@@ -1,59 +1,35 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.exceptionreport.ExceptionReportReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
+    <component-filter name="com.netease.snailread/.push.PushMessageReceiver" />
     <component-filter name="com.netease.snailread/.receiver.ConnectivityReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceBootReceiver" />
     <component-filter name="com.netease.snailread/com.netease.cloud.nos.android.receiver.ConnectionChangeReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServicePackageReceiver" />
-    <component-filter name="com.netease.snailread/.push.PushMessageReceiver" />
+    <component-filter name="com.netease.snailread/com.netease.exceptionreport.ExceptionReportReceiver" />
     <component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
-    <component-filter name="com.netease.snailread/.receiver.ConnectivityReceiver" />
     <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceBootReceiver" />
     <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServicePackageReceiver" />
-    <component-filter name="com.netease.snailread/.push.PushMessageReceiver" />
+    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
+    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.exceptionreport.ExceptionReportReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
+    <component-filter name="com.netease.snailread/.push.PushMessageReceiver" />
     <component-filter name="com.netease.snailread/.receiver.ConnectivityReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceBootReceiver" />
     <component-filter name="com.netease.snailread/com.netease.cloud.nos.android.receiver.ConnectionChangeReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServicePackageReceiver" />
-    <component-filter name="com.netease.snailread/.push.PushMessageReceiver" />
+    <component-filter name="com.netease.snailread/com.netease.exceptionreport.ExceptionReportReceiver" />
     <component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
-    <component-filter name="com.netease.snailread/.receiver.ConnectivityReceiver" />
     <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceBootReceiver" />
     <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServicePackageReceiver" />
-    <component-filter name="com.netease.snailread/.push.PushMessageReceiver" />
+    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
+    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.exceptionreport.ExceptionReportReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
+    <component-filter name="com.netease.snailread/.push.PushMessageReceiver" />
     <component-filter name="com.netease.snailread/.receiver.ConnectivityReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceBootReceiver" />
     <component-filter name="com.netease.snailread/com.netease.cloud.nos.android.receiver.ConnectionChangeReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServicePackageReceiver" />
-    <component-filter name="com.netease.snailread/.push.PushMessageReceiver" />
+    <component-filter name="com.netease.snailread/com.netease.exceptionreport.ExceptionReportReceiver" />
     <component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
-    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
-    <component-filter name="com.netease.snailread/.receiver.ConnectivityReceiver" />
     <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceBootReceiver" />
     <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServicePackageReceiver" />
-    <component-filter name="com.netease.snailread/.push.PushMessageReceiver" />
+    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceReconnectReceiver" />
+    <component-filter name="com.netease.snailread/com.netease.pushservice.receiver.PushServiceSystemReceiver" />
 </activity>
 </rules>

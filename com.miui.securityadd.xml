@@ -1,14 +1,14 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.miui.securityadd/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.miui.securityadd/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.miui.securityadd/com.xiaomi.mipush.sdk.PushMessageHandler" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.miui.securityadd/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.miui.securityadd/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.miui.securityadd/com.xiaomi.mipush.sdk.PushMessageHandler" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.miui.securityadd/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.miui.securityadd/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.miui.securityadd/com.xiaomi.mipush.sdk.PushMessageHandler" />
 </activity>
 </rules>

@@ -1,65 +1,53 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageIntentReceiverService" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengService" />
+    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadReceiver" />
+    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadService" />
+    <component-filter name="one.hh.oneclient/com.igexin.getuiext.service.GetuiExtService" />
+    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushReceiver" />
     <component-filter name="one.hh.oneclient/com.igexin.sdk.PushService" />
     <component-filter name="one.hh.oneclient/com.igexin.sdk.PushServiceUser" />
     <component-filter name="one.hh.oneclient/com.stub.plugin.Stub02" />
-    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushReceiver" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageBootReceiver" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.SystemReceiver" />
-    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadReceiver" />
     <component-filter name="one.hh.oneclient/com.umeng.message.ElectionReceiver" />
-    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushService" />
-    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushServiceUser" />
-    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadService" />
-    <component-filter name="one.hh.oneclient/com.igexin.getuiext.service.GetuiExtService" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.SystemReceiver" />
     <component-filter name="one.hh.oneclient/com.umeng.message.UmengIntentService" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageBootReceiver" />
     <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageCallbackHandlerService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.UmengService" />
     <component-filter name="one.hh.oneclient/com.umeng.message.local.UmengLocalNotificationService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageIntentReceiverService" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengService" />
+    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadReceiver" />
+    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadService" />
+    <component-filter name="one.hh.oneclient/com.igexin.getuiext.service.GetuiExtService" />
+    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushReceiver" />
     <component-filter name="one.hh.oneclient/com.igexin.sdk.PushService" />
     <component-filter name="one.hh.oneclient/com.igexin.sdk.PushServiceUser" />
     <component-filter name="one.hh.oneclient/com.stub.plugin.Stub02" />
-    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushReceiver" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageBootReceiver" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.SystemReceiver" />
-    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadReceiver" />
     <component-filter name="one.hh.oneclient/com.umeng.message.ElectionReceiver" />
-    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushService" />
-    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushServiceUser" />
-    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadService" />
-    <component-filter name="one.hh.oneclient/com.igexin.getuiext.service.GetuiExtService" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.SystemReceiver" />
     <component-filter name="one.hh.oneclient/com.umeng.message.UmengIntentService" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageBootReceiver" />
     <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageCallbackHandlerService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.UmengService" />
     <component-filter name="one.hh.oneclient/com.umeng.message.local.UmengLocalNotificationService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageIntentReceiverService" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengService" />
+    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadReceiver" />
+    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadService" />
+    <component-filter name="one.hh.oneclient/com.igexin.getuiext.service.GetuiExtService" />
+    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushReceiver" />
     <component-filter name="one.hh.oneclient/com.igexin.sdk.PushService" />
     <component-filter name="one.hh.oneclient/com.igexin.sdk.PushServiceUser" />
     <component-filter name="one.hh.oneclient/com.stub.plugin.Stub02" />
-    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushReceiver" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageBootReceiver" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.SystemReceiver" />
-    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadReceiver" />
     <component-filter name="one.hh.oneclient/com.umeng.message.ElectionReceiver" />
-    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushService" />
-    <component-filter name="one.hh.oneclient/com.igexin.sdk.PushServiceUser" />
-    <component-filter name="one.hh.oneclient/com.igexin.download.DownloadService" />
-    <component-filter name="one.hh.oneclient/com.igexin.getuiext.service.GetuiExtService" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.SystemReceiver" />
     <component-filter name="one.hh.oneclient/com.umeng.message.UmengIntentService" />
-    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageBootReceiver" />
     <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageCallbackHandlerService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.UmengMessageIntentReceiverService" />
+    <component-filter name="one.hh.oneclient/com.umeng.message.UmengService" />
     <component-filter name="one.hh.oneclient/com.umeng.message.local.UmengLocalNotificationService" />
 </activity>
 </rules>

@@ -1,0 +1,44 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService$Receiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService$SecretCodeReceiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService$TriggerReceiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.EventLogService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.EventLogService$Receiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.loginservice.MigrateToAccountManagerBroadcastReceiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.subscribedfeeds.SubscribedFeedsSyncAdapterService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$SecretCodeReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService$Receiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService$SecretCodeReceiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService$TriggerReceiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.EventLogService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.EventLogService$Receiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.loginservice.MigrateToAccountManagerBroadcastReceiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.subscribedfeeds.SubscribedFeedsSyncAdapterService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$SecretCodeReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService$Receiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService$SecretCodeReceiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.CheckinService$TriggerReceiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.EventLogService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.checkin.EventLogService$Receiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.loginservice.MigrateToAccountManagerBroadcastReceiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.subscribedfeeds.SubscribedFeedsSyncAdapterService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateActivity" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$Receiver" />
+    <component-filter name="com.google.android.gsf/com.google.android.gsf.update.SystemUpdateService$SecretCodeReceiver" />
+</activity>
+</rules>

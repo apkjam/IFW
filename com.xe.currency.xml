@@ -1,74 +1,41 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.xe.currency/com.google.firebase.messaging.FirebaseMessagingService" />
-    <component-filter name="com.xe.currency/.firebase.MyInstanceIDListenerService" />
     <component-filter name="com.xe.currency/.firebase.CurrencyIndexingService" />
-    <component-filter name="com.xe.currency/.wearable.WearableListener" />
-    <component-filter name="com.xe.currency/com.firebase.jobdispatcher.GooglePlayReceiver" />
     <component-filter name="com.xe.currency/.firebase.MyFcmListenerService" />
+    <component-filter name="com.xe.currency/.firebase.MyInstanceIDListenerService" />
+    <component-filter name="com.xe.currency/.wearable.WearableListener" />
     <component-filter name="com.xe.currency/.widget.WidgetSmallProvider" />
     <component-filter name="com.xe.currency/.widget.WidgetYotaProvider" />
+    <component-filter name="com.xe.currency/com.firebase.jobdispatcher.GooglePlayReceiver" />
     <component-filter name="com.xe.currency/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
     <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
     <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.xe.currency/.wearable.WearableListener" />
     <component-filter name="com.xe.currency/com.google.firebase.messaging.FirebaseMessagingService" />
-    <component-filter name="com.xe.currency/.firebase.MyInstanceIDListenerService" />
-    <component-filter name="com.xe.currency/.firebase.CurrencyIndexingService" />
-    <component-filter name="com.xe.currency/com.firebase.jobdispatcher.GooglePlayReceiver" />
-    <component-filter name="com.xe.currency/.firebase.MyFcmListenerService" />
-    <component-filter name="com.xe.currency/.widget.WidgetSmallProvider" />
-    <component-filter name="com.xe.currency/.widget.WidgetYotaProvider" />
-    <component-filter name="com.xe.currency/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-    <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.xe.currency/com.google.firebase.messaging.FirebaseMessagingService" />
-    <component-filter name="com.xe.currency/.firebase.MyInstanceIDListenerService" />
     <component-filter name="com.xe.currency/.firebase.CurrencyIndexingService" />
-    <component-filter name="com.xe.currency/.wearable.WearableListener" />
-    <component-filter name="com.xe.currency/com.firebase.jobdispatcher.GooglePlayReceiver" />
     <component-filter name="com.xe.currency/.firebase.MyFcmListenerService" />
+    <component-filter name="com.xe.currency/.firebase.MyInstanceIDListenerService" />
+    <component-filter name="com.xe.currency/.wearable.WearableListener" />
     <component-filter name="com.xe.currency/.widget.WidgetSmallProvider" />
     <component-filter name="com.xe.currency/.widget.WidgetYotaProvider" />
+    <component-filter name="com.xe.currency/com.firebase.jobdispatcher.GooglePlayReceiver" />
     <component-filter name="com.xe.currency/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
     <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
     <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.xe.currency/.wearable.WearableListener" />
     <component-filter name="com.xe.currency/com.google.firebase.messaging.FirebaseMessagingService" />
-    <component-filter name="com.xe.currency/.firebase.MyInstanceIDListenerService" />
-    <component-filter name="com.xe.currency/.firebase.CurrencyIndexingService" />
-    <component-filter name="com.xe.currency/com.firebase.jobdispatcher.GooglePlayReceiver" />
-    <component-filter name="com.xe.currency/.firebase.MyFcmListenerService" />
-    <component-filter name="com.xe.currency/.widget.WidgetSmallProvider" />
-    <component-filter name="com.xe.currency/.widget.WidgetYotaProvider" />
-    <component-filter name="com.xe.currency/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-    <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.xe.currency/com.google.firebase.messaging.FirebaseMessagingService" />
-    <component-filter name="com.xe.currency/.firebase.MyInstanceIDListenerService" />
     <component-filter name="com.xe.currency/.firebase.CurrencyIndexingService" />
-    <component-filter name="com.xe.currency/.wearable.WearableListener" />
-    <component-filter name="com.xe.currency/com.firebase.jobdispatcher.GooglePlayReceiver" />
     <component-filter name="com.xe.currency/.firebase.MyFcmListenerService" />
+    <component-filter name="com.xe.currency/.firebase.MyInstanceIDListenerService" />
+    <component-filter name="com.xe.currency/.wearable.WearableListener" />
     <component-filter name="com.xe.currency/.widget.WidgetSmallProvider" />
     <component-filter name="com.xe.currency/.widget.WidgetYotaProvider" />
+    <component-filter name="com.xe.currency/com.firebase.jobdispatcher.GooglePlayReceiver" />
     <component-filter name="com.xe.currency/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
     <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
     <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="com.xe.currency/.wearable.WearableListener" />
     <component-filter name="com.xe.currency/com.google.firebase.messaging.FirebaseMessagingService" />
-    <component-filter name="com.xe.currency/.firebase.MyInstanceIDListenerService" />
-    <component-filter name="com.xe.currency/.firebase.CurrencyIndexingService" />
-    <component-filter name="com.xe.currency/com.firebase.jobdispatcher.GooglePlayReceiver" />
-    <component-filter name="com.xe.currency/.firebase.MyFcmListenerService" />
-    <component-filter name="com.xe.currency/.widget.WidgetSmallProvider" />
-    <component-filter name="com.xe.currency/.widget.WidgetYotaProvider" />
-    <component-filter name="com.xe.currency/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-    <component-filter name="com.xe.currency/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
 </activity>
 </rules>

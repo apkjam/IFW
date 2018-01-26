@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.google.android.calendar/com.google.android.calendar.AllPrefsUpgradeReceiver" />
+    <component-filter name="com.google.android.calendar/com.google.android.calendar.SyncUpgradeReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.google.android.calendar/com.google.android.calendar.AllPrefsUpgradeReceiver" />
+    <component-filter name="com.google.android.calendar/com.google.android.calendar.SyncUpgradeReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.google.android.calendar/com.google.android.calendar.AllPrefsUpgradeReceiver" />
+    <component-filter name="com.google.android.calendar/com.google.android.calendar.SyncUpgradeReceiver" />
+</activity>
+</rules>

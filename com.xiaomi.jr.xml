@@ -1,26 +1,38 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.xiaomi.jr.security/com.xiaomi.jr.common.NetworkStatusReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.jr.common.NetworkStatusReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.jr.mipush.MiPushMessageBroadcastReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.receivers.PingReceiver" />
     <component-filter name="com.xiaomi.shop/com.xiaomi.jr.common.NetworkStatusReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.xiaomi.jr.security/com.xiaomi.jr.common.NetworkStatusReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.jr.common.NetworkStatusReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.jr.mipush.MiPushMessageBroadcastReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.receivers.PingReceiver" />
     <component-filter name="com.xiaomi.shop/com.xiaomi.jr.common.NetworkStatusReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.xiaomi.jr.security/com.xiaomi.jr.common.NetworkStatusReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.jr.common.NetworkStatusReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.jr.mipush.MiPushMessageBroadcastReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMJobService" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+    <component-filter name="com.xiaomi.jr/com.xiaomi.push.service.receivers.PingReceiver" />
     <component-filter name="com.xiaomi.shop/com.xiaomi.jr.common.NetworkStatusReceiver" />
 </activity>
 </rules>

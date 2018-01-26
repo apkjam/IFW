@@ -1,11 +1,17 @@
 <rules>
 <service block="true" log="false">
     <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.DebugService" />
+    <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SendToBrowserActivity" />
+    <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SyncFlagsWakefulReceiver" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.DebugService" />
+    <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SendToBrowserActivity" />
+    <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SyncFlagsWakefulReceiver" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.DebugService" />
+    <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SendToBrowserActivity" />
+    <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SyncFlagsWakefulReceiver" />
 </activity>
 </rules>

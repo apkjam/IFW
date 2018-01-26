@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.xiaomi.midrop/com.xiaomi.midrop.startup.StartupReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.xiaomi.midrop/com.xiaomi.midrop.startup.StartupReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.xiaomi.midrop/com.xiaomi.midrop.startup.StartupReceiver" />
+</activity>
+</rules>

@@ -1,56 +1,35 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.unnoo.quan/.receiver.DownLoadCompleteReceiver" />
+    <component-filter name="com.unnoo.quan/.receiver.XMPushReceiver" />
+    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.core.NetConnInfoCenter" />
+    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.service.QalService" />
     <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.service.QalService" />
+    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMPushService" />
     <component-filter name="com.unnoo.quan/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.unnoo.quan/.receiver.XMPushReceiver" />
-    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.core.NetConnInfoCenter" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.unnoo.quan/.receiver.DownLoadCompleteReceiver" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.unnoo.quan/.receiver.XMPushReceiver" />
-    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.core.NetConnInfoCenter" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.unnoo.quan/.receiver.DownLoadCompleteReceiver" />
+    <component-filter name="com.unnoo.quan/.receiver.XMPushReceiver" />
+    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.core.NetConnInfoCenter" />
+    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.service.QalService" />
     <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.service.QalService" />
+    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMPushService" />
     <component-filter name="com.unnoo.quan/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.unnoo.quan/.receiver.XMPushReceiver" />
-    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.core.NetConnInfoCenter" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.unnoo.quan/.receiver.DownLoadCompleteReceiver" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.unnoo.quan/.receiver.XMPushReceiver" />
-    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.core.NetConnInfoCenter" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.unnoo.quan/.receiver.DownLoadCompleteReceiver" />
+    <component-filter name="com.unnoo.quan/.receiver.XMPushReceiver" />
+    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.core.NetConnInfoCenter" />
+    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.service.QalService" />
     <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.service.QalService" />
+    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMPushService" />
     <component-filter name="com.unnoo.quan/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.unnoo.quan/.receiver.XMPushReceiver" />
-    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.core.NetConnInfoCenter" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService" />
-    <component-filter name="com.unnoo.quan/.receiver.DownLoadCompleteReceiver" />
-    <component-filter name="com.unnoo.quan/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.unnoo.quan/.receiver.XMPushReceiver" />
-    <component-filter name="com.unnoo.quan/com.tencent.qalsdk.core.NetConnInfoCenter" />
 </activity>
 </rules>

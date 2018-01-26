@@ -1,56 +1,35 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.mobileuncle.toolhero/.updater.SelfUpdateDownloadService" />
-    <component-filter name="com.mobileuncle.toolhero/.services.InstallerAccessibilityService" />
-    <component-filter name="com.mobileuncle.toolhero/.astat.ToolHeroService" />
-    <component-filter name="com.mobileuncle.toolhero/com.third.suclean.receiver.BootCompleteReceiver" />
     <component-filter name="com.mobileuncle.toolhero/.astat.AReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.web.serv.util.CommonReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/.utils.PackageChangeReceive" />
-    <component-filter name="com.mobileuncle.toolhero/.utils.CommonReceiver" />
     <component-filter name="com.mobileuncle.toolhero/.astat.ToolHeroService" />
-    <component-filter name="com.mobileuncle.toolhero/.updater.SelfUpdateDownloadService" />
     <component-filter name="com.mobileuncle.toolhero/.services.InstallerAccessibilityService" />
-    <component-filter name="com.mobileuncle.toolhero/com.third.suclean.receiver.BootCompleteReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/.astat.AReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.web.serv.util.CommonReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/.utils.PackageChangeReceive" />
+    <component-filter name="com.mobileuncle.toolhero/.updater.SelfUpdateDownloadService" />
     <component-filter name="com.mobileuncle.toolhero/.utils.CommonReceiver" />
+    <component-filter name="com.mobileuncle.toolhero/.utils.PackageChangeReceive" />
+    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.toolhero.utils.CommonReceiver" />
+    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.web.serv.util.CommonReceiver" />
+    <component-filter name="com.mobileuncle.toolhero/com.third.suclean.receiver.BootCompleteReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.mobileuncle.toolhero/.updater.SelfUpdateDownloadService" />
-    <component-filter name="com.mobileuncle.toolhero/.services.InstallerAccessibilityService" />
-    <component-filter name="com.mobileuncle.toolhero/.astat.ToolHeroService" />
-    <component-filter name="com.mobileuncle.toolhero/com.third.suclean.receiver.BootCompleteReceiver" />
     <component-filter name="com.mobileuncle.toolhero/.astat.AReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.web.serv.util.CommonReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/.utils.PackageChangeReceive" />
-    <component-filter name="com.mobileuncle.toolhero/.utils.CommonReceiver" />
     <component-filter name="com.mobileuncle.toolhero/.astat.ToolHeroService" />
-    <component-filter name="com.mobileuncle.toolhero/.updater.SelfUpdateDownloadService" />
     <component-filter name="com.mobileuncle.toolhero/.services.InstallerAccessibilityService" />
-    <component-filter name="com.mobileuncle.toolhero/com.third.suclean.receiver.BootCompleteReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/.astat.AReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.web.serv.util.CommonReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/.utils.PackageChangeReceive" />
+    <component-filter name="com.mobileuncle.toolhero/.updater.SelfUpdateDownloadService" />
     <component-filter name="com.mobileuncle.toolhero/.utils.CommonReceiver" />
+    <component-filter name="com.mobileuncle.toolhero/.utils.PackageChangeReceive" />
+    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.toolhero.utils.CommonReceiver" />
+    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.web.serv.util.CommonReceiver" />
+    <component-filter name="com.mobileuncle.toolhero/com.third.suclean.receiver.BootCompleteReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.mobileuncle.toolhero/.updater.SelfUpdateDownloadService" />
-    <component-filter name="com.mobileuncle.toolhero/.services.InstallerAccessibilityService" />
-    <component-filter name="com.mobileuncle.toolhero/.astat.ToolHeroService" />
-    <component-filter name="com.mobileuncle.toolhero/com.third.suclean.receiver.BootCompleteReceiver" />
     <component-filter name="com.mobileuncle.toolhero/.astat.AReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.web.serv.util.CommonReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/.utils.PackageChangeReceive" />
-    <component-filter name="com.mobileuncle.toolhero/.utils.CommonReceiver" />
     <component-filter name="com.mobileuncle.toolhero/.astat.ToolHeroService" />
-    <component-filter name="com.mobileuncle.toolhero/.updater.SelfUpdateDownloadService" />
     <component-filter name="com.mobileuncle.toolhero/.services.InstallerAccessibilityService" />
-    <component-filter name="com.mobileuncle.toolhero/com.third.suclean.receiver.BootCompleteReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/.astat.AReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.web.serv.util.CommonReceiver" />
-    <component-filter name="com.mobileuncle.toolhero/.utils.PackageChangeReceive" />
+    <component-filter name="com.mobileuncle.toolhero/.updater.SelfUpdateDownloadService" />
     <component-filter name="com.mobileuncle.toolhero/.utils.CommonReceiver" />
+    <component-filter name="com.mobileuncle.toolhero/.utils.PackageChangeReceive" />
+    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.toolhero.utils.CommonReceiver" />
+    <component-filter name="com.mobileuncle.toolhero/com.mobileuncle.web.serv.util.CommonReceiver" />
+    <component-filter name="com.mobileuncle.toolhero/com.third.suclean.receiver.BootCompleteReceiver" />
 </activity>
 </rules>

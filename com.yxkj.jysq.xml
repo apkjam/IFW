@@ -1,32 +1,17 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.service.XGPushService" />
     <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.XGPushReceiver" />
     <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.rpc.XGRemoteService" />
     <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.XGPushReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.service.XGPushService" />
     <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.XGPushReceiver" />
     <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.rpc.XGRemoteService" />
     <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.XGPushReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.service.XGPushService" />
     <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.XGPushReceiver" />
     <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.rpc.XGRemoteService" />
     <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.yxkj.jysq/com.tencent.android.tpush.XGPushReceiver" />
 </activity>
 </rules>

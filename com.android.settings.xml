@@ -1,17 +1,53 @@
 <rules>
 <service block="true" log="false">
+    <component-filter name="com.android.htmlviewer/com.android.settings.wifi.openwifi.OpenWifiReceiver" />
+    <component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
+    <component-filter name="com.android.settings/com.android.settings.MiuiSettingsReceiver" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$DataUsageSummaryActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$Lte4GEnableActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$MobileNetworkMainActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$OtherDeviceFunctionsSettingsActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$ProfileMgrMainActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$RoamingSettingsActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$SystemUpdateActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$TimerSwitchSettingsActivity" />
+    <component-filter name="com.android.settings/com.android.settings.widget.SettingsAppWidgetProvider" />
+    <component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService" />
     <component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
 </service>
 <broadcast block="true" log="false">
+    <component-filter name="com.android.htmlviewer/com.android.settings.wifi.openwifi.OpenWifiReceiver" />
+    <component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
+    <component-filter name="com.android.settings/com.android.settings.MiuiSettingsReceiver" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$DataUsageSummaryActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$Lte4GEnableActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$MobileNetworkMainActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$OtherDeviceFunctionsSettingsActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$ProfileMgrMainActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$RoamingSettingsActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$SystemUpdateActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$TimerSwitchSettingsActivity" />
+    <component-filter name="com.android.settings/com.android.settings.widget.SettingsAppWidgetProvider" />
+    <component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService" />
     <component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
 </broadcast>
 <activity block="true" log="false">
+    <component-filter name="com.android.htmlviewer/com.android.settings.wifi.openwifi.OpenWifiReceiver" />
+    <component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
+    <component-filter name="com.android.settings/com.android.settings.MiuiSettingsReceiver" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$DataUsageSummaryActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$Lte4GEnableActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$MobileNetworkMainActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$OtherDeviceFunctionsSettingsActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$ProfileMgrMainActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$RoamingSettingsActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$SystemUpdateActivity" />
+    <component-filter name="com.android.settings/com.android.settings.Settings$TimerSwitchSettingsActivity" />
+    <component-filter name="com.android.settings/com.android.settings.widget.SettingsAppWidgetProvider" />
+    <component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
     <component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService" />
     <component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
 </activity>
 </rules>

@@ -1,32 +1,32 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.MobileTicket/com.alipay.android.phone.devtool.tools.hotswap.HotSwapService" />
-    <component-filter name="com.MobileTicket/.service.BackgroundService" />
     <component-filter name="com.MobileTicket/.receiver.BootBroadcastReceiver" />
-    <component-filter name="com.MobileTicket/com.alipay.mobile.logmonitor.ClientMonitorWakeupReceiver" />
     <component-filter name="com.MobileTicket/.receiver.ScanReceiver" />
+    <component-filter name="com.MobileTicket/.service.BackgroundService" />
+    <component-filter name="com.MobileTicket/com.alipay.android.phone.devtool.tools.hotswap.HotSwapService" />
+    <component-filter name="com.MobileTicket/com.alipay.mobile.logmonitor.ClientMonitorWakeupReceiver" />
     <component-filter name="com.MobileTicket/com.arrownock.push.NotificationService" />
-    <component-filter name="com.MobileTicket/com.google.android.gcm.GCMBroadcastReceiver" />
     <component-filter name="com.MobileTicket/com.arrownock.push.SignalReceiver" />
+    <component-filter name="com.MobileTicket/com.google.android.gcm.GCMBroadcastReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.MobileTicket/com.alipay.android.phone.devtool.tools.hotswap.HotSwapService" />
-    <component-filter name="com.MobileTicket/.service.BackgroundService" />
     <component-filter name="com.MobileTicket/.receiver.BootBroadcastReceiver" />
-    <component-filter name="com.MobileTicket/com.alipay.mobile.logmonitor.ClientMonitorWakeupReceiver" />
     <component-filter name="com.MobileTicket/.receiver.ScanReceiver" />
+    <component-filter name="com.MobileTicket/.service.BackgroundService" />
+    <component-filter name="com.MobileTicket/com.alipay.android.phone.devtool.tools.hotswap.HotSwapService" />
+    <component-filter name="com.MobileTicket/com.alipay.mobile.logmonitor.ClientMonitorWakeupReceiver" />
     <component-filter name="com.MobileTicket/com.arrownock.push.NotificationService" />
-    <component-filter name="com.MobileTicket/com.google.android.gcm.GCMBroadcastReceiver" />
     <component-filter name="com.MobileTicket/com.arrownock.push.SignalReceiver" />
+    <component-filter name="com.MobileTicket/com.google.android.gcm.GCMBroadcastReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.MobileTicket/com.alipay.android.phone.devtool.tools.hotswap.HotSwapService" />
-    <component-filter name="com.MobileTicket/.service.BackgroundService" />
     <component-filter name="com.MobileTicket/.receiver.BootBroadcastReceiver" />
-    <component-filter name="com.MobileTicket/com.alipay.mobile.logmonitor.ClientMonitorWakeupReceiver" />
     <component-filter name="com.MobileTicket/.receiver.ScanReceiver" />
+    <component-filter name="com.MobileTicket/.service.BackgroundService" />
+    <component-filter name="com.MobileTicket/com.alipay.android.phone.devtool.tools.hotswap.HotSwapService" />
+    <component-filter name="com.MobileTicket/com.alipay.mobile.logmonitor.ClientMonitorWakeupReceiver" />
     <component-filter name="com.MobileTicket/com.arrownock.push.NotificationService" />
-    <component-filter name="com.MobileTicket/com.google.android.gcm.GCMBroadcastReceiver" />
     <component-filter name="com.MobileTicket/com.arrownock.push.SignalReceiver" />
+    <component-filter name="com.MobileTicket/com.google.android.gcm.GCMBroadcastReceiver" />
 </activity>
 </rules>

@@ -1,41 +1,29 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.Qunar/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.Qunar/com.mqunar.dispatcher.GlobalConnectChangedReceiver" />
+    <component-filter name="com.Qunar/com.mqunar.spider.GPushReceiver" />
     <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.Qunar/com.xiaomi.push.service.XMPushService" />
     <component-filter name="com.Qunar/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.spider.GPushReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.dispatcher.GlobalConnectChangedReceiver" />
-    <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.Qunar/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.spider.GPushReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.dispatcher.GlobalConnectChangedReceiver" />
+    <component-filter name="com.Qunar/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.Qunar/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.Qunar/com.mqunar.dispatcher.GlobalConnectChangedReceiver" />
+    <component-filter name="com.Qunar/com.mqunar.spider.GPushReceiver" />
     <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.Qunar/com.xiaomi.push.service.XMPushService" />
     <component-filter name="com.Qunar/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.spider.GPushReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.dispatcher.GlobalConnectChangedReceiver" />
-    <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.Qunar/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.spider.GPushReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.dispatcher.GlobalConnectChangedReceiver" />
+    <component-filter name="com.Qunar/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.Qunar/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.Qunar/com.mqunar.dispatcher.GlobalConnectChangedReceiver" />
+    <component-filter name="com.Qunar/com.mqunar.spider.GPushReceiver" />
     <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.MessageHandleService" />
     <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.Qunar/com.xiaomi.push.service.XMPushService" />
     <component-filter name="com.Qunar/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.spider.GPushReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.dispatcher.GlobalConnectChangedReceiver" />
-    <component-filter name="com.Qunar/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.Qunar/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.spider.GPushReceiver" />
-    <component-filter name="com.Qunar/com.mqunar.dispatcher.GlobalConnectChangedReceiver" />
+    <component-filter name="com.Qunar/com.xiaomi.push.service.receivers.PingReceiver" />
 </activity>
 </rules>

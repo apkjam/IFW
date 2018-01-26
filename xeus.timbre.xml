@@ -1,23 +1,23 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementJobService" />
-    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
     <component-filter name="xeus.timbre/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementJobService" />
+    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementJobService" />
-    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
     <component-filter name="xeus.timbre/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementJobService" />
+    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementJobService" />
-    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdService" />
-    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
     <component-filter name="xeus.timbre/com.google.android.gms.analytics.AnalyticsReceiver" />
+    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
+    <component-filter name="xeus.timbre/com.google.android.gms.measurement.AppMeasurementJobService" />
+    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
+    <component-filter name="xeus.timbre/com.google.firebase.iid.FirebaseInstanceIdService" />
 </activity>
 </rules>

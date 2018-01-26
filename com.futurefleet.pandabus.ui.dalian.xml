@@ -1,23 +1,17 @@
 <rules>
 <service block="true" log="false">
+    <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushReceiver" />
     <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushService" />
     <component-filter name="com.futurefleet.pandabus.ui.dalian/com.futurefleet.pandabus2.broadcastReceiver.ConnectivityChangedReceiver" />
-    <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushReceiver" />
-    <component-filter name="com.futurefleet.pandabus.ui.dalian/com.futurefleet.pandabus2.broadcastReceiver.ConnectivityChangedReceiver" />
-    <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushReceiver" />
 </service>
 <broadcast block="true" log="false">
+    <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushReceiver" />
     <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushService" />
     <component-filter name="com.futurefleet.pandabus.ui.dalian/com.futurefleet.pandabus2.broadcastReceiver.ConnectivityChangedReceiver" />
-    <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushReceiver" />
-    <component-filter name="com.futurefleet.pandabus.ui.dalian/com.futurefleet.pandabus2.broadcastReceiver.ConnectivityChangedReceiver" />
-    <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushReceiver" />
 </broadcast>
 <activity block="true" log="false">
+    <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushReceiver" />
     <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushService" />
     <component-filter name="com.futurefleet.pandabus.ui.dalian/com.futurefleet.pandabus2.broadcastReceiver.ConnectivityChangedReceiver" />
-    <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushReceiver" />
-    <component-filter name="com.futurefleet.pandabus.ui.dalian/com.futurefleet.pandabus2.broadcastReceiver.ConnectivityChangedReceiver" />
-    <component-filter name="com.futurefleet.pandabus.ui.dalian/cn.jpush.android.service.PushReceiver" />
 </activity>
 </rules>

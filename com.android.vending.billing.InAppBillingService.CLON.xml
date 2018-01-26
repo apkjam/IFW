@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.billing.iab.InAppBillingFService" />
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.services.LicensingService" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.billing.iab.InAppBillingFService" />
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.services.LicensingService" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.billing.iab.InAppBillingFService" />
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.services.LicensingService" />
+</activity>
+</rules>

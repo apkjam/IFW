@@ -1,62 +1,35 @@
 <rules>
 <service block="true" log="false">
+    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockDaemon" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockRemoteService" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockService" />
-    <component-filter name="com.jiongji.andriod.card/com.baidu.location.f" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.upgrade.UpgradeDownloadService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
+    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NetworkChangeReceiver" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NoticeBroadcastReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baidu.location.f" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.upgrade.UpgradeDownloadService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockDaemon" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockRemoteService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NetworkChangeReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NoticeBroadcastReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver" />
+    <component-filter name="com.jiongji.andriod.card/com.baidu.location.f" />
 </service>
 <broadcast block="true" log="false">
+    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockDaemon" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockRemoteService" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockService" />
-    <component-filter name="com.jiongji.andriod.card/com.baidu.location.f" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.upgrade.UpgradeDownloadService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
+    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NetworkChangeReceiver" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NoticeBroadcastReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baidu.location.f" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.upgrade.UpgradeDownloadService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockDaemon" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockRemoteService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NetworkChangeReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NoticeBroadcastReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver" />
+    <component-filter name="com.jiongji.andriod.card/com.baidu.location.f" />
 </broadcast>
 <activity block="true" log="false">
+    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockDaemon" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockRemoteService" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockService" />
-    <component-filter name="com.jiongji.andriod.card/com.baidu.location.f" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.upgrade.UpgradeDownloadService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
+    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NetworkChangeReceiver" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NoticeBroadcastReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baidu.location.f" />
     <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.upgrade.UpgradeDownloadService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockDaemon" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockRemoteService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.wordlock.service.WordLockService" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NetworkChangeReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.NoticeBroadcastReceiver" />
-    <component-filter name="com.jiongji.andriod.card/com.baicizhan.main.receiver.LearnOperationReceiver" />
+    <component-filter name="com.jiongji.andriod.card/com.baidu.location.f" />
 </activity>
 </rules>

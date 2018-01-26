@@ -1,0 +1,38 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.billing.iab.InAppBillingFService" />
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.services.LicensingService" />
+    <component-filter name="com.android.vending/com.google.android.finsky.activities.DebugActivity" />
+    <component-filter name="com.android.vending/com.google.android.finsky.billing.setupwizard.SetupWizardPaymentsAccountChangeBroadcastReceiver" />
+    <component-filter name="com.android.vending/com.google.android.finsky.billing.setupwizard.SetupWizardPaymentsEnablementService" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.ContentFilterUpdatedReceiver" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.EphemeralInstallerActivity" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.InstantAppsConfigChangeListener" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor" />
+    <component-filter name="com.android.vending/com.google.android.finsky.setup.VpaSelectionOptionalStepActivity" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.billing.iab.InAppBillingFService" />
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.services.LicensingService" />
+    <component-filter name="com.android.vending/com.google.android.finsky.activities.DebugActivity" />
+    <component-filter name="com.android.vending/com.google.android.finsky.billing.setupwizard.SetupWizardPaymentsAccountChangeBroadcastReceiver" />
+    <component-filter name="com.android.vending/com.google.android.finsky.billing.setupwizard.SetupWizardPaymentsEnablementService" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.ContentFilterUpdatedReceiver" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.EphemeralInstallerActivity" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.InstantAppsConfigChangeListener" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor" />
+    <component-filter name="com.android.vending/com.google.android.finsky.setup.VpaSelectionOptionalStepActivity" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.billing.iab.InAppBillingFService" />
+    <component-filter name="com.android.vending.billing.InAppBillingService.CLON/com.google.android.finsky.services.LicensingService" />
+    <component-filter name="com.android.vending/com.google.android.finsky.activities.DebugActivity" />
+    <component-filter name="com.android.vending/com.google.android.finsky.billing.setupwizard.SetupWizardPaymentsAccountChangeBroadcastReceiver" />
+    <component-filter name="com.android.vending/com.google.android.finsky.billing.setupwizard.SetupWizardPaymentsEnablementService" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.ContentFilterUpdatedReceiver" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.EphemeralInstallerActivity" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.InstantAppsConfigChangeListener" />
+    <component-filter name="com.android.vending/com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor" />
+    <component-filter name="com.android.vending/com.google.android.finsky.setup.VpaSelectionOptionalStepActivity" />
+</activity>
+</rules>

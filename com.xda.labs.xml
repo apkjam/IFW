@@ -1,29 +1,26 @@
 <rules>
 <service block="true" log="false">
+    <component-filter name="com.xda.labs/.AppInstallReceiver" />
+    <component-filter name="com.xda.labs/.BootReceiver" />
+    <component-filter name="com.xda.labs/.DownloadReceiver" />
+    <component-filter name="com.xda.labs/com.xda.labs.CopyTextActivity" />
+    <component-filter name="com.xda.labs/com.xda.labs.ForumLauncher" />
     <component-filter name="com.xda.labs/com.xda.labs.services.PushService" />
-    <component-filter name="com.xda.labs/.DownloadReceiver" />
-    <component-filter name="com.xda.labs/.BootReceiver" />
-    <component-filter name="com.xda.labs/.AppInstallReceiver" />
-    <component-filter name="com.xda.labs/.DownloadReceiver" />
-    <component-filter name="com.xda.labs/.BootReceiver" />
-    <component-filter name="com.xda.labs/.AppInstallReceiver" />
 </service>
 <broadcast block="true" log="false">
+    <component-filter name="com.xda.labs/.AppInstallReceiver" />
+    <component-filter name="com.xda.labs/.BootReceiver" />
+    <component-filter name="com.xda.labs/.DownloadReceiver" />
+    <component-filter name="com.xda.labs/com.xda.labs.CopyTextActivity" />
+    <component-filter name="com.xda.labs/com.xda.labs.ForumLauncher" />
     <component-filter name="com.xda.labs/com.xda.labs.services.PushService" />
-    <component-filter name="com.xda.labs/.DownloadReceiver" />
-    <component-filter name="com.xda.labs/.BootReceiver" />
-    <component-filter name="com.xda.labs/.AppInstallReceiver" />
-    <component-filter name="com.xda.labs/.DownloadReceiver" />
-    <component-filter name="com.xda.labs/.BootReceiver" />
-    <component-filter name="com.xda.labs/.AppInstallReceiver" />
 </broadcast>
 <activity block="true" log="false">
+    <component-filter name="com.xda.labs/.AppInstallReceiver" />
+    <component-filter name="com.xda.labs/.BootReceiver" />
+    <component-filter name="com.xda.labs/.DownloadReceiver" />
+    <component-filter name="com.xda.labs/com.xda.labs.CopyTextActivity" />
+    <component-filter name="com.xda.labs/com.xda.labs.ForumLauncher" />
     <component-filter name="com.xda.labs/com.xda.labs.services.PushService" />
-    <component-filter name="com.xda.labs/.DownloadReceiver" />
-    <component-filter name="com.xda.labs/.BootReceiver" />
-    <component-filter name="com.xda.labs/.AppInstallReceiver" />
-    <component-filter name="com.xda.labs/.DownloadReceiver" />
-    <component-filter name="com.xda.labs/.BootReceiver" />
-    <component-filter name="com.xda.labs/.AppInstallReceiver" />
 </activity>
 </rules>

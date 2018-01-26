@@ -1,47 +1,47 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.server.service.PluginManagerService" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.depend.dependency.setting.view.tab.app.AppAntiHijackService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.main.MainAppService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.MmpProcessService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.aitalk.AiTalkService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.AitalkProcessService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.SettingsProcessService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.multiprocess.AssistReceiver" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P1\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P2\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P3\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P4\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P5\$StubReceiver1" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.server.service.PluginManagerService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.multiprocess.AssistReceiver" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.AitalkProcessService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.MmpProcessService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.SettingsProcessService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.aitalk.AiTalkService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.main.MainAppService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.server.service.PluginManagerService" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.depend.dependency.setting.view.tab.app.AppAntiHijackService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.main.MainAppService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.MmpProcessService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.aitalk.AiTalkService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.AitalkProcessService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.SettingsProcessService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.multiprocess.AssistReceiver" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P1\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P2\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P3\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P4\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P5\$StubReceiver1" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.server.service.PluginManagerService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.multiprocess.AssistReceiver" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.AitalkProcessService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.MmpProcessService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.SettingsProcessService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.aitalk.AiTalkService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.main.MainAppService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.server.service.PluginManagerService" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.depend.dependency.setting.view.tab.app.AppAntiHijackService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.main.MainAppService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.MmpProcessService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.aitalk.AiTalkService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.AitalkProcessService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.SettingsProcessService" />
-    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.multiprocess.AssistReceiver" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P1\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P2\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P3\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P4\$StubReceiver1" />
     <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.client.stub.P5\$StubReceiver1" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.greenplug.server.service.PluginManagerService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.multiprocess.AssistReceiver" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.AitalkProcessService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.MmpProcessService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.SettingsProcessService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.aitalk.AiTalkService" />
+    <component-filter name="com.iflytek.inputmethod/com.iflytek.inputmethod.remote.main.MainAppService" />
 </activity>
 </rules>

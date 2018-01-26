@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.microsoft.cortana/com.microsoft.bing.dss.servicelib.client.DssServiceReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.microsoft.cortana/com.microsoft.bing.dss.servicelib.client.DssServiceReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.microsoft.cortana/com.microsoft.bing.dss.servicelib.client.DssServiceReceiver" />
+</activity>
+</rules>

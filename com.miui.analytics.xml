@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.miui.analytics/com.miui.analytics.AnalyticsReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.miui.analytics/com.miui.analytics.AnalyticsReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.miui.analytics/com.miui.analytics.AnalyticsReceiver" />
+</activity>
+</rules>

@@ -1,17 +1,17 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.GcmRegistrationTaskService" />
     <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.AndroidInstanceIDListenerService" />
     <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService" />
+    <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.GcmRegistrationTaskService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.GcmRegistrationTaskService" />
     <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.AndroidInstanceIDListenerService" />
     <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService" />
+    <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.GcmRegistrationTaskService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.GcmRegistrationTaskService" />
     <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.AndroidInstanceIDListenerService" />
     <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.AndroidMessageSenderService" />
+    <component-filter name="com.android.chrome/com.google.ipc.invalidation.ticl.android2.channel.GcmRegistrationTaskService" />
 </activity>
 </rules>

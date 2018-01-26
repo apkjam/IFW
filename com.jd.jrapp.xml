@@ -1,56 +1,29 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.RecogService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.AuthService" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.TimeService" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService" />
     <component-filter name="com.jd.jrapp/.push.receiver.TencentPushReceiver" />
     <component-filter name="com.jd.jrapp/com.tencent.android.tpush.XGPushReceiver" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.RecogService" />
     <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.AuthService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.TimeService" />
     <component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.jd.jrapp/.push.receiver.TencentPushReceiver" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.XGPushReceiver" />
+    <component-filter name="com.jd.jrapp/wintone.idcard.android.AuthService" />
+    <component-filter name="com.jd.jrapp/wintone.idcard.android.RecogService" />
+    <component-filter name="com.jd.jrapp/wintone.idcard.android.TimeService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.RecogService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.AuthService" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.TimeService" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService" />
     <component-filter name="com.jd.jrapp/.push.receiver.TencentPushReceiver" />
     <component-filter name="com.jd.jrapp/com.tencent.android.tpush.XGPushReceiver" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.RecogService" />
     <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.AuthService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.TimeService" />
     <component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.jd.jrapp/.push.receiver.TencentPushReceiver" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.XGPushReceiver" />
+    <component-filter name="com.jd.jrapp/wintone.idcard.android.AuthService" />
+    <component-filter name="com.jd.jrapp/wintone.idcard.android.RecogService" />
+    <component-filter name="com.jd.jrapp/wintone.idcard.android.TimeService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.RecogService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.AuthService" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.TimeService" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService" />
     <component-filter name="com.jd.jrapp/.push.receiver.TencentPushReceiver" />
     <component-filter name="com.jd.jrapp/com.tencent.android.tpush.XGPushReceiver" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.RecogService" />
     <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.AuthService" />
-    <component-filter name="com.jd.jrapp/wintone.idcard.android.TimeService" />
     <component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService" />
-    <component-filter name="com.jd.jrapp/.push.receiver.TencentPushReceiver" />
-    <component-filter name="com.jd.jrapp/com.tencent.android.tpush.XGPushReceiver" />
+    <component-filter name="com.jd.jrapp/wintone.idcard.android.AuthService" />
+    <component-filter name="com.jd.jrapp/wintone.idcard.android.RecogService" />
+    <component-filter name="com.jd.jrapp/wintone.idcard.android.TimeService" />
 </activity>
 </rules>

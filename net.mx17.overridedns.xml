@@ -3,24 +3,18 @@
     <component-filter name="net.mx17.overridedns/.MyDashClockExtension" />
     <component-filter name="net.mx17.overridedns/.MyDeviceAdminReceiver" />
     <component-filter name="net.mx17.overridedns/.NetworkStateReceiver" />
-    <component-filter name="net.mx17.overridedns/.MyDashClockExtension" />
-    <component-filter name="net.mx17.overridedns/.MyDeviceAdminReceiver" />
-    <component-filter name="net.mx17.overridedns/.NetworkStateReceiver" />
+    <component-filter name="net.mx17.overridedns/net.mx17.overridedns.NetworkStateReceiver" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="net.mx17.overridedns/.MyDashClockExtension" />
     <component-filter name="net.mx17.overridedns/.MyDeviceAdminReceiver" />
     <component-filter name="net.mx17.overridedns/.NetworkStateReceiver" />
-    <component-filter name="net.mx17.overridedns/.MyDashClockExtension" />
-    <component-filter name="net.mx17.overridedns/.MyDeviceAdminReceiver" />
-    <component-filter name="net.mx17.overridedns/.NetworkStateReceiver" />
+    <component-filter name="net.mx17.overridedns/net.mx17.overridedns.NetworkStateReceiver" />
 </broadcast>
 <activity block="true" log="false">
     <component-filter name="net.mx17.overridedns/.MyDashClockExtension" />
     <component-filter name="net.mx17.overridedns/.MyDeviceAdminReceiver" />
     <component-filter name="net.mx17.overridedns/.NetworkStateReceiver" />
-    <component-filter name="net.mx17.overridedns/.MyDashClockExtension" />
-    <component-filter name="net.mx17.overridedns/.MyDeviceAdminReceiver" />
-    <component-filter name="net.mx17.overridedns/.NetworkStateReceiver" />
+    <component-filter name="net.mx17.overridedns/net.mx17.overridedns.NetworkStateReceiver" />
 </activity>
 </rules>

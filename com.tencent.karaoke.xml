@@ -1,23 +1,38 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.tencent.karaoke/com.tencent.karaoke.module.message.business.HandlePushService" />
-    <component-filter name="com.tencent.karaoke/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.tencent.karaoke/com.huawei.android.pushagent.PushBootReceiver" />
+    <component-filter name="com.tencent.karaoke/com.huawei.android.pushagent.PushEventReceiver" />
     <component-filter name="com.tencent.karaoke/com.huawei.android.pushagent.PushService" />
+    <component-filter name="com.tencent.karaoke/com.tencent.component.thirdpartypush.huaweipush.HWPushReceiver" />
+    <component-filter name="com.tencent.karaoke/com.tencent.component.thirdpartypush.mipush.MiPushReceiver" />
+    <component-filter name="com.tencent.karaoke/com.tencent.karaoke.module.message.business.HandlePushService" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.tencent.karaoke/com.tencent.karaoke.module.message.business.HandlePushService" />
-    <component-filter name="com.tencent.karaoke/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.tencent.karaoke/com.huawei.android.pushagent.PushBootReceiver" />
+    <component-filter name="com.tencent.karaoke/com.huawei.android.pushagent.PushEventReceiver" />
     <component-filter name="com.tencent.karaoke/com.huawei.android.pushagent.PushService" />
+    <component-filter name="com.tencent.karaoke/com.tencent.component.thirdpartypush.huaweipush.HWPushReceiver" />
+    <component-filter name="com.tencent.karaoke/com.tencent.component.thirdpartypush.mipush.MiPushReceiver" />
+    <component-filter name="com.tencent.karaoke/com.tencent.karaoke.module.message.business.HandlePushService" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.tencent.karaoke/com.tencent.karaoke.module.message.business.HandlePushService" />
-    <component-filter name="com.tencent.karaoke/com.xiaomi.push.service.XMPushService" />
-    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.PushMessageHandler" />
-    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.tencent.karaoke/com.huawei.android.pushagent.PushBootReceiver" />
+    <component-filter name="com.tencent.karaoke/com.huawei.android.pushagent.PushEventReceiver" />
     <component-filter name="com.tencent.karaoke/com.huawei.android.pushagent.PushService" />
+    <component-filter name="com.tencent.karaoke/com.tencent.component.thirdpartypush.huaweipush.HWPushReceiver" />
+    <component-filter name="com.tencent.karaoke/com.tencent.component.thirdpartypush.mipush.MiPushReceiver" />
+    <component-filter name="com.tencent.karaoke/com.tencent.karaoke.module.message.business.HandlePushService" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.tencent.karaoke/com.xiaomi.push.service.receivers.PingReceiver" />
 </activity>
 </rules>

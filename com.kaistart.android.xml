@@ -1,56 +1,32 @@
 <rules>
 <service block="true" log="false">
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushService" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.kaistart.android/.wxapi.pay.AppRegister" />
+    <component-filter name="com.kaistart.android/com.igexin.download.DownloadReceiver" />
     <component-filter name="com.kaistart.android/com.igexin.download.DownloadService" />
     <component-filter name="com.kaistart.android/com.igexin.getuiext.service.GetuiExtService" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushService" />
-    <component-filter name="com.kaistart.android/com.qihoo.util.CommonService" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushServiceUser" />
-    <component-filter name="com.kaistart.android/.wxapi.pay.AppRegister" />
     <component-filter name="com.kaistart.android/com.igexin.sdk.PushReceiver" />
-    <component-filter name="com.kaistart.android/com.igexin.download.DownloadReceiver" />
-    <component-filter name="com.kaistart.android/com.qihoo.util.CommonService" />
     <component-filter name="com.kaistart.android/com.igexin.sdk.PushService" />
     <component-filter name="com.kaistart.android/com.igexin.sdk.PushServiceUser" />
-    <component-filter name="com.kaistart.android/.wxapi.pay.AppRegister" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushReceiver" />
-    <component-filter name="com.kaistart.android/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.kaistart.android/com.qihoo.util.CommonService" />
 </service>
 <broadcast block="true" log="false">
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushService" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.kaistart.android/.wxapi.pay.AppRegister" />
+    <component-filter name="com.kaistart.android/com.igexin.download.DownloadReceiver" />
     <component-filter name="com.kaistart.android/com.igexin.download.DownloadService" />
     <component-filter name="com.kaistart.android/com.igexin.getuiext.service.GetuiExtService" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushService" />
-    <component-filter name="com.kaistart.android/com.qihoo.util.CommonService" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushServiceUser" />
-    <component-filter name="com.kaistart.android/.wxapi.pay.AppRegister" />
     <component-filter name="com.kaistart.android/com.igexin.sdk.PushReceiver" />
-    <component-filter name="com.kaistart.android/com.igexin.download.DownloadReceiver" />
-    <component-filter name="com.kaistart.android/com.qihoo.util.CommonService" />
     <component-filter name="com.kaistart.android/com.igexin.sdk.PushService" />
     <component-filter name="com.kaistart.android/com.igexin.sdk.PushServiceUser" />
-    <component-filter name="com.kaistart.android/.wxapi.pay.AppRegister" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushReceiver" />
-    <component-filter name="com.kaistart.android/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.kaistart.android/com.qihoo.util.CommonService" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushService" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushServiceUser" />
+    <component-filter name="com.kaistart.android/.wxapi.pay.AppRegister" />
+    <component-filter name="com.kaistart.android/com.igexin.download.DownloadReceiver" />
     <component-filter name="com.kaistart.android/com.igexin.download.DownloadService" />
     <component-filter name="com.kaistart.android/com.igexin.getuiext.service.GetuiExtService" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushService" />
-    <component-filter name="com.kaistart.android/com.qihoo.util.CommonService" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushServiceUser" />
-    <component-filter name="com.kaistart.android/.wxapi.pay.AppRegister" />
     <component-filter name="com.kaistart.android/com.igexin.sdk.PushReceiver" />
-    <component-filter name="com.kaistart.android/com.igexin.download.DownloadReceiver" />
-    <component-filter name="com.kaistart.android/com.qihoo.util.CommonService" />
     <component-filter name="com.kaistart.android/com.igexin.sdk.PushService" />
     <component-filter name="com.kaistart.android/com.igexin.sdk.PushServiceUser" />
-    <component-filter name="com.kaistart.android/.wxapi.pay.AppRegister" />
-    <component-filter name="com.kaistart.android/com.igexin.sdk.PushReceiver" />
-    <component-filter name="com.kaistart.android/com.igexin.download.DownloadReceiver" />
+    <component-filter name="com.kaistart.android/com.qihoo.util.CommonService" />
 </activity>
 </rules>

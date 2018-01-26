@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.linkedin.android/com.linkedin.android.appwidget.ResponsiveWidget$ActiveUserListener" />
+    <component-filter name="com.linkedin.android/com.linkedin.android.growth.calendar.CalendarUploadReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.linkedin.android/com.linkedin.android.appwidget.ResponsiveWidget$ActiveUserListener" />
+    <component-filter name="com.linkedin.android/com.linkedin.android.growth.calendar.CalendarUploadReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.linkedin.android/com.linkedin.android.appwidget.ResponsiveWidget$ActiveUserListener" />
+    <component-filter name="com.linkedin.android/com.linkedin.android.growth.calendar.CalendarUploadReceiver" />
+</activity>
+</rules>

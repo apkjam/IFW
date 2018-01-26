@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+    <component-filter name="com.miui.cleanmaster/com.miui.optimizecenter.CleanMasterReceiver" />
+</service>
+<broadcast block="true" log="false">
+    <component-filter name="com.miui.cleanmaster/com.miui.optimizecenter.CleanMasterReceiver" />
+</broadcast>
+<activity block="true" log="false">
+    <component-filter name="com.miui.cleanmaster/com.miui.optimizecenter.CleanMasterReceiver" />
+</activity>
+</rules>

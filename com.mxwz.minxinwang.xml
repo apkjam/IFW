@@ -1,14 +1,11 @@
 <rules>
 <service block="true" log="false">
     <component-filter name="com.mxwz.minxinwang/com.uzmap.pkg.uzapp.UPExtraBridge" />
-    <component-filter name="com.mxwz.minxinwang/com.uzmap.pkg.uzapp.UPExtraBridge" />
 </service>
 <broadcast block="true" log="false">
     <component-filter name="com.mxwz.minxinwang/com.uzmap.pkg.uzapp.UPExtraBridge" />
-    <component-filter name="com.mxwz.minxinwang/com.uzmap.pkg.uzapp.UPExtraBridge" />
 </broadcast>
 <activity block="true" log="false">
-    <component-filter name="com.mxwz.minxinwang/com.uzmap.pkg.uzapp.UPExtraBridge" />
     <component-filter name="com.mxwz.minxinwang/com.uzmap.pkg.uzapp.UPExtraBridge" />
 </activity>
 </rules>
