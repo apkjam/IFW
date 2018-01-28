@@ -1,35 +1,17 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="net.luoo.LuooFM/.paywx.AppRegister" />
-<component-filter name="net.luoo.LuooFM/.service.LuooCloudService" />
-<component-filter name="net.luoo.LuooFM/.service.LuooJPushReceiver" />
-<component-filter name="net.luoo.LuooFM/.service.MediaButtonReceiver" />
-<component-filter name="net.luoo.LuooFM/.service.PlayerReceiver" />
-<component-filter name="net.luoo.LuooFM/.service.RemoteControlReceiver" />
-<component-filter name="net.luoo.LuooFM/cn.jpush.android.service.DaemonService" />
 <component-filter name="net.luoo.LuooFM/cn.jpush.android.service.PushReceiver" />
+<component-filter name="net.luoo.LuooFM/cn.jpush.android.service.DaemonService" />
 <component-filter name="net.luoo.LuooFM/cn.jpush.android.service.PushService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="net.luoo.LuooFM/.paywx.AppRegister" />
-<component-filter name="net.luoo.LuooFM/.service.LuooCloudService" />
-<component-filter name="net.luoo.LuooFM/.service.LuooJPushReceiver" />
-<component-filter name="net.luoo.LuooFM/.service.MediaButtonReceiver" />
-<component-filter name="net.luoo.LuooFM/.service.PlayerReceiver" />
-<component-filter name="net.luoo.LuooFM/.service.RemoteControlReceiver" />
-<component-filter name="net.luoo.LuooFM/cn.jpush.android.service.DaemonService" />
 <component-filter name="net.luoo.LuooFM/cn.jpush.android.service.PushReceiver" />
+<component-filter name="net.luoo.LuooFM/cn.jpush.android.service.DaemonService" />
 <component-filter name="net.luoo.LuooFM/cn.jpush.android.service.PushService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="net.luoo.LuooFM/.paywx.AppRegister" />
-<component-filter name="net.luoo.LuooFM/.service.LuooCloudService" />
-<component-filter name="net.luoo.LuooFM/.service.LuooJPushReceiver" />
-<component-filter name="net.luoo.LuooFM/.service.MediaButtonReceiver" />
-<component-filter name="net.luoo.LuooFM/.service.PlayerReceiver" />
-<component-filter name="net.luoo.LuooFM/.service.RemoteControlReceiver" />
-<component-filter name="net.luoo.LuooFM/cn.jpush.android.service.DaemonService" />
 <component-filter name="net.luoo.LuooFM/cn.jpush.android.service.PushReceiver" />
+<component-filter name="net.luoo.LuooFM/cn.jpush.android.service.DaemonService" />
 <component-filter name="net.luoo.LuooFM/cn.jpush.android.service.PushService" />
 </activity>
 </rules>

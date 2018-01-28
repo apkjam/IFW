@@ -1,32 +1,23 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.baidu.notes/.receiver.BootReceiver" />
-<component-filter name="com.baidu.notes/.receiver.PushMessageReceiver" />
-<component-filter name="com.baidu.notes/.service.FloatingService" />
 <component-filter name="com.baidu.notes/com.baidu.android.pushservice.PushService" />
 <component-filter name="com.baidu.notes/com.baidu.android.pushservice.PushServiceReceiver" />
 <component-filter name="com.baidu.notes/com.baidu.android.pushservice.RegistrationReceiver" />
 <component-filter name="com.baidu.notes/com.baidu.notes.receiver.PushMessageReceiver" />
-<component-filter name="com.baidu.notes/com.baidu.sapi2.share.ShareReceiver" />
+<component-filter name="com.baidu.notes/com.baidu.android.pushservice.PushService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.baidu.notes/.receiver.BootReceiver" />
-<component-filter name="com.baidu.notes/.receiver.PushMessageReceiver" />
-<component-filter name="com.baidu.notes/.service.FloatingService" />
 <component-filter name="com.baidu.notes/com.baidu.android.pushservice.PushService" />
 <component-filter name="com.baidu.notes/com.baidu.android.pushservice.PushServiceReceiver" />
 <component-filter name="com.baidu.notes/com.baidu.android.pushservice.RegistrationReceiver" />
 <component-filter name="com.baidu.notes/com.baidu.notes.receiver.PushMessageReceiver" />
-<component-filter name="com.baidu.notes/com.baidu.sapi2.share.ShareReceiver" />
+<component-filter name="com.baidu.notes/com.baidu.android.pushservice.PushService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.baidu.notes/.receiver.BootReceiver" />
-<component-filter name="com.baidu.notes/.receiver.PushMessageReceiver" />
-<component-filter name="com.baidu.notes/.service.FloatingService" />
 <component-filter name="com.baidu.notes/com.baidu.android.pushservice.PushService" />
 <component-filter name="com.baidu.notes/com.baidu.android.pushservice.PushServiceReceiver" />
 <component-filter name="com.baidu.notes/com.baidu.android.pushservice.RegistrationReceiver" />
 <component-filter name="com.baidu.notes/com.baidu.notes.receiver.PushMessageReceiver" />
-<component-filter name="com.baidu.notes/com.baidu.sapi2.share.ShareReceiver" />
+<component-filter name="com.baidu.notes/com.baidu.android.pushservice.PushService" />
 </activity>
 </rules>

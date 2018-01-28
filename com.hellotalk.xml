@@ -1,56 +1,32 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.hellotalk/.core.service.AppPushNotify" />
-<component-filter name="com.hellotalk/.core.service.BootReceive" />
-<component-filter name="com.hellotalk/.core.service.CoreService" />
-<component-filter name="com.hellotalk/.core.service.HT_ConnectionBroadcastReceiver" />
-<component-filter name="com.hellotalk/.core.service.MessageReceiver" />
-<component-filter name="com.hellotalk/com.appsflyer.MultipleInstallBroadcastReceiver" />
-<component-filter name="com.hellotalk/com.google.android.gms.gcm.GcmReceiver" />
-<component-filter name="com.hellotalk/com.google.android.gms.measurement.AppMeasurementReceiver" />
-<component-filter name="com.hellotalk/com.hellotalkx.modules.voip.logic.VoipReceiver" />
 <component-filter name="com.hellotalk/com.tencent.android.tpush.XGPushReceiver" />
 <component-filter name="com.hellotalk/com.tencent.android.tpush.rpc.XGRemoteService" />
 <component-filter name="com.hellotalk/com.tencent.android.tpush.service.XGPushService" />
 <component-filter name="com.hellotalk/com.tencent.wns.service.WnsMain" />
 <component-filter name="com.hellotalk/com.youdao.sdk.common.YouDaoAppService" />
 <component-filter name="com.hellotalk/com.youdao.sdk.common.YouDaoTrackerReceiver" />
-<component-filter name="com.hellotalk/io.branch.referral.InstallListener" />
+<component-filter name="com.hellotalk/com.tencent.android.tpush.rpc.XGRemoteService" />
+<component-filter name="com.hellotalk/com.tencent.android.tpush.service.XGPushService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.hellotalk/.core.service.AppPushNotify" />
-<component-filter name="com.hellotalk/.core.service.BootReceive" />
-<component-filter name="com.hellotalk/.core.service.CoreService" />
-<component-filter name="com.hellotalk/.core.service.HT_ConnectionBroadcastReceiver" />
-<component-filter name="com.hellotalk/.core.service.MessageReceiver" />
-<component-filter name="com.hellotalk/com.appsflyer.MultipleInstallBroadcastReceiver" />
-<component-filter name="com.hellotalk/com.google.android.gms.gcm.GcmReceiver" />
-<component-filter name="com.hellotalk/com.google.android.gms.measurement.AppMeasurementReceiver" />
-<component-filter name="com.hellotalk/com.hellotalkx.modules.voip.logic.VoipReceiver" />
 <component-filter name="com.hellotalk/com.tencent.android.tpush.XGPushReceiver" />
 <component-filter name="com.hellotalk/com.tencent.android.tpush.rpc.XGRemoteService" />
 <component-filter name="com.hellotalk/com.tencent.android.tpush.service.XGPushService" />
 <component-filter name="com.hellotalk/com.tencent.wns.service.WnsMain" />
 <component-filter name="com.hellotalk/com.youdao.sdk.common.YouDaoAppService" />
 <component-filter name="com.hellotalk/com.youdao.sdk.common.YouDaoTrackerReceiver" />
-<component-filter name="com.hellotalk/io.branch.referral.InstallListener" />
+<component-filter name="com.hellotalk/com.tencent.android.tpush.rpc.XGRemoteService" />
+<component-filter name="com.hellotalk/com.tencent.android.tpush.service.XGPushService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.hellotalk/.core.service.AppPushNotify" />
-<component-filter name="com.hellotalk/.core.service.BootReceive" />
-<component-filter name="com.hellotalk/.core.service.CoreService" />
-<component-filter name="com.hellotalk/.core.service.HT_ConnectionBroadcastReceiver" />
-<component-filter name="com.hellotalk/.core.service.MessageReceiver" />
-<component-filter name="com.hellotalk/com.appsflyer.MultipleInstallBroadcastReceiver" />
-<component-filter name="com.hellotalk/com.google.android.gms.gcm.GcmReceiver" />
-<component-filter name="com.hellotalk/com.google.android.gms.measurement.AppMeasurementReceiver" />
-<component-filter name="com.hellotalk/com.hellotalkx.modules.voip.logic.VoipReceiver" />
 <component-filter name="com.hellotalk/com.tencent.android.tpush.XGPushReceiver" />
 <component-filter name="com.hellotalk/com.tencent.android.tpush.rpc.XGRemoteService" />
 <component-filter name="com.hellotalk/com.tencent.android.tpush.service.XGPushService" />
 <component-filter name="com.hellotalk/com.tencent.wns.service.WnsMain" />
 <component-filter name="com.hellotalk/com.youdao.sdk.common.YouDaoAppService" />
 <component-filter name="com.hellotalk/com.youdao.sdk.common.YouDaoTrackerReceiver" />
-<component-filter name="com.hellotalk/io.branch.referral.InstallListener" />
+<component-filter name="com.hellotalk/com.tencent.android.tpush.rpc.XGRemoteService" />
+<component-filter name="com.hellotalk/com.tencent.android.tpush.service.XGPushService" />
 </activity>
 </rules>

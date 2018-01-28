@@ -7,7 +7,6 @@
 <component-filter name="com.android.vending/com.google.android.finsky.instantapps.EphemeralInstallerActivity" />
 <component-filter name="com.android.vending/com.google.android.finsky.instantapps.InstantAppsConfigChangeListener" />
 <component-filter name="com.android.vending/com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor" />
-<component-filter name="com.android.vending/com.google.android.finsky.setup.VpaSelectionOptionalStepActivity" />
 </service>
 <broadcast block="true" log="false">
 <component-filter name="com.android.vending/com.google.android.finsky.activities.DebugActivity" />
@@ -17,7 +16,6 @@
 <component-filter name="com.android.vending/com.google.android.finsky.instantapps.EphemeralInstallerActivity" />
 <component-filter name="com.android.vending/com.google.android.finsky.instantapps.InstantAppsConfigChangeListener" />
 <component-filter name="com.android.vending/com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor" />
-<component-filter name="com.android.vending/com.google.android.finsky.setup.VpaSelectionOptionalStepActivity" />
 </broadcast>
 <activity block="true" log="false">
 <component-filter name="com.android.vending/com.google.android.finsky.activities.DebugActivity" />
@@ -27,6 +25,5 @@
 <component-filter name="com.android.vending/com.google.android.finsky.instantapps.EphemeralInstallerActivity" />
 <component-filter name="com.android.vending/com.google.android.finsky.instantapps.InstantAppsConfigChangeListener" />
 <component-filter name="com.android.vending/com.google.android.finsky.instantapps.appmanagement.InstantAppRemoveMonitor" />
-<component-filter name="com.android.vending/com.google.android.finsky.setup.VpaSelectionOptionalStepActivity" />
 </activity>
 </rules>

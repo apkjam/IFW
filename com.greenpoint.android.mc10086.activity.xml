@@ -1,50 +1,38 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushBootReceiver" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushEventReceiver" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushService" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.CheckUpdateService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.HWReceiver" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.PushBootBroadcastReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.PushService" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.SMSMMSReceiver" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.XiaomiMessageReceiver" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.mipush.sdk.MessageHandleService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushBootReceiver" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushEventReceiver" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushService" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.CheckUpdateService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.HWReceiver" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.PushBootBroadcastReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.PushService" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.SMSMMSReceiver" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.XiaomiMessageReceiver" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.mipush.sdk.MessageHandleService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushBootReceiver" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushEventReceiver" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushService" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.CheckUpdateService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.HWReceiver" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.PushBootBroadcastReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.PushService" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.SMSMMSReceiver" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.XiaomiMessageReceiver" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.mipush.sdk.MessageHandleService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService" />
-<component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 </activity>
 </rules>

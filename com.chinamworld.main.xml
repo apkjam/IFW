@@ -1,29 +1,14 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.aidl.YXRemotePushService" />
 <component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.BootBroadcastReceiver" />
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.YXMonitorService" />
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.YXReceiveService" />
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.YXSendService" />
-<component-filter name="com.chinamworld.main/com.ccb.loongpay.common.UpdateBankParamReceiver" />
-<component-filter name="com.chinamworld.main/com.ccb.utils.Intentbroadcast" />
+<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.aidl.YXRemotePushService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.aidl.YXRemotePushService" />
 <component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.BootBroadcastReceiver" />
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.YXMonitorService" />
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.YXReceiveService" />
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.YXSendService" />
-<component-filter name="com.chinamworld.main/com.ccb.loongpay.common.UpdateBankParamReceiver" />
-<component-filter name="com.chinamworld.main/com.ccb.utils.Intentbroadcast" />
+<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.aidl.YXRemotePushService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.aidl.YXRemotePushService" />
 <component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.BootBroadcastReceiver" />
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.YXMonitorService" />
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.YXReceiveService" />
-<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.YXSendService" />
-<component-filter name="com.chinamworld.main/com.ccb.loongpay.common.UpdateBankParamReceiver" />
-<component-filter name="com.chinamworld.main/com.ccb.utils.Intentbroadcast" />
+<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.aidl.YXRemotePushService" />
 </activity>
 </rules>

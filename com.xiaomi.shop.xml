@@ -1,41 +1,32 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.xiaomi.shop/com.mipay.account.AccountChangeReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.jr.common.NetworkStatusReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mishop.push.PushReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mishop.push.PushService" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.PingReceiver" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushMessageReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushReceiver" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.mishop.push.PushService" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.xiaomi.shop/com.mipay.account.AccountChangeReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.jr.common.NetworkStatusReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mishop.push.PushReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mishop.push.PushService" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.PingReceiver" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushMessageReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushReceiver" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.mishop.push.PushService" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.xiaomi.shop/com.mipay.account.AccountChangeReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.jr.common.NetworkStatusReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mishop.push.PushReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.mishop.push.PushService" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.PingReceiver" />
 <component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushMessageReceiver" />
-<component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushReceiver" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.mishop.push.PushService" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService" />
 </activity>
 </rules>

@@ -1,35 +1,20 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.zhaopin.social/.pollingservice.PollingService" />
-<component-filter name="com.zhaopin.social/.push.CompleteDownloadReceiver" />
-<component-filter name="com.zhaopin.social/.ui.fragment.menuitems.more.DownLoadBroadcastReceiver" />
-<component-filter name="com.zhaopin.social/com.igexin.download.DownloadReceiver" />
+<component-filter name="com.zhaopin.social/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.zhaopin.social/com.igexin.download.DownloadService" />
 <component-filter name="com.zhaopin.social/com.igexin.getuiext.service.GetuiExtService" />
-<component-filter name="com.zhaopin.social/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.zhaopin.social/com.igexin.sdk.PushService" />
-<component-filter name="com.zhaopin.social/zhaopin.AppRegister" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.zhaopin.social/.pollingservice.PollingService" />
-<component-filter name="com.zhaopin.social/.push.CompleteDownloadReceiver" />
-<component-filter name="com.zhaopin.social/.ui.fragment.menuitems.more.DownLoadBroadcastReceiver" />
-<component-filter name="com.zhaopin.social/com.igexin.download.DownloadReceiver" />
+<component-filter name="com.zhaopin.social/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.zhaopin.social/com.igexin.download.DownloadService" />
 <component-filter name="com.zhaopin.social/com.igexin.getuiext.service.GetuiExtService" />
-<component-filter name="com.zhaopin.social/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.zhaopin.social/com.igexin.sdk.PushService" />
-<component-filter name="com.zhaopin.social/zhaopin.AppRegister" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.zhaopin.social/.pollingservice.PollingService" />
-<component-filter name="com.zhaopin.social/.push.CompleteDownloadReceiver" />
-<component-filter name="com.zhaopin.social/.ui.fragment.menuitems.more.DownLoadBroadcastReceiver" />
-<component-filter name="com.zhaopin.social/com.igexin.download.DownloadReceiver" />
+<component-filter name="com.zhaopin.social/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.zhaopin.social/com.igexin.download.DownloadService" />
 <component-filter name="com.zhaopin.social/com.igexin.getuiext.service.GetuiExtService" />
-<component-filter name="com.zhaopin.social/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.zhaopin.social/com.igexin.sdk.PushService" />
-<component-filter name="com.zhaopin.social/zhaopin.AppRegister" />
 </activity>
 </rules>

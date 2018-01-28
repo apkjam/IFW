@@ -1,65 +1,11 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.appgenix.bizcal/.BizCalReceiver" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.factory.WidgetService" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProvider" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderAgenda" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderDay" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderDayPro" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderIcon" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderTask" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderWeek" />
-<component-filter name="com.appgenix.bizcal/.data.sync.AuthenticatorService" />
-<component-filter name="com.appgenix.bizcal/.data.sync.GcmBroadcastReceiver" />
-<component-filter name="com.appgenix.bizcal/.data.sync.SyncAdapterService" />
-<component-filter name="com.appgenix.bizcal/.reminder.missedcall.PhoneStateChangedReceiver" />
-<component-filter name="com.appgenix.bizcal/com.amazon.device.iap.ResponseReceiver" />
 <component-filter name="com.appgenix.bizcal/com.appgenix.bizcal.BizCalReceiver" />
-<component-filter name="com.appgenix.bizcal/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-<component-filter name="com.appgenix.bizcal/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-<component-filter name="com.appgenix.bizcal/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-<component-filter name="com.appgenix.bizcal/com.google.firebase.iid.FirebaseInstanceIdService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.appgenix.bizcal/.BizCalReceiver" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.factory.WidgetService" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProvider" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderAgenda" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderDay" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderDayPro" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderIcon" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderTask" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderWeek" />
-<component-filter name="com.appgenix.bizcal/.data.sync.AuthenticatorService" />
-<component-filter name="com.appgenix.bizcal/.data.sync.GcmBroadcastReceiver" />
-<component-filter name="com.appgenix.bizcal/.data.sync.SyncAdapterService" />
-<component-filter name="com.appgenix.bizcal/.reminder.missedcall.PhoneStateChangedReceiver" />
-<component-filter name="com.appgenix.bizcal/com.amazon.device.iap.ResponseReceiver" />
 <component-filter name="com.appgenix.bizcal/com.appgenix.bizcal.BizCalReceiver" />
-<component-filter name="com.appgenix.bizcal/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-<component-filter name="com.appgenix.bizcal/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-<component-filter name="com.appgenix.bizcal/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-<component-filter name="com.appgenix.bizcal/com.google.firebase.iid.FirebaseInstanceIdService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.appgenix.bizcal/.BizCalReceiver" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.factory.WidgetService" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProvider" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderAgenda" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderDay" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderDayPro" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderIcon" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderTask" />
-<component-filter name="com.appgenix.bizcal/.appwidgets.provider.WidgetProviderWeek" />
-<component-filter name="com.appgenix.bizcal/.data.sync.AuthenticatorService" />
-<component-filter name="com.appgenix.bizcal/.data.sync.GcmBroadcastReceiver" />
-<component-filter name="com.appgenix.bizcal/.data.sync.SyncAdapterService" />
-<component-filter name="com.appgenix.bizcal/.reminder.missedcall.PhoneStateChangedReceiver" />
-<component-filter name="com.appgenix.bizcal/com.amazon.device.iap.ResponseReceiver" />
 <component-filter name="com.appgenix.bizcal/com.appgenix.bizcal.BizCalReceiver" />
-<component-filter name="com.appgenix.bizcal/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-<component-filter name="com.appgenix.bizcal/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-<component-filter name="com.appgenix.bizcal/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-<component-filter name="com.appgenix.bizcal/com.google.firebase.iid.FirebaseInstanceIdService" />
 </activity>
 </rules>

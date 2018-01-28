@@ -1,32 +1,32 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.fuiou.mgr/.push.PushMessageReceiver" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.CommandService" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushService" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushServiceReceiver" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.RegistrationReceiver" />
 <component-filter name="com.fuiou.mgr/com.baidu.location.f" />
 <component-filter name="com.fuiou.mgr/com.fuiou.mgr.push.PushMessageReceiver" />
-<component-filter name="com.fuiou.mgr/com.wizarcan.beacon.BeaconScanService" />
+<component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.CommandService" />
+<component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.fuiou.mgr/.push.PushMessageReceiver" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.CommandService" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushService" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushServiceReceiver" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.RegistrationReceiver" />
 <component-filter name="com.fuiou.mgr/com.baidu.location.f" />
 <component-filter name="com.fuiou.mgr/com.fuiou.mgr.push.PushMessageReceiver" />
-<component-filter name="com.fuiou.mgr/com.wizarcan.beacon.BeaconScanService" />
+<component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.CommandService" />
+<component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.fuiou.mgr/.push.PushMessageReceiver" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.CommandService" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushService" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushServiceReceiver" />
 <component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.RegistrationReceiver" />
 <component-filter name="com.fuiou.mgr/com.baidu.location.f" />
 <component-filter name="com.fuiou.mgr/com.fuiou.mgr.push.PushMessageReceiver" />
-<component-filter name="com.fuiou.mgr/com.wizarcan.beacon.BeaconScanService" />
+<component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.CommandService" />
+<component-filter name="com.fuiou.mgr/com.baidu.android.pushservice.PushService" />
 </activity>
 </rules>

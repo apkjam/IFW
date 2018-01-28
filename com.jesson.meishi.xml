@@ -1,36 +1,18 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.jesson.meishi/.service.AlarmServiceBroadcastReciever" />
-<component-filter name="com.jesson.meishi/com.baidu.location.f" />
-<component-filter name="com.jesson.meishi/com.umeng.message.ElectionReceiver" />
-<component-filter name="com.jesson.meishi/com.umeng.message.MessageReceiver" />
-<component-filter name="com.jesson.meishi/com.umeng.message.SystemReceiver" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengIntentService" />
-<component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageBootReceiver" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageIntentReceiverService" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.jesson.meishi/.service.AlarmServiceBroadcastReciever" />
-<component-filter name="com.jesson.meishi/com.baidu.location.f" />
-<component-filter name="com.jesson.meishi/com.umeng.message.ElectionReceiver" />
-<component-filter name="com.jesson.meishi/com.umeng.message.MessageReceiver" />
-<component-filter name="com.jesson.meishi/com.umeng.message.SystemReceiver" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengIntentService" />
-<component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageBootReceiver" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageIntentReceiverService" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.jesson.meishi/.service.AlarmServiceBroadcastReciever" />
-<component-filter name="com.jesson.meishi/com.baidu.location.f" />
-<component-filter name="com.jesson.meishi/com.umeng.message.ElectionReceiver" />
-<component-filter name="com.jesson.meishi/com.umeng.message.MessageReceiver" />
-<component-filter name="com.jesson.meishi/com.umeng.message.SystemReceiver" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengIntentService" />
-<component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageBootReceiver" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengMessageIntentReceiverService" />
 <component-filter name="com.jesson.meishi/com.umeng.message.UmengService" />

@@ -1,20 +1,17 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.kiwi.android.whiteandroid/.receiver.MyCustomReceiver" />
 <component-filter name="com.kiwi.android.whiteandroid/com.avos.avoscloud.AVBroadcastReceiver" />
-<component-filter name="com.kiwi.android.whiteandroid/com.avos.avoscloud.PushService" />
 <component-filter name="com.kiwi.android.whiteandroid/com.kiwi.android.whiteandroid.receiver.MyCustomReceiver" />
+<component-filter name="com.kiwi.android.whiteandroid/com.avos.avoscloud.PushService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.kiwi.android.whiteandroid/.receiver.MyCustomReceiver" />
 <component-filter name="com.kiwi.android.whiteandroid/com.avos.avoscloud.AVBroadcastReceiver" />
-<component-filter name="com.kiwi.android.whiteandroid/com.avos.avoscloud.PushService" />
 <component-filter name="com.kiwi.android.whiteandroid/com.kiwi.android.whiteandroid.receiver.MyCustomReceiver" />
+<component-filter name="com.kiwi.android.whiteandroid/com.avos.avoscloud.PushService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.kiwi.android.whiteandroid/.receiver.MyCustomReceiver" />
 <component-filter name="com.kiwi.android.whiteandroid/com.avos.avoscloud.AVBroadcastReceiver" />
-<component-filter name="com.kiwi.android.whiteandroid/com.avos.avoscloud.PushService" />
 <component-filter name="com.kiwi.android.whiteandroid/com.kiwi.android.whiteandroid.receiver.MyCustomReceiver" />
+<component-filter name="com.kiwi.android.whiteandroid/com.avos.avoscloud.PushService" />
 </activity>
 </rules>

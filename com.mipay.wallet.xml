@@ -5,10 +5,6 @@
 <component-filter name="com.mipay.wallet/com.mipay.identity.provider.SdkIdentityProvider" />
 <component-filter name="com.mipay.wallet/com.mipay.push.MipayPushMessageReceiver" />
 <component-filter name="com.mipay.wallet/com.mipay.sms.local.SmsReceiver" />
-<component-filter name="com.mipay.wallet/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.mipay.wallet/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.mipay.wallet/com.xiaomi.push.service.XMJobService" />
-<component-filter name="com.mipay.wallet/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
@@ -18,10 +14,6 @@
 <component-filter name="com.mipay.wallet/com.mipay.identity.provider.SdkIdentityProvider" />
 <component-filter name="com.mipay.wallet/com.mipay.push.MipayPushMessageReceiver" />
 <component-filter name="com.mipay.wallet/com.mipay.sms.local.SmsReceiver" />
-<component-filter name="com.mipay.wallet/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.mipay.wallet/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.mipay.wallet/com.xiaomi.push.service.XMJobService" />
-<component-filter name="com.mipay.wallet/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
@@ -31,10 +23,6 @@
 <component-filter name="com.mipay.wallet/com.mipay.identity.provider.SdkIdentityProvider" />
 <component-filter name="com.mipay.wallet/com.mipay.push.MipayPushMessageReceiver" />
 <component-filter name="com.mipay.wallet/com.mipay.sms.local.SmsReceiver" />
-<component-filter name="com.mipay.wallet/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.mipay.wallet/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.mipay.wallet/com.xiaomi.push.service.XMJobService" />
-<component-filter name="com.mipay.wallet/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.PingReceiver" />
 </activity>

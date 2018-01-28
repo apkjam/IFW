@@ -1,17 +1,17 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.DebugService" />
 <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SendToBrowserActivity" />
 <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SyncFlagsWakefulReceiver" />
+<component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.DebugService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.DebugService" />
 <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SendToBrowserActivity" />
 <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SyncFlagsWakefulReceiver" />
+<component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.DebugService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.DebugService" />
 <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SendToBrowserActivity" />
 <component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.SyncFlagsWakefulReceiver" />
+<component-filter name="com.google.android.instantapps.supervisor/com.google.android.instantapps.supervisor.DebugService" />
 </activity>
 </rules>

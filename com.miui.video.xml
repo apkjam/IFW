@@ -3,9 +3,6 @@
 <component-filter name="com.miui.video/com.miui.video.VReceiver" />
 <component-filter name="com.miui.video/com.miui.video.common.launcher.download.AdApkDownloadTaskUseMM$DownloadReceiver" />
 <component-filter name="com.miui.video/com.miui.video.push.MediaPushMessageReceiver" />
-<component-filter name="com.miui.video/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.miui.video/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.miui.video/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.miui.video/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.miui.video/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.miui.video/com.xiaomi.push.service.receivers.PingReceiver" />
@@ -14,9 +11,6 @@
 <component-filter name="com.miui.video/com.miui.video.VReceiver" />
 <component-filter name="com.miui.video/com.miui.video.common.launcher.download.AdApkDownloadTaskUseMM$DownloadReceiver" />
 <component-filter name="com.miui.video/com.miui.video.push.MediaPushMessageReceiver" />
-<component-filter name="com.miui.video/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.miui.video/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.miui.video/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.miui.video/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.miui.video/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.miui.video/com.xiaomi.push.service.receivers.PingReceiver" />
@@ -25,9 +19,6 @@
 <component-filter name="com.miui.video/com.miui.video.VReceiver" />
 <component-filter name="com.miui.video/com.miui.video.common.launcher.download.AdApkDownloadTaskUseMM$DownloadReceiver" />
 <component-filter name="com.miui.video/com.miui.video.push.MediaPushMessageReceiver" />
-<component-filter name="com.miui.video/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.miui.video/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.miui.video/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.miui.video/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.miui.video/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.miui.video/com.xiaomi.push.service.receivers.PingReceiver" />

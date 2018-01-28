@@ -1,7 +1,5 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.tencent.mm/com.tencent.mm.booter.InstallReceiver" />
-<component-filter name="com.tencent.mm/com.tencent.mm.booter.cache.CacheService" />
 <component-filter name="com.tencent.mm/com.tencent.mm.crash.CrashUploaderService" />
 <component-filter name="com.tencent.mm/com.tencent.mm.modelfriend.AddrBookObserver$AddrBookService" />
 <component-filter name="com.tencent.mm/com.tencent.mm.plugin.accountsync.model.AccountAuthenticatorService" />
@@ -105,11 +103,8 @@
 <component-filter name="com.tencent.mm/com.tencent.mm.ui.bindlinkedin.BindLinkedInUI" />
 <component-filter name="com.tencent.mm/com.tencent.mm.ui.friend.InviteFacebookFriendsUI" />
 <component-filter name="com.tencent.mm/com.tencent.recovery.wx.service.WXRecoveryUploadService" />
-<component-filter name="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.tencent.mm/com.tencent.mm.booter.InstallReceiver" />
-<component-filter name="com.tencent.mm/com.tencent.mm.booter.cache.CacheService" />
 <component-filter name="com.tencent.mm/com.tencent.mm.crash.CrashUploaderService" />
 <component-filter name="com.tencent.mm/com.tencent.mm.modelfriend.AddrBookObserver$AddrBookService" />
 <component-filter name="com.tencent.mm/com.tencent.mm.plugin.accountsync.model.AccountAuthenticatorService" />
@@ -213,11 +208,8 @@
 <component-filter name="com.tencent.mm/com.tencent.mm.ui.bindlinkedin.BindLinkedInUI" />
 <component-filter name="com.tencent.mm/com.tencent.mm.ui.friend.InviteFacebookFriendsUI" />
 <component-filter name="com.tencent.mm/com.tencent.recovery.wx.service.WXRecoveryUploadService" />
-<component-filter name="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.tencent.mm/com.tencent.mm.booter.InstallReceiver" />
-<component-filter name="com.tencent.mm/com.tencent.mm.booter.cache.CacheService" />
 <component-filter name="com.tencent.mm/com.tencent.mm.crash.CrashUploaderService" />
 <component-filter name="com.tencent.mm/com.tencent.mm.modelfriend.AddrBookObserver$AddrBookService" />
 <component-filter name="com.tencent.mm/com.tencent.mm.plugin.accountsync.model.AccountAuthenticatorService" />
@@ -321,6 +313,5 @@
 <component-filter name="com.tencent.mm/com.tencent.mm.ui.bindlinkedin.BindLinkedInUI" />
 <component-filter name="com.tencent.mm/com.tencent.mm.ui.friend.InviteFacebookFriendsUI" />
 <component-filter name="com.tencent.mm/com.tencent.recovery.wx.service.WXRecoveryUploadService" />
-<component-filter name="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
 </activity>
 </rules>

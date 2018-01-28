@@ -3,10 +3,7 @@
 <component-filter name="com.miui.player/com.android.providers.downloads.receiver.DownloadReceiver" />
 <component-filter name="com.miui.player/com.miui.player.push.MiuiPushMessageReceiver" />
 <component-filter name="com.miui.player/com.miui.player.push.MiuiPushMessageService" />
-<component-filter name="com.miui.player/com.miui.player.push.PushService" />
 <component-filter name="com.miui.player/com.miui.player.receiver.MarketInstallServiceReceiver" />
-<component-filter name="com.miui.player/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.miui.player/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.miui.player/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.miui.player/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
@@ -14,10 +11,7 @@
 <component-filter name="com.miui.player/com.android.providers.downloads.receiver.DownloadReceiver" />
 <component-filter name="com.miui.player/com.miui.player.push.MiuiPushMessageReceiver" />
 <component-filter name="com.miui.player/com.miui.player.push.MiuiPushMessageService" />
-<component-filter name="com.miui.player/com.miui.player.push.PushService" />
 <component-filter name="com.miui.player/com.miui.player.receiver.MarketInstallServiceReceiver" />
-<component-filter name="com.miui.player/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.miui.player/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.miui.player/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.miui.player/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
@@ -25,10 +19,7 @@
 <component-filter name="com.miui.player/com.android.providers.downloads.receiver.DownloadReceiver" />
 <component-filter name="com.miui.player/com.miui.player.push.MiuiPushMessageReceiver" />
 <component-filter name="com.miui.player/com.miui.player.push.MiuiPushMessageService" />
-<component-filter name="com.miui.player/com.miui.player.push.PushService" />
 <component-filter name="com.miui.player/com.miui.player.receiver.MarketInstallServiceReceiver" />
-<component-filter name="com.miui.player/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.miui.player/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.miui.player/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.miui.player/com.xiaomi.push.service.receivers.PingReceiver" />
 </activity>

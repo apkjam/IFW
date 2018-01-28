@@ -11,9 +11,6 @@
 <component-filter name="com.android.settings/com.android.settings.Settings$SystemUpdateActivity" />
 <component-filter name="com.android.settings/com.android.settings.Settings$TimerSwitchSettingsActivity" />
 <component-filter name="com.android.settings/com.android.settings.widget.SettingsAppWidgetProvider" />
-<component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService" />
-<component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
 </service>
 <broadcast block="true" log="false">
 <component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
@@ -27,9 +24,6 @@
 <component-filter name="com.android.settings/com.android.settings.Settings$SystemUpdateActivity" />
 <component-filter name="com.android.settings/com.android.settings.Settings$TimerSwitchSettingsActivity" />
 <component-filter name="com.android.settings/com.android.settings.widget.SettingsAppWidgetProvider" />
-<component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService" />
-<component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
 </broadcast>
 <activity block="true" log="false">
 <component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
@@ -43,8 +37,5 @@
 <component-filter name="com.android.settings/com.android.settings.Settings$SystemUpdateActivity" />
 <component-filter name="com.android.settings/com.android.settings.Settings$TimerSwitchSettingsActivity" />
 <component-filter name="com.android.settings/com.android.settings.widget.SettingsAppWidgetProvider" />
-<component-filter name="com.android.settings/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.android.settings/com.xiaomi.miui.pushads.sdk.MiPushRelayTraceService" />
-<component-filter name="com.android.settings/com.xiaomi.push.service.XMPushService" />
 </activity>
 </rules>

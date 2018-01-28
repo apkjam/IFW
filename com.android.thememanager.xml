@@ -1,24 +1,18 @@
 <rules>
 <service block="true" log="false">
 <component-filter name="com.android.thememanager/com.android.thememanager.push.ThemePushReceiver" />
-<component-filter name="com.android.thememanager/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.android.thememanager/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.android.thememanager/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.android.thememanager/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.android.thememanager/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
 <component-filter name="com.android.thememanager/com.android.thememanager.push.ThemePushReceiver" />
-<component-filter name="com.android.thememanager/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.android.thememanager/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.android.thememanager/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.android.thememanager/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.android.thememanager/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
 <component-filter name="com.android.thememanager/com.android.thememanager.push.ThemePushReceiver" />
-<component-filter name="com.android.thememanager/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.android.thememanager/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.android.thememanager/com.xiaomi.push.service.XMPushService" />
 <component-filter name="com.android.thememanager/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
 <component-filter name="com.android.thememanager/com.xiaomi.push.service.receivers.PingReceiver" />

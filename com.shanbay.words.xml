@@ -1,26 +1,26 @@
 <rules>
 <service block="true" log="false">
 <component-filter name="com.shanbay.words/com.shanbay.words.push.MiPushBroadcastReceiver" />
+<component-filter name="com.shanbay.words/com.xiaomi.push.service.receivers.PingReceiver" />
 <component-filter name="com.shanbay.words/com.xiaomi.mipush.sdk.MessageHandleService" />
 <component-filter name="com.shanbay.words/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.shanbay.words/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.shanbay.words/com.xiaomi.push.service.XMPushService" />
-<component-filter name="com.shanbay.words/com.xiaomi.push.service.receivers.PingReceiver" />
 </service>
 <broadcast block="true" log="false">
 <component-filter name="com.shanbay.words/com.shanbay.words.push.MiPushBroadcastReceiver" />
+<component-filter name="com.shanbay.words/com.xiaomi.push.service.receivers.PingReceiver" />
 <component-filter name="com.shanbay.words/com.xiaomi.mipush.sdk.MessageHandleService" />
 <component-filter name="com.shanbay.words/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.shanbay.words/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.shanbay.words/com.xiaomi.push.service.XMPushService" />
-<component-filter name="com.shanbay.words/com.xiaomi.push.service.receivers.PingReceiver" />
 </broadcast>
 <activity block="true" log="false">
 <component-filter name="com.shanbay.words/com.shanbay.words.push.MiPushBroadcastReceiver" />
+<component-filter name="com.shanbay.words/com.xiaomi.push.service.receivers.PingReceiver" />
 <component-filter name="com.shanbay.words/com.xiaomi.mipush.sdk.MessageHandleService" />
 <component-filter name="com.shanbay.words/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.shanbay.words/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.shanbay.words/com.xiaomi.push.service.XMPushService" />
-<component-filter name="com.shanbay.words/com.xiaomi.push.service.receivers.PingReceiver" />
 </activity>
 </rules>

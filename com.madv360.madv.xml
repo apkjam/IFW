@@ -2,31 +2,13 @@
 <service block="true" log="false">
 <component-filter name="com.madv360.madv/cn.jpush.android.service.DaemonService" />
 <component-filter name="com.madv360.madv/cn.jpush.android.service.PushService" />
-<component-filter name="com.madv360.madv/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-<component-filter name="com.madv360.madv/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-<component-filter name="com.madv360.madv/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-<component-filter name="com.madv360.madv/com.google.firebase.iid.FirebaseInstanceIdService" />
-<component-filter name="com.madv360.madv/com.stub.plugin.Stub02" />
-<component-filter name="com.madv360.madv/module.home.receiver.LanguageChangeReceiver" />
 </service>
 <broadcast block="true" log="false">
 <component-filter name="com.madv360.madv/cn.jpush.android.service.DaemonService" />
 <component-filter name="com.madv360.madv/cn.jpush.android.service.PushService" />
-<component-filter name="com.madv360.madv/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-<component-filter name="com.madv360.madv/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-<component-filter name="com.madv360.madv/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-<component-filter name="com.madv360.madv/com.google.firebase.iid.FirebaseInstanceIdService" />
-<component-filter name="com.madv360.madv/com.stub.plugin.Stub02" />
-<component-filter name="com.madv360.madv/module.home.receiver.LanguageChangeReceiver" />
 </broadcast>
 <activity block="true" log="false">
 <component-filter name="com.madv360.madv/cn.jpush.android.service.DaemonService" />
 <component-filter name="com.madv360.madv/cn.jpush.android.service.PushService" />
-<component-filter name="com.madv360.madv/com.google.android.gms.auth.api.signin.RevocationBoundService" />
-<component-filter name="com.madv360.madv/com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" />
-<component-filter name="com.madv360.madv/com.google.firebase.iid.FirebaseInstanceIdReceiver" />
-<component-filter name="com.madv360.madv/com.google.firebase.iid.FirebaseInstanceIdService" />
-<component-filter name="com.madv360.madv/com.stub.plugin.Stub02" />
-<component-filter name="com.madv360.madv/module.home.receiver.LanguageChangeReceiver" />
 </activity>
 </rules>

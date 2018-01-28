@@ -1,20 +1,20 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.amazon.mShop.android.shopping/com.amazon.alexa.sdk.audio.channel.content.amp.service.AmpService" />
 <component-filter name="com.amazon.mShop.android.shopping/com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
 <component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.httpUrlDeepLink.HttpUrlDeepLinkingActivity" />
 <component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.kiang.DeviceRegistrationReceiver" />
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.alexa.sdk.audio.channel.content.amp.service.AmpService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.amazon.mShop.android.shopping/com.amazon.alexa.sdk.audio.channel.content.amp.service.AmpService" />
 <component-filter name="com.amazon.mShop.android.shopping/com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
 <component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.httpUrlDeepLink.HttpUrlDeepLinkingActivity" />
 <component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.kiang.DeviceRegistrationReceiver" />
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.alexa.sdk.audio.channel.content.amp.service.AmpService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.amazon.mShop.android.shopping/com.amazon.alexa.sdk.audio.channel.content.amp.service.AmpService" />
 <component-filter name="com.amazon.mShop.android.shopping/com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
 <component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.httpUrlDeepLink.HttpUrlDeepLinkingActivity" />
 <component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.kiang.DeviceRegistrationReceiver" />
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.alexa.sdk.audio.channel.content.amp.service.AmpService" />
 </activity>
 </rules>

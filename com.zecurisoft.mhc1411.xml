@@ -2,7 +2,6 @@
 <service block="true" log="false">
 <component-filter name="com.zecurisoft.mhc1411/com.amazon.inapp.purchasing.ResponseReceiver" />
 <component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyDownloadService" />
-<component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyReceiver" />
 <component-filter name="com.zecurisoft.mhc1411/com.zecurisoft.mhc.billing.InAppBillingActivity" />
 <component-filter name="com.zecurisoft.mhc1411/com.zecurisoft.mhc.billing.UpgradeActivity" />
 <component-filter name="com.zecurisoft.mhc1411/com.zecurisoft.mhc.billing.WebsiteBillingActivity" />
@@ -10,7 +9,6 @@
 <broadcast block="true" log="false">
 <component-filter name="com.zecurisoft.mhc1411/com.amazon.inapp.purchasing.ResponseReceiver" />
 <component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyDownloadService" />
-<component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyReceiver" />
 <component-filter name="com.zecurisoft.mhc1411/com.zecurisoft.mhc.billing.InAppBillingActivity" />
 <component-filter name="com.zecurisoft.mhc1411/com.zecurisoft.mhc.billing.UpgradeActivity" />
 <component-filter name="com.zecurisoft.mhc1411/com.zecurisoft.mhc.billing.WebsiteBillingActivity" />
@@ -18,7 +16,6 @@
 <activity block="true" log="false">
 <component-filter name="com.zecurisoft.mhc1411/com.amazon.inapp.purchasing.ResponseReceiver" />
 <component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyDownloadService" />
-<component-filter name="com.zecurisoft.mhc1411/com.jobernowl.MyReceiver" />
 <component-filter name="com.zecurisoft.mhc1411/com.zecurisoft.mhc.billing.InAppBillingActivity" />
 <component-filter name="com.zecurisoft.mhc1411/com.zecurisoft.mhc.billing.UpgradeActivity" />
 <component-filter name="com.zecurisoft.mhc1411/com.zecurisoft.mhc.billing.WebsiteBillingActivity" />

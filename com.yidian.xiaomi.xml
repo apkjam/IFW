@@ -1,7 +1,10 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.yidian.xiaomi/com.taobao.accs.ChannelService" />
 <component-filter name="com.yidian.xiaomi/com.taobao.accs.EventReceiver" />
+<component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.push.YdPushMessageReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.util.fetchnews.WakeReceiver" />
+<component-filter name="com.yidian.xiaomi/com.taobao.accs.ChannelService" />
 <component-filter name="com.yidian.xiaomi/com.umeng.message.UmengIntentService" />
 <component-filter name="com.yidian.xiaomi/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.yidian.xiaomi/com.umeng.message.UmengMessageIntentReceiverService" />
@@ -9,15 +12,15 @@
 <component-filter name="com.yidian.xiaomi/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.XMPushService" />
-<component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.receivers.PingReceiver" />
-<component-filter name="com.yidian.xiaomi/com.yidian.news.push.YdPushMessageReceiver" />
 <component-filter name="com.yidian.xiaomi/com.yidian.news.util.DebugReportService" />
-<component-filter name="com.yidian.xiaomi/com.yidian.news.util.fetchnews.WakeReceiver" />
 <component-filter name="com.yidian.xiaomi/org.android.agoo.accs.AgooService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.yidian.xiaomi/com.taobao.accs.ChannelService" />
 <component-filter name="com.yidian.xiaomi/com.taobao.accs.EventReceiver" />
+<component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.push.YdPushMessageReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.util.fetchnews.WakeReceiver" />
+<component-filter name="com.yidian.xiaomi/com.taobao.accs.ChannelService" />
 <component-filter name="com.yidian.xiaomi/com.umeng.message.UmengIntentService" />
 <component-filter name="com.yidian.xiaomi/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.yidian.xiaomi/com.umeng.message.UmengMessageIntentReceiverService" />
@@ -25,15 +28,15 @@
 <component-filter name="com.yidian.xiaomi/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.XMPushService" />
-<component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.receivers.PingReceiver" />
-<component-filter name="com.yidian.xiaomi/com.yidian.news.push.YdPushMessageReceiver" />
 <component-filter name="com.yidian.xiaomi/com.yidian.news.util.DebugReportService" />
-<component-filter name="com.yidian.xiaomi/com.yidian.news.util.fetchnews.WakeReceiver" />
 <component-filter name="com.yidian.xiaomi/org.android.agoo.accs.AgooService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.yidian.xiaomi/com.taobao.accs.ChannelService" />
 <component-filter name="com.yidian.xiaomi/com.taobao.accs.EventReceiver" />
+<component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.push.YdPushMessageReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.util.fetchnews.WakeReceiver" />
+<component-filter name="com.yidian.xiaomi/com.taobao.accs.ChannelService" />
 <component-filter name="com.yidian.xiaomi/com.umeng.message.UmengIntentService" />
 <component-filter name="com.yidian.xiaomi/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.yidian.xiaomi/com.umeng.message.UmengMessageIntentReceiverService" />
@@ -41,10 +44,7 @@
 <component-filter name="com.yidian.xiaomi/com.xiaomi.mipush.sdk.PushMessageHandler" />
 <component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.XMPushService" />
-<component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.receivers.PingReceiver" />
-<component-filter name="com.yidian.xiaomi/com.yidian.news.push.YdPushMessageReceiver" />
 <component-filter name="com.yidian.xiaomi/com.yidian.news.util.DebugReportService" />
-<component-filter name="com.yidian.xiaomi/com.yidian.news.util.fetchnews.WakeReceiver" />
 <component-filter name="com.yidian.xiaomi/org.android.agoo.accs.AgooService" />
 </activity>
 </rules>

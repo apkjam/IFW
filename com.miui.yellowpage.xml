@@ -1,23 +1,14 @@
 <rules>
 <service block="true" log="false">
 <component-filter name="com.miui.yellowpage/com.miui.yellowpage.sync.PushMessageReceiver" />
-<component-filter name="com.miui.yellowpage/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.miui.yellowpage/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.miui.yellowpage/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.miui.yellowpage/com.xiaomi.push.service.XMPushService" />
 </service>
 <broadcast block="true" log="false">
 <component-filter name="com.miui.yellowpage/com.miui.yellowpage.sync.PushMessageReceiver" />
-<component-filter name="com.miui.yellowpage/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.miui.yellowpage/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.miui.yellowpage/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.miui.yellowpage/com.xiaomi.push.service.XMPushService" />
 </broadcast>
 <activity block="true" log="false">
 <component-filter name="com.miui.yellowpage/com.miui.yellowpage.sync.PushMessageReceiver" />
-<component-filter name="com.miui.yellowpage/com.xiaomi.mipush.sdk.MessageHandleService" />
-<component-filter name="com.miui.yellowpage/com.xiaomi.mipush.sdk.PushMessageHandler" />
-<component-filter name="com.miui.yellowpage/com.xiaomi.push.service.XMJobService" />
 <component-filter name="com.miui.yellowpage/com.xiaomi.push.service.XMPushService" />
 </activity>
 </rules>

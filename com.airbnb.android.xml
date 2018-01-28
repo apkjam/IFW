@@ -1,50 +1,17 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.airbnb.android/.core.services.JPushBroadcastReceiver" />
-<component-filter name="com.airbnb.android/.lib.GCMBroadcastReceiver" />
-<component-filter name="com.airbnb.android/.lib.ReferralBroadcastReceiver" />
-<component-filter name="com.airbnb.android/.lib.contentproviders.HostHomeWidgetProvider" />
-<component-filter name="com.airbnb.android/.lib.receivers.AppUpgradeReceiver" />
-<component-filter name="com.airbnb.android/.lib.receivers.LocaleChangedReceiver" />
-<component-filter name="com.airbnb.android/.lib.services.AirbnbAuthenticatorService" />
-<component-filter name="com.airbnb.android/.lib.services.HHListWidgetService" />
-<component-filter name="com.airbnb.android/.listing.services.PhotoUploadRetryBroadcastReceiver" />
-<component-filter name="com.airbnb.android/cn.jpush.android.service.DaemonService" />
 <component-filter name="com.airbnb.android/cn.jpush.android.service.PushReceiver" />
+<component-filter name="com.airbnb.android/cn.jpush.android.service.DaemonService" />
 <component-filter name="com.airbnb.android/cn.jpush.android.service.PushService" />
-<component-filter name="com.airbnb.android/com.appboy.AppboyGcmReceiver" />
-<component-filter name="com.airbnb.android/com.google.android.gms.auth.api.signin.RevocationBoundService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.airbnb.android/.core.services.JPushBroadcastReceiver" />
-<component-filter name="com.airbnb.android/.lib.GCMBroadcastReceiver" />
-<component-filter name="com.airbnb.android/.lib.ReferralBroadcastReceiver" />
-<component-filter name="com.airbnb.android/.lib.contentproviders.HostHomeWidgetProvider" />
-<component-filter name="com.airbnb.android/.lib.receivers.AppUpgradeReceiver" />
-<component-filter name="com.airbnb.android/.lib.receivers.LocaleChangedReceiver" />
-<component-filter name="com.airbnb.android/.lib.services.AirbnbAuthenticatorService" />
-<component-filter name="com.airbnb.android/.lib.services.HHListWidgetService" />
-<component-filter name="com.airbnb.android/.listing.services.PhotoUploadRetryBroadcastReceiver" />
-<component-filter name="com.airbnb.android/cn.jpush.android.service.DaemonService" />
 <component-filter name="com.airbnb.android/cn.jpush.android.service.PushReceiver" />
+<component-filter name="com.airbnb.android/cn.jpush.android.service.DaemonService" />
 <component-filter name="com.airbnb.android/cn.jpush.android.service.PushService" />
-<component-filter name="com.airbnb.android/com.appboy.AppboyGcmReceiver" />
-<component-filter name="com.airbnb.android/com.google.android.gms.auth.api.signin.RevocationBoundService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.airbnb.android/.core.services.JPushBroadcastReceiver" />
-<component-filter name="com.airbnb.android/.lib.GCMBroadcastReceiver" />
-<component-filter name="com.airbnb.android/.lib.ReferralBroadcastReceiver" />
-<component-filter name="com.airbnb.android/.lib.contentproviders.HostHomeWidgetProvider" />
-<component-filter name="com.airbnb.android/.lib.receivers.AppUpgradeReceiver" />
-<component-filter name="com.airbnb.android/.lib.receivers.LocaleChangedReceiver" />
-<component-filter name="com.airbnb.android/.lib.services.AirbnbAuthenticatorService" />
-<component-filter name="com.airbnb.android/.lib.services.HHListWidgetService" />
-<component-filter name="com.airbnb.android/.listing.services.PhotoUploadRetryBroadcastReceiver" />
-<component-filter name="com.airbnb.android/cn.jpush.android.service.DaemonService" />
 <component-filter name="com.airbnb.android/cn.jpush.android.service.PushReceiver" />
+<component-filter name="com.airbnb.android/cn.jpush.android.service.DaemonService" />
 <component-filter name="com.airbnb.android/cn.jpush.android.service.PushService" />
-<component-filter name="com.airbnb.android/com.appboy.AppboyGcmReceiver" />
-<component-filter name="com.airbnb.android/com.google.android.gms.auth.api.signin.RevocationBoundService" />
 </activity>
 </rules>

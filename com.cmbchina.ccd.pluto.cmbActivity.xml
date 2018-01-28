@@ -1,31 +1,19 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/.wallet.hce.service.HceHostApduService" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmb.pboc.hce.service.HCEPaymentService" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.cpclientdemoapp.PushBroadCastReceiver" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.pushclient.HcePushService" />
 <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.pushclient.HcePushService" />
 <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.igexin.sdk.PushService" />
 <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.tencent.intervideo.nowproxy.proxyinner.channel.ChannelService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/.wallet.hce.service.HceHostApduService" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmb.pboc.hce.service.HCEPaymentService" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.cpclientdemoapp.PushBroadCastReceiver" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.pushclient.HcePushService" />
 <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.pushclient.HcePushService" />
 <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.igexin.sdk.PushService" />
 <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.tencent.intervideo.nowproxy.proxyinner.channel.ChannelService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/.wallet.hce.service.HceHostApduService" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.cmb.pboc.hce.service.HCEPaymentService" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.cpclientdemoapp.PushBroadCastReceiver" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.hceclient.PushRecieveMsgReceiver" />
-<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.pushclient.HcePushService" />
 <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.pushclient.HcePushService" />
 <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.igexin.sdk.PushService" />
 <component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.tencent.intervideo.nowproxy.proxyinner.channel.ChannelService" />
 </activity>

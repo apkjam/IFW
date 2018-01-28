@@ -1,15 +1,10 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.jiuxianapk.ui/com.igexin.download.DownloadReceiver" />
+<component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.download.DownloadService" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.getuiext.service.GetuiExtService" />
-<component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushService" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushServiceUser" />
-<component-filter name="com.jiuxianapk.ui/com.jiuxian.client.service.TabIconDownloadService" />
-<component-filter name="com.jiuxianapk.ui/com.jiuxian.client.service.WelcomeImageDownloadService" />
-<component-filter name="com.jiuxianapk.ui/com.umeng.message.ElectionReceiver" />
-<component-filter name="com.jiuxianapk.ui/com.umeng.message.SystemReceiver" />
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.UmengIntentService" />
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.UmengMessageIntentReceiverService" />
@@ -17,16 +12,11 @@
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.local.UmengLocalNotificationService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.jiuxianapk.ui/com.igexin.download.DownloadReceiver" />
+<component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.download.DownloadService" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.getuiext.service.GetuiExtService" />
-<component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushService" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushServiceUser" />
-<component-filter name="com.jiuxianapk.ui/com.jiuxian.client.service.TabIconDownloadService" />
-<component-filter name="com.jiuxianapk.ui/com.jiuxian.client.service.WelcomeImageDownloadService" />
-<component-filter name="com.jiuxianapk.ui/com.umeng.message.ElectionReceiver" />
-<component-filter name="com.jiuxianapk.ui/com.umeng.message.SystemReceiver" />
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.UmengIntentService" />
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.UmengMessageIntentReceiverService" />
@@ -34,16 +24,11 @@
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.local.UmengLocalNotificationService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.jiuxianapk.ui/com.igexin.download.DownloadReceiver" />
+<component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.download.DownloadService" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.getuiext.service.GetuiExtService" />
-<component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushReceiver" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushService" />
 <component-filter name="com.jiuxianapk.ui/com.igexin.sdk.PushServiceUser" />
-<component-filter name="com.jiuxianapk.ui/com.jiuxian.client.service.TabIconDownloadService" />
-<component-filter name="com.jiuxianapk.ui/com.jiuxian.client.service.WelcomeImageDownloadService" />
-<component-filter name="com.jiuxianapk.ui/com.umeng.message.ElectionReceiver" />
-<component-filter name="com.jiuxianapk.ui/com.umeng.message.SystemReceiver" />
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.UmengIntentService" />
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.jiuxianapk.ui/com.umeng.message.UmengMessageIntentReceiverService" />

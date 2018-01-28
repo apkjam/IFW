@@ -1,36 +1,21 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.ktls.fileinfo/.receiver.BootReceiver" />
-<component-filter name="com.ktls.fileinfo/.receiver.UserPresentReceiver" />
 <component-filter name="com.ktls.fileinfo/com.ktls.fileinfo.receiver.UserPresentReceiver" />
-<component-filter name="com.ktls.fileinfo/com.umeng.message.ElectionReceiver" />
-<component-filter name="com.ktls.fileinfo/com.umeng.message.SystemReceiver" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengIntentService" />
-<component-filter name="com.ktls.fileinfo/com.umeng.message.UmengMessageBootReceiver" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengMessageIntentReceiverService" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengService" />
 </service>
 <broadcast block="true" log="false">
-<component-filter name="com.ktls.fileinfo/.receiver.BootReceiver" />
-<component-filter name="com.ktls.fileinfo/.receiver.UserPresentReceiver" />
 <component-filter name="com.ktls.fileinfo/com.ktls.fileinfo.receiver.UserPresentReceiver" />
-<component-filter name="com.ktls.fileinfo/com.umeng.message.ElectionReceiver" />
-<component-filter name="com.ktls.fileinfo/com.umeng.message.SystemReceiver" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengIntentService" />
-<component-filter name="com.ktls.fileinfo/com.umeng.message.UmengMessageBootReceiver" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengMessageIntentReceiverService" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengService" />
 </broadcast>
 <activity block="true" log="false">
-<component-filter name="com.ktls.fileinfo/.receiver.BootReceiver" />
-<component-filter name="com.ktls.fileinfo/.receiver.UserPresentReceiver" />
 <component-filter name="com.ktls.fileinfo/com.ktls.fileinfo.receiver.UserPresentReceiver" />
-<component-filter name="com.ktls.fileinfo/com.umeng.message.ElectionReceiver" />
-<component-filter name="com.ktls.fileinfo/com.umeng.message.SystemReceiver" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengIntentService" />
-<component-filter name="com.ktls.fileinfo/com.umeng.message.UmengMessageBootReceiver" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengMessageCallbackHandlerService" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengMessageIntentReceiverService" />
 <component-filter name="com.ktls.fileinfo/com.umeng.message.UmengService" />
