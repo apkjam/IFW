@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.sankuai.meituan.takeoutnew/com.dianping.base.push.pushservice.dp.DPPushService"/>
+<component-filter name="com.sankuai.meituan.takeoutnew/com.dianping.base.push.pushservice.dp.FakeService"/>
+<component-filter name="com.sankuai.meituan.takeoutnew/com.dianping.base.push.pushservice.PushWakeUpJob"/>
+<component-filter name="com.sankuai.meituan.takeoutnew/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.sankuai.meituan.takeoutnew/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.sankuai.meituan.takeoutnew/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.sankuai.meituan.takeoutnew/com.huawei.android.pushagent.PushService"/>
+<component-filter name="com.sankuai.meituan.takeoutnew/com.dianping.base.push.pushservice.MZPushService"/>
+<component-filter name="com.sankuai.meituan.takeoutnew/com.dianping.base.push.pushservice.NotificationClickReceiver"/>
+<component-filter name="com.sankuai.meituan.takeoutnew/com.meituan.android.common.horn.HornPushService"/>
+</service>
+</rules>

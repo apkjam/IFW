@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.netease.snailread/com.netease.pushservice.core.NetEasePushMessageService_V1"/>
+</service>
+</rules>

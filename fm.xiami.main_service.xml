@@ -1,0 +1,12 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="fm.xiami.main/com.taobao.accs.ChannelService$KernelService"/>
+<component-filter name="fm.xiami.main/org.android.agoo.accs.AgooService"/>
+<component-filter name="fm.xiami.main/com.taobao.agoo.TaobaoMessageIntentReceiverService"/>
+<component-filter name="fm.xiami.main/anetwork.channel.aidl.NetworkService"/>
+<component-filter name="fm.xiami.main/mtopsdk.xstate.XStateService"/>
+<component-filter name="fm.xiami.main/com.taobao.nbcache.service.NBCacheService"/>
+<component-filter name="fm.xiami.main/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="fm.xiami.main/com.xiaomi.mipush.sdk.MessageHandleService"/>
+</service>
+</rules>

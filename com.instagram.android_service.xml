@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.instagram.android/com.instagram.notifications.push.ADMMessageHandler"/>
+</service>
+</rules>

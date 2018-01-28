@@ -1,0 +1,8 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.unnoo.quan/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.unnoo.quan/com.xiaomi.mipush.sdk.MessageHandleService"/>
+</service>
+</rules>

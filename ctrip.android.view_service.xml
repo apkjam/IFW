@@ -1,0 +1,7 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="ctrip.android.view/ctrip.android.pushsdk.PushService"/>
+<component-filter name="ctrip.android.view/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="ctrip.android.view/com.xiaomi.mipush.sdk.MessageHandleService"/>
+</service>
+</rules>

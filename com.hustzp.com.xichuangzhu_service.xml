@@ -1,0 +1,7 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.PushService"/>
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.core.MessageHandleService"/>
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushService"/>
+</service>
+</rules>

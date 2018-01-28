@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushServiceUser"/>
+<component-filter name="com.sdu.didi.psnger/com.igexin.download.DownloadService"/>
+<component-filter name="com.sdu.didi.psnger/com.igexin.getuiext.service.GetuiExtService"/>
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.XMJobService"/>
+</service>
+</rules>

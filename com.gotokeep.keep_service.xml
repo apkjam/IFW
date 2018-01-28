@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.gotokeep.keep/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.gotokeep.keep/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.gotokeep.keep/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.gotokeep.keep/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.gotokeep.keep/com.gotokeep.keep.service.outdoor.daemon.DaemonService"/>
+<component-filter name="com.gotokeep.keep/com.tencent.android.tpush.service.XGPushService"/>
+<component-filter name="com.gotokeep.keep/com.tencent.android.tpush.rpc.XGRemoteService"/>
+</service>
+</rules>

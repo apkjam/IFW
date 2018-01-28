@@ -1,0 +1,12 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.dp.DPPushService"/>
+<component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.dp.FakeService"/>
+<component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.PushWakeUpJob"/>
+<component-filter name="com.dianping.v1/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.dianping.v1/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.dianping.v1/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.dianping.v1/com.huawei.android.pushagent.PushService"/>
+<component-filter name="com.dianping.v1/com.dianping.base.push.pushservice.MZPushService"/>
+</service>
+</rules>

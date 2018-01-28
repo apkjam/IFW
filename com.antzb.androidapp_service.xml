@@ -1,0 +1,8 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.antzb.androidapp/com.igexin.sdk.PushService"/>
+<component-filter name="com.antzb.androidapp/com.igexin.sdk.PushServiceUser"/>
+<component-filter name="com.antzb.androidapp/com.igexin.download.DownloadService"/>
+<component-filter name="com.antzb.androidapp/com.igexin.getuiext.service.GetuiExtService"/>
+</service>
+</rules>

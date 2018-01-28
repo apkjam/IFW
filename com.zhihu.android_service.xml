@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.zhihu.android/com.zhihu.android.push.jobservice.PollingPushService"/>
+<component-filter name="com.zhihu.android/com.zhihu.android.app.jobservice.AdTracksPushService"/>
+<component-filter name="com.zhihu.android/com.avos.avoscloud.PushService"/>
+<component-filter name="com.zhihu.android/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.zhihu.android/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.zhihu.android/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.zhihu.android/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.zhihu.android/com.zhihu.android.push.getui.GetuiPushService"/>
+<component-filter name="com.zhihu.android/com.zhihu.android.push.getui.GetuiIntentService"/>
+<component-filter name="com.zhihu.android/com.igexin.sdk.PushService"/>
+</service>
+</rules>

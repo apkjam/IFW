@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.alibaba.wireless/com.taobao.accs.ChannelService"/>
+<component-filter name="com.alibaba.wireless/org.android.agoo.accs.AgooService"/>
+<component-filter name="com.alibaba.wireless/com.taobao.agoo.TaobaoMessageIntentReceiverService"/>
+<component-filter name="com.alibaba.wireless/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.alibaba.wireless/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.alibaba.wireless/anetwork.channel.aidl.NetworkService"/>
+<component-filter name="com.alibaba.wireless/mtopsdk.xstate.XStateService"/>
+</service>
+</rules>

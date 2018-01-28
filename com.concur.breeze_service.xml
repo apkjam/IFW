@@ -1,0 +1,6 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.concur.breeze/com.baidu.android.pushservice.PushService"/>
+<component-filter name="com.concur.breeze/com.baidu.android.pushservice.CommandService"/>
+</service>
+</rules>

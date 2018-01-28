@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.mfw.roadbook/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.mfw.roadbook/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.mfw.roadbook/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.mfw.roadbook/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.mfw.roadbook/com.igexin.sdk.PushService"/>
+<component-filter name="com.mfw.roadbook/com.igexin.download.DownloadService"/>
+<component-filter name="com.mfw.roadbook/com.mfw.roadbook.push.getuipush.OperateIntentService"/>
+<component-filter name="com.mfw.roadbook/com.mfw.roadbook.push.getuipush.GetuiPushService"/>
+<component-filter name="com.mfw.roadbook/anetwork.channel.aidl.NetworkService"/>
+<component-filter name="com.mfw.roadbook/mtopsdk.xstate.XStateService"/>
+</service>
+</rules>

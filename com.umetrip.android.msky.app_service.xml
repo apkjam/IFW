@@ -1,0 +1,8 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.umetrip.android.msky.app/com.huawei.android.pushagent.PushService"/>
+<component-filter name="com.umetrip.android.msky.app/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.umetrip.android.msky.app/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.umetrip.android.msky.app/com.xiaomi.mipush.sdk.MessageHandleService"/>
+</service>
+</rules>

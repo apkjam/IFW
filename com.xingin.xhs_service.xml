@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xingin.xhs/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.xingin.xhs/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.xingin.xhs/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.xingin.xhs/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.xingin.xhs/com.taobao.accs.ChannelService"/>
+<component-filter name="com.xingin.xhs/com.taobao.accs.ChannelService$KernelService"/>
+<component-filter name="com.xingin.xhs/org.android.agoo.accs.AgooService"/>
+<component-filter name="com.xingin.xhs/com.umeng.message.UmengIntentService"/>
+<component-filter name="com.xingin.xhs/com.umeng.message.UmengMessageCallbackHandlerService"/>
+<component-filter name="com.xingin.xhs/com.umeng.message.UmengMessageIntentReceiverService"/>
+</service>
+</rules>

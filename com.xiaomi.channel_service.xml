@@ -1,0 +1,9 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.gameService.GameService"/>
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.chat.resend.ResendMessageService"/>
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.PacketProcessService"/>
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.mucinfo.service.ExportChatRecordService"/>
+<component-filter name="com.xiaomi.channel/com.xiaomi.channel.service.NetworkTestService"/>
+</service>
+</rules>

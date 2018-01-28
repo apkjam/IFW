@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.yibasan.lizhifm/com.igexin.sdk.PushService"/>
+<component-filter name="com.yibasan.lizhifm/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.yibasan.lizhifm/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.yibasan.lizhifm/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.yibasan.lizhifm/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.yibasan.lizhifm/io.rong.push.core.MessageHandleService"/>
+<component-filter name="com.yibasan.lizhifm/io.rong.push.PushService"/>
+</service>
+</rules>

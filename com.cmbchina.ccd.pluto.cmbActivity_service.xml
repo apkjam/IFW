@@ -1,0 +1,7 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.igexin.sdk.PushService"/>
+<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.tencent.intervideo.nowproxy.proxyinner.channel.ChannelService"/>
+<component-filter name="com.cmbchina.ccd.pluto.cmbActivity/com.gieseckedevrient.android.pushclient.HcePushService"/>
+</service>
+</rules>

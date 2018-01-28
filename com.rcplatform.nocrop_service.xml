@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.rcplatform.nocrop/com.google.android.gcm.RCPushService"/>
+</service>
+</rules>

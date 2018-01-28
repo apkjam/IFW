@@ -1,0 +1,6 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.facebook.katana/com.facebook.bugreporter.scheduler.GCMBugReportService"/>
+<component-filter name="com.facebook.katana/com.facebook.bugreporter.scheduler.LollipopBugReportService"/>
+</service>
+</rules>
