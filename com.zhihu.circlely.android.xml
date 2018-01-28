@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.zhihu.circlely.android/com.zhihu.circlely.android.push.PushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.zhihu.circlely.android/com.zhihu.circlely.android.push.PushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.zhihu.circlely.android/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.zhihu.circlely.android/com.zhihu.circlely.android.push.PushReceiver" />
+</activity>
+</rules>

@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.duokan.reader/com.duokan.reader.domain.job.JobManagerService" />
+<component-filter name="com.duokan.reader/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.duokan.reader/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.duokan.reader/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.duokan.reader/com.xiaomi.push.service.XMPushService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.duokan.reader/com.duokan.reader.domain.job.JobManagerService" />
+<component-filter name="com.duokan.reader/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.duokan.reader/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.duokan.reader/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.duokan.reader/com.xiaomi.push.service.XMPushService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.duokan.reader/com.duokan.reader.domain.job.JobManagerService" />
+<component-filter name="com.duokan.reader/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.duokan.reader/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.duokan.reader/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.duokan.reader/com.xiaomi.push.service.XMPushService" />
+</activity>
+</rules>

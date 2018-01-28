@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.baidu.input_mi/com.baidu.mipush.MiPushMessageReceiver" />
+<component-filter name="com.baidu.input_mi/com.baidu.sapi2.share.ShareService" />
+<component-filter name="com.baidu.input_mi/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.baidu.input_mi/com.baidu.mipush.MiPushMessageReceiver" />
+<component-filter name="com.baidu.input_mi/com.baidu.sapi2.share.ShareService" />
+<component-filter name="com.baidu.input_mi/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.baidu.input_mi/com.baidu.mipush.MiPushMessageReceiver" />
+<component-filter name="com.baidu.input_mi/com.baidu.sapi2.share.ShareService" />
+<component-filter name="com.baidu.input_mi/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.baidu.input_mi/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.quvideo.xiaoying/com.quvideo.xiaoying.pushclient.XMPushReceiver" />
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.quvideo.xiaoying/io.rong.push.PushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.quvideo.xiaoying/com.quvideo.xiaoying.pushclient.XMPushReceiver" />
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.quvideo.xiaoying/io.rong.push.PushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.quvideo.xiaoying/com.quvideo.xiaoying.pushclient.XMPushReceiver" />
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.quvideo.xiaoying/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.quvideo.xiaoying/io.rong.push.PushReceiver" />
+</activity>
+</rules>

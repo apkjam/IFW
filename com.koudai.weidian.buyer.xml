@@ -1,0 +1,26 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.koudai.weidian.buyer/com.koudai.lib.mipush.XiaomiPushReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.taobao.weex.WXGlobalEventReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.tencent.android.tpush.XGPushReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.koudai.weidian.buyer/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.koudai.weidian.buyer/com.koudai.lib.mipush.XiaomiPushReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.taobao.weex.WXGlobalEventReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.tencent.android.tpush.XGPushReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.koudai.weidian.buyer/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.koudai.weidian.buyer/com.koudai.lib.mipush.XiaomiPushReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.taobao.weex.WXGlobalEventReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.tencent.android.tpush.XGPushReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.koudai.weidian.buyer/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.koudai.weidian.buyer/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

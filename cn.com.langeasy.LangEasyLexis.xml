@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="cn.com.langeasy.LangEasyLexis/com.taobao.accs.EventReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="cn.com.langeasy.LangEasyLexis/com.taobao.accs.EventReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="cn.com.langeasy.LangEasyLexis/com.taobao.accs.EventReceiver" />
+</activity>
+</rules>

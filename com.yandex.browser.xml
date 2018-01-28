@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.yandex.browser/com.yandex.browser.customtab.CustomTabConnectionService" />
+<component-filter name="com.yandex.browser/com.yandex.watchman.lib.internal.components.ConfigService" />
+<component-filter name="com.yandex.browser/com.yandex.watchman.lib.internal.components.ReplacedReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.yandex.browser/com.yandex.browser.customtab.CustomTabConnectionService" />
+<component-filter name="com.yandex.browser/com.yandex.watchman.lib.internal.components.ConfigService" />
+<component-filter name="com.yandex.browser/com.yandex.watchman.lib.internal.components.ReplacedReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.yandex.browser/com.yandex.browser.customtab.CustomTabConnectionService" />
+<component-filter name="com.yandex.browser/com.yandex.watchman.lib.internal.components.ConfigService" />
+<component-filter name="com.yandex.browser/com.yandex.watchman.lib.internal.components.ReplacedReceiver" />
+</activity>
+</rules>

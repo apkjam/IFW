@@ -1,0 +1,26 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.ximalaya.ting.android/com.igexin.sdk.PushService" />
+<component-filter name="com.ximalaya.ting.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.ximalaya.ting.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.ximalaya.ting.android/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ximalaya.ting.android/com.ximalaya.ting.android.broadcast.XiaomiPushReceiver" />
+<component-filter name="com.ximalaya.ting.android/com.ximalaya.ting.android.receiver.NetWorkChangeReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.ximalaya.ting.android/com.igexin.sdk.PushService" />
+<component-filter name="com.ximalaya.ting.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.ximalaya.ting.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.ximalaya.ting.android/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ximalaya.ting.android/com.ximalaya.ting.android.broadcast.XiaomiPushReceiver" />
+<component-filter name="com.ximalaya.ting.android/com.ximalaya.ting.android.receiver.NetWorkChangeReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.ximalaya.ting.android/com.igexin.sdk.PushService" />
+<component-filter name="com.ximalaya.ting.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.ximalaya.ting.android/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.ximalaya.ting.android/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ximalaya.ting.android/com.ximalaya.ting.android.broadcast.XiaomiPushReceiver" />
+<component-filter name="com.ximalaya.ting.android/com.ximalaya.ting.android.receiver.NetWorkChangeReceiver" />
+</activity>
+</rules>

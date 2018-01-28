@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.mobileuncle.toolhero/com.mobileuncle.toolhero.utils.CommonReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.mobileuncle.toolhero/com.mobileuncle.toolhero.utils.CommonReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.mobileuncle.toolhero/com.mobileuncle.toolhero.utils.CommonReceiver" />
+</activity>
+</rules>

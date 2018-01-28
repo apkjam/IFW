@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.instagram.android/com.instagram.bugreporter.BugReporterService" />
+<component-filter name="com.instagram.android/com.instagram.common.analytics.AnalyticsUploadAlarmReceiver" />
+<component-filter name="com.instagram.android/com.instagram.debug.memorydump.MemoryDumpUploadService" />
+<component-filter name="com.instagram.android/com.instagram.pendingmedia.service.uploadretrypolicy.ConnectivityChangeReceiver" />
+<component-filter name="com.instagram.android/com.instagram.share.common.StoryShareHandlerActivity" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.instagram.android/com.instagram.bugreporter.BugReporterService" />
+<component-filter name="com.instagram.android/com.instagram.common.analytics.AnalyticsUploadAlarmReceiver" />
+<component-filter name="com.instagram.android/com.instagram.debug.memorydump.MemoryDumpUploadService" />
+<component-filter name="com.instagram.android/com.instagram.pendingmedia.service.uploadretrypolicy.ConnectivityChangeReceiver" />
+<component-filter name="com.instagram.android/com.instagram.share.common.StoryShareHandlerActivity" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.instagram.android/com.instagram.bugreporter.BugReporterService" />
+<component-filter name="com.instagram.android/com.instagram.common.analytics.AnalyticsUploadAlarmReceiver" />
+<component-filter name="com.instagram.android/com.instagram.debug.memorydump.MemoryDumpUploadService" />
+<component-filter name="com.instagram.android/com.instagram.pendingmedia.service.uploadretrypolicy.ConnectivityChangeReceiver" />
+<component-filter name="com.instagram.android/com.instagram.share.common.StoryShareHandlerActivity" />
+</activity>
+</rules>

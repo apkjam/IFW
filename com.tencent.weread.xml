@@ -1,0 +1,29 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.tencent.weread/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.DismissNotificationBroadCast" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.NotifyService" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.huawei.HWPushReceiver" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.syncadapter.WRAuthenticatorService" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.syncadapter.WRSyncService" />
+<component-filter name="com.tencent.weread/com.tencent.weread.receiver.SmartisanReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.tencent.weread/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.DismissNotificationBroadCast" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.NotifyService" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.huawei.HWPushReceiver" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.syncadapter.WRAuthenticatorService" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.syncadapter.WRSyncService" />
+<component-filter name="com.tencent.weread/com.tencent.weread.receiver.SmartisanReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.tencent.weread/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.DismissNotificationBroadCast" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.NotifyService" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.huawei.HWPushReceiver" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.syncadapter.WRAuthenticatorService" />
+<component-filter name="com.tencent.weread/com.tencent.weread.push.syncadapter.WRSyncService" />
+<component-filter name="com.tencent.weread/com.tencent.weread.receiver.SmartisanReceiver" />
+</activity>
+</rules>

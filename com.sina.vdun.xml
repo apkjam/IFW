@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.sina.vdun/com.sina.vdun.receiver.BootReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.sina.vdun/com.sina.vdun.receiver.BootReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.sina.vdun/com.sina.vdun.receiver.BootReceiver" />
+</activity>
+</rules>

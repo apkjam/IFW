@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.io.NetworkChangeReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.search.FileSearchProvider" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.io.NetworkChangeReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.search.FileSearchProvider" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.io.NetworkChangeReceiver" />
+<component-filter name="com.mobisystems.editor.office_registered/com.mobisystems.office.search.FileSearchProvider" />
+</activity>
+</rules>

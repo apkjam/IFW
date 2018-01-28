@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.rjfittime.app/com.igexin.sdk.PushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.rjfittime.app/com.igexin.sdk.PushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.rjfittime.app/com.igexin.sdk.PushReceiver" />
+</activity>
+</rules>

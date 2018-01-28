@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.tumblr/com.htc.blinkfeed.service.BlinkFeedPluginService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.tumblr/com.htc.blinkfeed.service.BlinkFeedPluginService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.tumblr/com.htc.blinkfeed.service.BlinkFeedPluginService" />
+</activity>
+</rules>

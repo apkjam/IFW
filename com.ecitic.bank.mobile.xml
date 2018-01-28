@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.ecitic.bank.mobile/com.igexin.sdk.PushService" />
+</activity>
+</rules>

@@ -1,0 +1,29 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.baidu.input/com.baidu.input.ImeAppRecommendActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeCropImageActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeCustomSkinActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeSearchActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeSkinRecommendActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeSkinTryActivity" />
+<component-filter name="com.baidu.input/com.baidu.sapi2.share.ShareReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.baidu.input/com.baidu.input.ImeAppRecommendActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeCropImageActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeCustomSkinActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeSearchActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeSkinRecommendActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeSkinTryActivity" />
+<component-filter name="com.baidu.input/com.baidu.sapi2.share.ShareReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.baidu.input/com.baidu.input.ImeAppRecommendActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeCropImageActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeCustomSkinActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeSearchActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeSkinRecommendActivity" />
+<component-filter name="com.baidu.input/com.baidu.input.ImeSkinTryActivity" />
+<component-filter name="com.baidu.input/com.baidu.sapi2.share.ShareReceiver" />
+</activity>
+</rules>

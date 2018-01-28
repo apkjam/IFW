@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.diandian.android.easylife/com.diandian.android.easylife.receiver.ActionReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.diandian.android.easylife/com.diandian.android.easylife.receiver.ActionReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.diandian.android.easylife/com.diandian.android.easylife.receiver.ActionReceiver" />
+</activity>
+</rules>

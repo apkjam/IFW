@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.securespaces.android.agent/com.securespaces.android.agent.debug.ActivityDebug" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.securespaces.android.agent/com.securespaces.android.agent.debug.ActivityDebug" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.securespaces.android.agent/com.securespaces.android.agent.debug.ActivityDebug" />
+</activity>
+</rules>

@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.LargeWidgetProvider" />
+<component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.MediumWidgetProvider" />
+<component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.SmallWidgetProvider" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.LargeWidgetProvider" />
+<component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.MediumWidgetProvider" />
+<component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.SmallWidgetProvider" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.LargeWidgetProvider" />
+<component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.MediumWidgetProvider" />
+<component-filter name="com.google.android.apps.ads.publisher/com.google.android.apps.ads.publisher.widget.SmallWidgetProvider" />
+</activity>
+</rules>

@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.mfw.roadbook/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.mfw.roadbook/com.mfw.roadbook.push.huawei.HuaweiPushReceiver" />
+<component-filter name="com.mfw.roadbook/com.mfw.roadbook.push.mipush.MiPushReceiver" />
+<component-filter name="com.mfw.roadbook/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.mfw.roadbook/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.mfw.roadbook/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.mfw.roadbook/com.mfw.roadbook.push.huawei.HuaweiPushReceiver" />
+<component-filter name="com.mfw.roadbook/com.mfw.roadbook.push.mipush.MiPushReceiver" />
+<component-filter name="com.mfw.roadbook/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.mfw.roadbook/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.mfw.roadbook/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.mfw.roadbook/com.mfw.roadbook.push.huawei.HuaweiPushReceiver" />
+<component-filter name="com.mfw.roadbook/com.mfw.roadbook.push.mipush.MiPushReceiver" />
+<component-filter name="com.mfw.roadbook/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.mfw.roadbook/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

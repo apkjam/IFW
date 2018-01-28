@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.yxkj.jysq/com.tencent.android.tpush.XGPushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.yxkj.jysq/com.tencent.android.tpush.XGPushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.yxkj.jysq/com.tencent.android.tpush.XGPushReceiver" />
+</activity>
+</rules>

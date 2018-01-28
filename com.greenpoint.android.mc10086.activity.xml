@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.HWReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.PushBootBroadcastReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.HWReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.PushBootBroadcastReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.greenpoint.android.mc10086.activity/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.HWReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.leadeon.cmcc.cservice.PushBootBroadcastReceiver" />
+<component-filter name="com.greenpoint.android.mc10086.activity/com.xiaomi.push.service.XMPushService" />
+</activity>
+</rules>

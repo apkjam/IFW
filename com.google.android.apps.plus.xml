@@ -1,0 +1,62 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.phone.GetContentActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.phone.SendContentActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.phone.SetWallpaperActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.service.GooglePhotoDownsyncService" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.service.PhotosService" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.phone.HostPhotoViewIntentActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.phone.PhotosLegacyLauncherActivity" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.phone.VideoViewActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.service.PhotosAppTransitionMonitor" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.cropper.standaloneactivity.StandaloneCropActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.ingest.IngestActivity" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.ingest.IngestService" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.networkqueue.impl.ConnectivityReceiver" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.notifications.scheduled.GunsScheduledTaskService" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.delayedtasks.constraints.oncharger.OnChargerConstraintReceiver_Receiver" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.sync.constraints.onbatteryokay.OnBatteryOkayConstraintReceiver_Receiver" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.sync.impl.SyncBootReceiver_Receiver" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.sync.impl.gcm.SyncGmsPackageUpdatedReceiver_Receiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.phone.GetContentActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.phone.SendContentActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.phone.SetWallpaperActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.service.GooglePhotoDownsyncService" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.service.PhotosService" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.phone.HostPhotoViewIntentActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.phone.PhotosLegacyLauncherActivity" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.phone.VideoViewActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.service.PhotosAppTransitionMonitor" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.cropper.standaloneactivity.StandaloneCropActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.ingest.IngestActivity" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.ingest.IngestService" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.networkqueue.impl.ConnectivityReceiver" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.notifications.scheduled.GunsScheduledTaskService" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.delayedtasks.constraints.oncharger.OnChargerConstraintReceiver_Receiver" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.sync.constraints.onbatteryokay.OnBatteryOkayConstraintReceiver_Receiver" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.sync.impl.SyncBootReceiver_Receiver" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.sync.impl.gcm.SyncGmsPackageUpdatedReceiver_Receiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.phone.GetContentActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.phone.SendContentActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.phone.SetWallpaperActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.service.GooglePhotoDownsyncService" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.photos.service.PhotosService" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.phone.HostPhotoViewIntentActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.phone.PhotosLegacyLauncherActivity" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.phone.VideoViewActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.apps.plus.service.PhotosAppTransitionMonitor" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.cropper.standaloneactivity.StandaloneCropActivityAlias" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.ingest.IngestActivity" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.ingest.IngestService" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.networkqueue.impl.ConnectivityReceiver" />
+<component-filter name="com.google.android.apps.plus/com.google.android.libraries.social.notifications.scheduled.GunsScheduledTaskService" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.delayedtasks.constraints.oncharger.OnChargerConstraintReceiver_Receiver" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.sync.constraints.onbatteryokay.OnBatteryOkayConstraintReceiver_Receiver" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.sync.impl.SyncBootReceiver_Receiver" />
+<component-filter name="com.google.android.apps.plus/com.google.apps.tiktok.sync.impl.gcm.SyncGmsPackageUpdatedReceiver_Receiver" />
+</activity>
+</rules>

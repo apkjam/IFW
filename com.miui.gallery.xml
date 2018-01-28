@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.miui.gallery/com.miui.gallery.cloud.MiCloudStatusInfoReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.miui.gallery/com.miui.gallery.cloud.MiCloudStatusInfoReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.miui.gallery/com.miui.gallery.cloud.MiCloudStatusInfoReceiver" />
+</activity>
+</rules>

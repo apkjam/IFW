@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.microsoft.todos/com.microsoft.todos.sync.AlarmSyncBootReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.microsoft.todos/com.microsoft.todos.sync.AlarmSyncBootReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.microsoft.todos/com.microsoft.todos.sync.AlarmSyncBootReceiver" />
+</activity>
+</rules>

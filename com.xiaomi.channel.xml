@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xiaomi.channel/com.mi.milink.sdk.receiver.AlarmReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.xiaomi.channel/com.mi.milink.sdk.receiver.AlarmReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.xiaomi.channel/com.mi.milink.sdk.receiver.AlarmReceiver" />
+</activity>
+</rules>

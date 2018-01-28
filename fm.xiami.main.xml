@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="fm.xiami.main/com.taobao.accs.EventReceiver" />
+<component-filter name="fm.xiami.main/org.android.agoo.huawei.HuaWeiReceiver" />
+<component-filter name="fm.xiami.main/org.android.agoo.xiaomi.MiPushBroadcastReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="fm.xiami.main/com.taobao.accs.EventReceiver" />
+<component-filter name="fm.xiami.main/org.android.agoo.huawei.HuaWeiReceiver" />
+<component-filter name="fm.xiami.main/org.android.agoo.xiaomi.MiPushBroadcastReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="fm.xiami.main/com.taobao.accs.EventReceiver" />
+<component-filter name="fm.xiami.main/org.android.agoo.huawei.HuaWeiReceiver" />
+<component-filter name="fm.xiami.main/org.android.agoo.xiaomi.MiPushBroadcastReceiver" />
+</activity>
+</rules>

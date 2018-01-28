@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xda.labs/com.xda.labs.CopyTextActivity" />
+<component-filter name="com.xda.labs/com.xda.labs.ForumLauncher" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.xda.labs/com.xda.labs.CopyTextActivity" />
+<component-filter name="com.xda.labs/com.xda.labs.ForumLauncher" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.xda.labs/com.xda.labs.CopyTextActivity" />
+<component-filter name="com.xda.labs/com.xda.labs.ForumLauncher" />
+</activity>
+</rules>

@@ -1,0 +1,56 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.facebook.katana/com.facebook.backgroundlocation.reporting.BackgroundLocationReportingGcmUploadTaskService" />
+<component-filter name="com.facebook.katana/com.facebook.backgroundlocation.reporting.monitors.PhotographyMonitorReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.backgroundlocation.reporting.monitors.PowerConnectionMonitorReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.JobsBrowserDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.LoyaltyDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.MarketplaceDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.PagesJobsDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.device_id.DefaultPhoneIdProvider" />
+<component-filter name="com.facebook.katana/com.facebook.friendsharing.inspiration.shortcut.InspirationCameraIntentLaunchActivity" />
+<component-filter name="com.facebook.katana/com.facebook.katana.platform.TokenRefreshService" />
+<component-filter name="com.facebook.katana/com.facebook.katana.provider.AttributionIdProvider" />
+<component-filter name="com.facebook.katana/com.facebook.notifications.settings.NotificationSettingsLauncherActivity" />
+<component-filter name="com.facebook.katana/com.facebook.oxygen.preloads.integration.dogfooding.AuthListener$EmployeeLoggedInMarkerReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.photos.upload.receiver.ConnectivityChangeReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.platform.common.provider.PlatformProviderBase" />
+<component-filter name="com.facebook.katana/com.facebook.saved.intentfilter.ExternalSaveActivity" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.facebook.katana/com.facebook.backgroundlocation.reporting.BackgroundLocationReportingGcmUploadTaskService" />
+<component-filter name="com.facebook.katana/com.facebook.backgroundlocation.reporting.monitors.PhotographyMonitorReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.backgroundlocation.reporting.monitors.PowerConnectionMonitorReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.JobsBrowserDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.LoyaltyDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.MarketplaceDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.PagesJobsDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.device_id.DefaultPhoneIdProvider" />
+<component-filter name="com.facebook.katana/com.facebook.friendsharing.inspiration.shortcut.InspirationCameraIntentLaunchActivity" />
+<component-filter name="com.facebook.katana/com.facebook.katana.platform.TokenRefreshService" />
+<component-filter name="com.facebook.katana/com.facebook.katana.provider.AttributionIdProvider" />
+<component-filter name="com.facebook.katana/com.facebook.notifications.settings.NotificationSettingsLauncherActivity" />
+<component-filter name="com.facebook.katana/com.facebook.oxygen.preloads.integration.dogfooding.AuthListener$EmployeeLoggedInMarkerReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.photos.upload.receiver.ConnectivityChangeReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.platform.common.provider.PlatformProviderBase" />
+<component-filter name="com.facebook.katana/com.facebook.saved.intentfilter.ExternalSaveActivity" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.facebook.katana/com.facebook.backgroundlocation.reporting.BackgroundLocationReportingGcmUploadTaskService" />
+<component-filter name="com.facebook.katana/com.facebook.backgroundlocation.reporting.monitors.PhotographyMonitorReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.backgroundlocation.reporting.monitors.PowerConnectionMonitorReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.JobsBrowserDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.LoyaltyDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.MarketplaceDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.deeplinking.activity.PagesJobsDeepLinkingAliasActivity" />
+<component-filter name="com.facebook.katana/com.facebook.device_id.DefaultPhoneIdProvider" />
+<component-filter name="com.facebook.katana/com.facebook.friendsharing.inspiration.shortcut.InspirationCameraIntentLaunchActivity" />
+<component-filter name="com.facebook.katana/com.facebook.katana.platform.TokenRefreshService" />
+<component-filter name="com.facebook.katana/com.facebook.katana.provider.AttributionIdProvider" />
+<component-filter name="com.facebook.katana/com.facebook.notifications.settings.NotificationSettingsLauncherActivity" />
+<component-filter name="com.facebook.katana/com.facebook.oxygen.preloads.integration.dogfooding.AuthListener$EmployeeLoggedInMarkerReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.photos.upload.receiver.ConnectivityChangeReceiver" />
+<component-filter name="com.facebook.katana/com.facebook.platform.common.provider.PlatformProviderBase" />
+<component-filter name="com.facebook.katana/com.facebook.saved.intentfilter.ExternalSaveActivity" />
+</activity>
+</rules>

@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.oasisfeng.greenify.pro/com.oasisfeng.greenify.pro.PilotActivity" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.oasisfeng.greenify.pro/com.oasisfeng.greenify.pro.PilotActivity" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.oasisfeng.greenify.pro/com.oasisfeng.greenify.pro.PilotActivity" />
+</activity>
+</rules>

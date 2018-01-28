@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.medium.reader/com.medium.android.common.net.NetworkChangeReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.medium.reader/com.medium.android.common.net.NetworkChangeReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.medium.reader/com.medium.android.common.net.NetworkChangeReceiver" />
+</activity>
+</rules>

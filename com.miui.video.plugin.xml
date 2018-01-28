@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.miui.video.plugin/com.miui.video.plugin.push.MediaPushMessageReceiver" />
+<component-filter name="com.miui.video.plugin/com.xiaomi.push.service.XMPushService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.miui.video.plugin/com.miui.video.plugin.push.MediaPushMessageReceiver" />
+<component-filter name="com.miui.video.plugin/com.xiaomi.push.service.XMPushService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.miui.video.plugin/com.miui.video.plugin.push.MediaPushMessageReceiver" />
+<component-filter name="com.miui.video.plugin/com.xiaomi.push.service.XMPushService" />
+</activity>
+</rules>

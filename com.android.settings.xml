@@ -1,0 +1,41 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
+<component-filter name="com.android.settings/com.android.settings.MiuiSettingsReceiver" />
+<component-filter name="com.android.settings/com.android.settings.Settings$DataUsageSummaryActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$Lte4GEnableActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$MobileNetworkMainActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$OtherDeviceFunctionsSettingsActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$ProfileMgrMainActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$RoamingSettingsActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$SystemUpdateActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$TimerSwitchSettingsActivity" />
+<component-filter name="com.android.settings/com.android.settings.widget.SettingsAppWidgetProvider" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
+<component-filter name="com.android.settings/com.android.settings.MiuiSettingsReceiver" />
+<component-filter name="com.android.settings/com.android.settings.Settings$DataUsageSummaryActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$Lte4GEnableActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$MobileNetworkMainActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$OtherDeviceFunctionsSettingsActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$ProfileMgrMainActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$RoamingSettingsActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$SystemUpdateActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$TimerSwitchSettingsActivity" />
+<component-filter name="com.android.settings/com.android.settings.widget.SettingsAppWidgetProvider" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.android.settings/com.android.settings.CryptKeeper" />
+<component-filter name="com.android.settings/com.android.settings.MiuiSettingsReceiver" />
+<component-filter name="com.android.settings/com.android.settings.Settings$DataUsageSummaryActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$Lte4GEnableActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$MobileNetworkMainActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$OtherDeviceFunctionsSettingsActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$ProfileMgrMainActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$RoamingSettingsActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$SystemUpdateActivity" />
+<component-filter name="com.android.settings/com.android.settings.Settings$TimerSwitchSettingsActivity" />
+<component-filter name="com.android.settings/com.android.settings.widget.SettingsAppWidgetProvider" />
+</activity>
+</rules>

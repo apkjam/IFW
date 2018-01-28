@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="video.vue.android/com.google.android.gms.analytics.AnalyticsService" />
+<component-filter name="video.vue.android/com.google.android.gms.analytics.CampaignTrackingService" />
+<component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementJobService" />
+<component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="video.vue.android/com.google.android.gms.analytics.AnalyticsService" />
+<component-filter name="video.vue.android/com.google.android.gms.analytics.CampaignTrackingService" />
+<component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementJobService" />
+<component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="video.vue.android/com.google.android.gms.analytics.AnalyticsService" />
+<component-filter name="video.vue.android/com.google.android.gms.analytics.CampaignTrackingService" />
+<component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementJobService" />
+<component-filter name="video.vue.android/com.google.android.gms.measurement.AppMeasurementService" />
+</activity>
+</rules>

@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.unionpay/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="com.unionpay/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.unionpay/com.unionpay.push.receiver.huawei.UPPushEventReceiverHuawei" />
+<component-filter name="com.unionpay/com.xiaomi.push.service.XMPushService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.unionpay/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="com.unionpay/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.unionpay/com.unionpay.push.receiver.huawei.UPPushEventReceiverHuawei" />
+<component-filter name="com.unionpay/com.xiaomi.push.service.XMPushService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.unionpay/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="com.unionpay/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.unionpay/com.unionpay.push.receiver.huawei.UPPushEventReceiverHuawei" />
+<component-filter name="com.unionpay/com.xiaomi.push.service.XMPushService" />
+</activity>
+</rules>

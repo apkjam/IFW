@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.handsgo.jiakao.android/cn.mucang.android.push.AliPushMessageReceiver" />
+<component-filter name="com.handsgo.jiakao.android/cn.mucang.android.push.MucangPushReceiver" />
+<component-filter name="com.handsgo.jiakao.android/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.handsgo.jiakao.android/io.rong.push.PushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.handsgo.jiakao.android/cn.mucang.android.push.AliPushMessageReceiver" />
+<component-filter name="com.handsgo.jiakao.android/cn.mucang.android.push.MucangPushReceiver" />
+<component-filter name="com.handsgo.jiakao.android/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.handsgo.jiakao.android/io.rong.push.PushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.handsgo.jiakao.android/cn.mucang.android.push.AliPushMessageReceiver" />
+<component-filter name="com.handsgo.jiakao.android/cn.mucang.android.push.MucangPushReceiver" />
+<component-filter name="com.handsgo.jiakao.android/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.handsgo.jiakao.android/io.rong.push.PushReceiver" />
+</activity>
+</rules>

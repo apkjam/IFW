@@ -1,0 +1,32 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.facebook.orca/com.facebook.messaging.directshare.DirectShareChooserTargetService" />
+<component-filter name="com.facebook.orca/com.facebook.messaging.phoneintegration.callupsell.PhoneCallReceiver" />
+<component-filter name="com.facebook.orca/com.facebook.messenger.app.MessengerLoggedInUserProvider" />
+<component-filter name="com.facebook.orca/com.facebook.messenger.intents.SmsShareIntentHandler" />
+<component-filter name="com.facebook.orca/com.facebook.rti.orca.FbnsLiteBroadcastReceiver" />
+<component-filter name="com.facebook.orca/com.facebook.rti.orca.UpdateQeBroadcastReceiver" />
+<component-filter name="com.facebook.orca/com.facebook.rti.push.service.FbnsService" />
+<component-filter name="com.facebook.orca/com.facebook.sms.receiver.SmsLowPriBroadcastReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.facebook.orca/com.facebook.messaging.directshare.DirectShareChooserTargetService" />
+<component-filter name="com.facebook.orca/com.facebook.messaging.phoneintegration.callupsell.PhoneCallReceiver" />
+<component-filter name="com.facebook.orca/com.facebook.messenger.app.MessengerLoggedInUserProvider" />
+<component-filter name="com.facebook.orca/com.facebook.messenger.intents.SmsShareIntentHandler" />
+<component-filter name="com.facebook.orca/com.facebook.rti.orca.FbnsLiteBroadcastReceiver" />
+<component-filter name="com.facebook.orca/com.facebook.rti.orca.UpdateQeBroadcastReceiver" />
+<component-filter name="com.facebook.orca/com.facebook.rti.push.service.FbnsService" />
+<component-filter name="com.facebook.orca/com.facebook.sms.receiver.SmsLowPriBroadcastReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.facebook.orca/com.facebook.messaging.directshare.DirectShareChooserTargetService" />
+<component-filter name="com.facebook.orca/com.facebook.messaging.phoneintegration.callupsell.PhoneCallReceiver" />
+<component-filter name="com.facebook.orca/com.facebook.messenger.app.MessengerLoggedInUserProvider" />
+<component-filter name="com.facebook.orca/com.facebook.messenger.intents.SmsShareIntentHandler" />
+<component-filter name="com.facebook.orca/com.facebook.rti.orca.FbnsLiteBroadcastReceiver" />
+<component-filter name="com.facebook.orca/com.facebook.rti.orca.UpdateQeBroadcastReceiver" />
+<component-filter name="com.facebook.orca/com.facebook.rti.push.service.FbnsService" />
+<component-filter name="com.facebook.orca/com.facebook.sms.receiver.SmsLowPriBroadcastReceiver" />
+</activity>
+</rules>

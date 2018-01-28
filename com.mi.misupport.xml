@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.mi.misupport/com.mi.misupport.receiver.WIFIReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.mi.misupport/com.mi.misupport.receiver.WIFIReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.mi.misupport/com.mi.misupport.receiver.WIFIReceiver" />
+</activity>
+</rules>

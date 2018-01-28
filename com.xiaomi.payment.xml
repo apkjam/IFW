@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xiaomi.payment/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.xiaomi.payment/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.xiaomi.payment/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+</activity>
+</rules>

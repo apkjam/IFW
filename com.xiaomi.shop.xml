@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushMessageReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushMessageReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xiaomi.shop/com.xiaomi.shop2.ShopPushMessageReceiver" />
+</activity>
+</rules>

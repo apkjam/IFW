@@ -1,0 +1,41 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.netease.cloudmusic/com.alipay.sdk.app.H5PayActivity" />
+<component-filter name="com.netease.cloudmusic/com.alipay.sdk.auth.AuthActivity" />
+<component-filter name="com.netease.cloudmusic/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="com.netease.cloudmusic/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.activity.MyPrivateCloudUploadActivity" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.activity.ProgramUploadActivity" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.activity.UploadMusicActivity" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.module.push.receiver.HuaweiPushReceiver" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.module.push.receiver.MiPushMessageReceiver" />
+<component-filter name="com.netease.cloudmusic/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.netease.cloudmusic/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.netease.cloudmusic/com.alipay.sdk.app.H5PayActivity" />
+<component-filter name="com.netease.cloudmusic/com.alipay.sdk.auth.AuthActivity" />
+<component-filter name="com.netease.cloudmusic/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="com.netease.cloudmusic/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.activity.MyPrivateCloudUploadActivity" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.activity.ProgramUploadActivity" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.activity.UploadMusicActivity" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.module.push.receiver.HuaweiPushReceiver" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.module.push.receiver.MiPushMessageReceiver" />
+<component-filter name="com.netease.cloudmusic/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.netease.cloudmusic/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.netease.cloudmusic/com.alipay.sdk.app.H5PayActivity" />
+<component-filter name="com.netease.cloudmusic/com.alipay.sdk.auth.AuthActivity" />
+<component-filter name="com.netease.cloudmusic/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="com.netease.cloudmusic/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.activity.MyPrivateCloudUploadActivity" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.activity.ProgramUploadActivity" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.activity.UploadMusicActivity" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.module.push.receiver.HuaweiPushReceiver" />
+<component-filter name="com.netease.cloudmusic/com.netease.cloudmusic.module.push.receiver.MiPushMessageReceiver" />
+<component-filter name="com.netease.cloudmusic/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.netease.cloudmusic/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

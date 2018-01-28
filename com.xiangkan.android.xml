@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xiangkan.android/com.xiangkan.android.common.push.MiMessageReceiver" />
+<component-filter name="com.xiangkan.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiangkan.android/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.xiangkan.android/com.xiangkan.android.common.push.MiMessageReceiver" />
+<component-filter name="com.xiangkan.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiangkan.android/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.xiangkan.android/com.xiangkan.android.common.push.MiMessageReceiver" />
+<component-filter name="com.xiangkan.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xiangkan.android/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

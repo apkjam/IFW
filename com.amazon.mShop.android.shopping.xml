@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.httpUrlDeepLink.HttpUrlDeepLinkingActivity" />
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.kiang.DeviceRegistrationReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.httpUrlDeepLink.HttpUrlDeepLinkingActivity" />
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.kiang.DeviceRegistrationReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater" />
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.httpUrlDeepLink.HttpUrlDeepLinkingActivity" />
+<component-filter name="com.amazon.mShop.android.shopping/com.amazon.mShop.kiang.DeviceRegistrationReceiver" />
+</activity>
+</rules>

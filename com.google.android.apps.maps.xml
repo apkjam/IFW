@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.google.android.apps.maps/com.google.android.apps.gmm.ugc.clientnotification.phototaken.StartPhotoTakenNotifierServiceReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.google.android.apps.maps/com.google.android.apps.gmm.ugc.clientnotification.phototaken.StartPhotoTakenNotifierServiceReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.google.android.apps.maps/com.google.android.apps.gmm.ugc.clientnotification.phototaken.StartPhotoTakenNotifierServiceReceiver" />
+</activity>
+</rules>

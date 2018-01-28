@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.jianshu.haruki/com.baiji.jianshu.ui.receiver.XiaoMiPushReceiver" />
+<component-filter name="com.jianshu.haruki/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.jianshu.haruki/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.jianshu.haruki/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.jianshu.haruki/com.baiji.jianshu.ui.receiver.XiaoMiPushReceiver" />
+<component-filter name="com.jianshu.haruki/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.jianshu.haruki/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.jianshu.haruki/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.jianshu.haruki/com.baiji.jianshu.ui.receiver.XiaoMiPushReceiver" />
+<component-filter name="com.jianshu.haruki/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.jianshu.haruki/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.jianshu.haruki/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

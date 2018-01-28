@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.cainiao.wireless/com.taobao.accs.EventReceiver" />
+<component-filter name="com.cainiao.wireless/org.android.agoo.huawei.HuaWeiReceiver" />
+<component-filter name="com.cainiao.wireless/org.android.agoo.xiaomi.MiPushBroadcastReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.cainiao.wireless/com.taobao.accs.EventReceiver" />
+<component-filter name="com.cainiao.wireless/org.android.agoo.huawei.HuaWeiReceiver" />
+<component-filter name="com.cainiao.wireless/org.android.agoo.xiaomi.MiPushBroadcastReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.cainiao.wireless/com.taobao.accs.EventReceiver" />
+<component-filter name="com.cainiao.wireless/org.android.agoo.huawei.HuaWeiReceiver" />
+<component-filter name="com.cainiao.wireless/org.android.agoo.xiaomi.MiPushBroadcastReceiver" />
+</activity>
+</rules>

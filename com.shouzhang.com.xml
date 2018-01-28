@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.shouzhang.com/com.shouzhang.com.common.receiver.AppReceiver" />
+<component-filter name="com.shouzhang.com/com.taobao.accs.EventReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.shouzhang.com/com.shouzhang.com.common.receiver.AppReceiver" />
+<component-filter name="com.shouzhang.com/com.taobao.accs.EventReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.shouzhang.com/com.shouzhang.com.common.receiver.AppReceiver" />
+<component-filter name="com.shouzhang.com/com.taobao.accs.EventReceiver" />
+</activity>
+</rules>

@@ -1,0 +1,47 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.CloudConfigActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.ShareToCloudActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.UrlTaskActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.UrlTaskService" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.oauth.BasicAuthActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.oauth.GmsAuthActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.oauth.OAuthActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.ConnectionChangeReceiver" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.SyncService" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.SyncSettings" />
+<component-filter name="com.alensw.PicFolder/com.alensw.transfer.TransferActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.transfer.TransferService" />
+<component-filter name="com.alensw.PicFolder/com.dropbox.client2.android.AuthActivity" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.CloudConfigActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.ShareToCloudActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.UrlTaskActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.UrlTaskService" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.oauth.BasicAuthActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.oauth.GmsAuthActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.oauth.OAuthActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.ConnectionChangeReceiver" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.SyncService" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.SyncSettings" />
+<component-filter name="com.alensw.PicFolder/com.alensw.transfer.TransferActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.transfer.TransferService" />
+<component-filter name="com.alensw.PicFolder/com.dropbox.client2.android.AuthActivity" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.CloudConfigActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.ShareToCloudActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.UrlTaskActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.UrlTaskService" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.oauth.BasicAuthActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.oauth.GmsAuthActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.oauth.OAuthActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.ConnectionChangeReceiver" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.SyncService" />
+<component-filter name="com.alensw.PicFolder/com.alensw.cloud.sync.SyncSettings" />
+<component-filter name="com.alensw.PicFolder/com.alensw.transfer.TransferActivity" />
+<component-filter name="com.alensw.PicFolder/com.alensw.transfer.TransferService" />
+<component-filter name="com.alensw.PicFolder/com.dropbox.client2.android.AuthActivity" />
+</activity>
+</rules>

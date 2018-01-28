@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.ciji.jjk/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ciji.jjk/io.rong.push.platform.MiMessageReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.ciji.jjk/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ciji.jjk/io.rong.push.platform.MiMessageReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.ciji.jjk/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ciji.jjk/io.rong.push.platform.MiMessageReceiver" />
+</activity>
+</rules>

@@ -1,0 +1,29 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.mipay.wallet/com.mipay.bill.BillReceiver" />
+<component-filter name="com.mipay.wallet/com.mipay.bill.alarm.RepayAlarmReceiver" />
+<component-filter name="com.mipay.wallet/com.mipay.identity.provider.SdkIdentityProvider" />
+<component-filter name="com.mipay.wallet/com.mipay.push.MipayPushMessageReceiver" />
+<component-filter name="com.mipay.wallet/com.mipay.sms.local.SmsReceiver" />
+<component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.mipay.wallet/com.mipay.bill.BillReceiver" />
+<component-filter name="com.mipay.wallet/com.mipay.bill.alarm.RepayAlarmReceiver" />
+<component-filter name="com.mipay.wallet/com.mipay.identity.provider.SdkIdentityProvider" />
+<component-filter name="com.mipay.wallet/com.mipay.push.MipayPushMessageReceiver" />
+<component-filter name="com.mipay.wallet/com.mipay.sms.local.SmsReceiver" />
+<component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.mipay.wallet/com.mipay.bill.BillReceiver" />
+<component-filter name="com.mipay.wallet/com.mipay.bill.alarm.RepayAlarmReceiver" />
+<component-filter name="com.mipay.wallet/com.mipay.identity.provider.SdkIdentityProvider" />
+<component-filter name="com.mipay.wallet/com.mipay.push.MipayPushMessageReceiver" />
+<component-filter name="com.mipay.wallet/com.mipay.sms.local.SmsReceiver" />
+<component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.mipay.wallet/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

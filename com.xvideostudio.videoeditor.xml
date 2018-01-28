@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xvideostudio.videoeditor/com.taobao.accs.EventReceiver" />
+<component-filter name="com.xvideostudio.videoeditor/com.xvideostudio.videoeditor.receiver.BootCompleteReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.xvideostudio.videoeditor/com.taobao.accs.EventReceiver" />
+<component-filter name="com.xvideostudio.videoeditor/com.xvideostudio.videoeditor.receiver.BootCompleteReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.xvideostudio.videoeditor/com.taobao.accs.EventReceiver" />
+<component-filter name="com.xvideostudio.videoeditor/com.xvideostudio.videoeditor.receiver.BootCompleteReceiver" />
+</activity>
+</rules>

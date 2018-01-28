@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.miui.bugreport/com.miui.bugreport.receiver.BugreportPushMessageReceiver" />
+<component-filter name="com.miui.bugreport/com.miui.bugreport.receiver.FeedbackReceiver" />
+<component-filter name="com.miui.bugreport/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.miui.bugreport/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.miui.bugreport/com.miui.bugreport.receiver.BugreportPushMessageReceiver" />
+<component-filter name="com.miui.bugreport/com.miui.bugreport.receiver.FeedbackReceiver" />
+<component-filter name="com.miui.bugreport/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.miui.bugreport/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.miui.bugreport/com.miui.bugreport.receiver.BugreportPushMessageReceiver" />
+<component-filter name="com.miui.bugreport/com.miui.bugreport.receiver.FeedbackReceiver" />
+<component-filter name="com.miui.bugreport/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.miui.bugreport/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

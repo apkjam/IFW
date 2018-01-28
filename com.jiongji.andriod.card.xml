@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.jiongji.andriod.card/com.baicizhan.client.business.stats.StatInvokeReceiver" />
+</activity>
+</rules>

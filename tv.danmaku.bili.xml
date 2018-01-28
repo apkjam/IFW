@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="tv.danmaku.bili/com.bilibili.lib.push.HuaweiMessageReceiver" />
+<component-filter name="tv.danmaku.bili/com.bilibili.lib.push.MiMessageReceiver" />
+<component-filter name="tv.danmaku.bili/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="tv.danmaku.bili/com.xiaomi.push.service.XMPushService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="tv.danmaku.bili/com.bilibili.lib.push.HuaweiMessageReceiver" />
+<component-filter name="tv.danmaku.bili/com.bilibili.lib.push.MiMessageReceiver" />
+<component-filter name="tv.danmaku.bili/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="tv.danmaku.bili/com.xiaomi.push.service.XMPushService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="tv.danmaku.bili/com.bilibili.lib.push.HuaweiMessageReceiver" />
+<component-filter name="tv.danmaku.bili/com.bilibili.lib.push.MiMessageReceiver" />
+<component-filter name="tv.danmaku.bili/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="tv.danmaku.bili/com.xiaomi.push.service.XMPushService" />
+</activity>
+</rules>

@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="org.coursera.android/org.coursera.core.legacy.network.CourkitNetworkObservable" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="org.coursera.android/org.coursera.core.legacy.network.CourkitNetworkObservable" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="org.coursera.android/org.coursera.core.legacy.network.CourkitNetworkObservable" />
+</activity>
+</rules>

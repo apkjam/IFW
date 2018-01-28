@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xunlei.downloadprovider/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.xunlei.downloadprovider/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xunlei.downloadprovider/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xunlei.downloadprovider/com.xunlei.downloadprovider.pushmessage.huawei.HuaweiPushReceiver" />
+<component-filter name="com.xunlei.downloadprovider/com.xunlei.downloadprovider.pushmessage.xiaomi.XiaoMiPushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.xunlei.downloadprovider/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.xunlei.downloadprovider/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xunlei.downloadprovider/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xunlei.downloadprovider/com.xunlei.downloadprovider.pushmessage.huawei.HuaweiPushReceiver" />
+<component-filter name="com.xunlei.downloadprovider/com.xunlei.downloadprovider.pushmessage.xiaomi.XiaoMiPushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.xunlei.downloadprovider/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.xunlei.downloadprovider/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.xunlei.downloadprovider/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.xunlei.downloadprovider/com.xunlei.downloadprovider.pushmessage.huawei.HuaweiPushReceiver" />
+<component-filter name="com.xunlei.downloadprovider/com.xunlei.downloadprovider.pushmessage.xiaomi.XiaoMiPushReceiver" />
+</activity>
+</rules>

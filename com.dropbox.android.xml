@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.dropbox.android/com.dropbox.android.activity.DropboxShareWith" />
+<component-filter name="com.dropbox.android/com.dropbox.android.service.DropboxNetworkReceiver" />
+<component-filter name="com.dropbox.android/com.dropbox.android.sharing.GrantAccessDispatchActivity" />
+<component-filter name="com.dropbox.android/com.dropbox.android.shortcuts.CreateFileShortcutActivity" />
+<component-filter name="com.dropbox.android/com.evernote.android.job.gcm.PlatformGcmService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.dropbox.android/com.dropbox.android.activity.DropboxShareWith" />
+<component-filter name="com.dropbox.android/com.dropbox.android.service.DropboxNetworkReceiver" />
+<component-filter name="com.dropbox.android/com.dropbox.android.sharing.GrantAccessDispatchActivity" />
+<component-filter name="com.dropbox.android/com.dropbox.android.shortcuts.CreateFileShortcutActivity" />
+<component-filter name="com.dropbox.android/com.evernote.android.job.gcm.PlatformGcmService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.dropbox.android/com.dropbox.android.activity.DropboxShareWith" />
+<component-filter name="com.dropbox.android/com.dropbox.android.service.DropboxNetworkReceiver" />
+<component-filter name="com.dropbox.android/com.dropbox.android.sharing.GrantAccessDispatchActivity" />
+<component-filter name="com.dropbox.android/com.dropbox.android.shortcuts.CreateFileShortcutActivity" />
+<component-filter name="com.dropbox.android/com.evernote.android.job.gcm.PlatformGcmService" />
+</activity>
+</rules>

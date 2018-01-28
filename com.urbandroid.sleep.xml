@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.AlarmWidget" />
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.DroidWidget" />
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.KeyguardDroidWidget" />
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.SleepWidget" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.AlarmWidget" />
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.DroidWidget" />
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.KeyguardDroidWidget" />
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.SleepWidget" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.AlarmWidget" />
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.DroidWidget" />
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.KeyguardDroidWidget" />
+<component-filter name="com.urbandroid.sleep/com.urbandroid.sleep.appwidget.SleepWidget" />
+</activity>
+</rules>

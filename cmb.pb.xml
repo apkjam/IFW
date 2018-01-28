@@ -1,0 +1,35 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="cmb.pb/com.baidu.speech.VoiceRecognitionService" />
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushService" />
+<component-filter name="cmb.pb/com.mb.zhaohusdk.push.HWPushReceiver" />
+<component-filter name="cmb.pb/com.mb.zhaohusdk.push.MiPushReceiver" />
+<component-filter name="cmb.pb/com.xiaomi.push.service.XMPushService" />
+<component-filter name="cmb.pb/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="cmb.pb/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="cmb.pb/com.baidu.speech.VoiceRecognitionService" />
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushService" />
+<component-filter name="cmb.pb/com.mb.zhaohusdk.push.HWPushReceiver" />
+<component-filter name="cmb.pb/com.mb.zhaohusdk.push.MiPushReceiver" />
+<component-filter name="cmb.pb/com.xiaomi.push.service.XMPushService" />
+<component-filter name="cmb.pb/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="cmb.pb/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="cmb.pb/com.baidu.speech.VoiceRecognitionService" />
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="cmb.pb/com.huawei.android.pushagent.PushService" />
+<component-filter name="cmb.pb/com.mb.zhaohusdk.push.HWPushReceiver" />
+<component-filter name="cmb.pb/com.mb.zhaohusdk.push.MiPushReceiver" />
+<component-filter name="cmb.pb/com.xiaomi.push.service.XMPushService" />
+<component-filter name="cmb.pb/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="cmb.pb/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

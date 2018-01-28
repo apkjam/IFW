@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="one.hh.oneclient/com.igexin.sdk.PushService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="one.hh.oneclient/com.igexin.sdk.PushService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="one.hh.oneclient/com.igexin.sdk.PushService" />
+</activity>
+</rules>

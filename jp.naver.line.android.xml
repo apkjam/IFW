@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="jp.naver.line.android/jp.naver.line.android.service.share.DirectShareChatChooserTargetService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="jp.naver.line.android/jp.naver.line.android.service.share.DirectShareChatChooserTargetService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="jp.naver.line.android/jp.naver.line.android.service.share.DirectShareChatChooserTargetService" />
+</activity>
+</rules>

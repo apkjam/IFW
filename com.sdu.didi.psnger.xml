@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.xiaomi.MiPushReceiver" />
+<component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushService" />
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.xiaomi.MiPushReceiver" />
+<component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushService" />
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.sdu.didi.psnger/com.didi.sdk.push.xiaomi.MiPushReceiver" />
+<component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushReceiver" />
+<component-filter name="com.sdu.didi.psnger/com.igexin.sdk.PushService" />
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.sdu.didi.psnger/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

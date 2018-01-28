@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.hustzp.com.xichuangzhu.push.MyCustomReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.hustzp.com.xichuangzhu.push.MyCustomReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.hustzp.com.xichuangzhu/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/com.hustzp.com.xichuangzhu.push.MyCustomReceiver" />
+<component-filter name="com.hustzp.com.xichuangzhu/io.rong.push.PushReceiver" />
+</activity>
+</rules>

@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.aide.ui/com.aide.ui.UserPresentBroadcastReceiver" />
+<component-filter name="com.aide.ui/com.appfour.common.gcm.GcmUserPresentBroadcastReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.aide.ui/com.aide.ui.UserPresentBroadcastReceiver" />
+<component-filter name="com.aide.ui/com.appfour.common.gcm.GcmUserPresentBroadcastReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.aide.ui/com.aide.ui.UserPresentBroadcastReceiver" />
+<component-filter name="com.aide.ui/com.appfour.common.gcm.GcmUserPresentBroadcastReceiver" />
+</activity>
+</rules>

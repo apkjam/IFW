@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.appgenix.bizcal/com.appgenix.bizcal.BizCalReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.appgenix.bizcal/com.appgenix.bizcal.BizCalReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.appgenix.bizcal/com.appgenix.bizcal.BizCalReceiver" />
+</activity>
+</rules>

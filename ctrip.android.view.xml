@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="ctrip.android.view/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdk.DaemonReceiver" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdk.PushService" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdkv2.receiver.HWPushRecevier" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdkv2.receiver.XiaoMiPushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="ctrip.android.view/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdk.DaemonReceiver" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdk.PushService" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdkv2.receiver.HWPushRecevier" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdkv2.receiver.XiaoMiPushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="ctrip.android.view/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdk.DaemonReceiver" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdk.PushService" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdkv2.receiver.HWPushRecevier" />
+<component-filter name="ctrip.android.view/ctrip.android.pushsdkv2.receiver.XiaoMiPushReceiver" />
+</activity>
+</rules>

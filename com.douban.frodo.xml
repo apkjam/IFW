@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.douban.frodo/com.douban.frodo.push.cnhuawei.HuaweiPushMessageReceiver" />
+<component-filter name="com.douban.frodo/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.douban.frodo/com.xiaomi.push.service.XMPushService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.douban.frodo/com.douban.frodo.push.cnhuawei.HuaweiPushMessageReceiver" />
+<component-filter name="com.douban.frodo/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.douban.frodo/com.xiaomi.push.service.XMPushService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.douban.frodo/com.douban.frodo.push.cnhuawei.HuaweiPushMessageReceiver" />
+<component-filter name="com.douban.frodo/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.douban.frodo/com.xiaomi.push.service.XMPushService" />
+</activity>
+</rules>

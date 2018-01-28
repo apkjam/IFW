@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.android.stk/com.android.stk.StkMain" />
+<component-filter name="com.android.stk/com.android.stk.StkMenuActivity" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.android.stk/com.android.stk.StkMain" />
+<component-filter name="com.android.stk/com.android.stk.StkMenuActivity" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.android.stk/com.android.stk.StkMain" />
+<component-filter name="com.android.stk/com.android.stk.StkMenuActivity" />
+</activity>
+</rules>

@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.google.android.apps.docs/com.google.android.apps.docs.openurl.KixOpenUrlActivityAlias" />
+<component-filter name="com.google.android.apps.docs/com.google.android.apps.docs.openurl.PunchOpenUrlActivityAlias" />
+<component-filter name="com.google.android.apps.docs/com.google.android.apps.docs.openurl.TrixOpenUrlActivityAlias" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.google.android.apps.docs/com.google.android.apps.docs.openurl.KixOpenUrlActivityAlias" />
+<component-filter name="com.google.android.apps.docs/com.google.android.apps.docs.openurl.PunchOpenUrlActivityAlias" />
+<component-filter name="com.google.android.apps.docs/com.google.android.apps.docs.openurl.TrixOpenUrlActivityAlias" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.google.android.apps.docs/com.google.android.apps.docs.openurl.KixOpenUrlActivityAlias" />
+<component-filter name="com.google.android.apps.docs/com.google.android.apps.docs.openurl.PunchOpenUrlActivityAlias" />
+<component-filter name="com.google.android.apps.docs/com.google.android.apps.docs.openurl.TrixOpenUrlActivityAlias" />
+</activity>
+</rules>

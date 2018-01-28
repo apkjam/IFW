@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.job.android/com.job.android.business.xiaomipush.XiaoMiMessageReceiver" />
+<component-filter name="com.job.android/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.job.android/com.job.android.business.xiaomipush.XiaoMiMessageReceiver" />
+<component-filter name="com.job.android/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.job.android/com.job.android.business.xiaomipush.XiaoMiMessageReceiver" />
+<component-filter name="com.job.android/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

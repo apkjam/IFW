@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.qiyi.video/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.qiyi.video/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.qiyi.video/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.qiyi.video/org.qiyi.android.commonphonepad.pushmessage.huawei.HWPushMessageReceiver" />
+<component-filter name="com.qiyi.video/org.qiyi.android.commonphonepad.pushmessage.xiaomi.XiaoMiPushMessageReceive" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.qiyi.video/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.qiyi.video/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.qiyi.video/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.qiyi.video/org.qiyi.android.commonphonepad.pushmessage.huawei.HWPushMessageReceiver" />
+<component-filter name="com.qiyi.video/org.qiyi.android.commonphonepad.pushmessage.xiaomi.XiaoMiPushMessageReceive" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.qiyi.video/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.qiyi.video/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.qiyi.video/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.qiyi.video/org.qiyi.android.commonphonepad.pushmessage.huawei.HWPushMessageReceiver" />
+<component-filter name="com.qiyi.video/org.qiyi.android.commonphonepad.pushmessage.xiaomi.XiaoMiPushMessageReceive" />
+</activity>
+</rules>

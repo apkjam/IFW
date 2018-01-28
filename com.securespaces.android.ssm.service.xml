@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.securespaces.android.ssm.service/com.securespaces.android.ssm.service.provisioning.OneTimeSpaceInitService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.securespaces.android.ssm.service/com.securespaces.android.ssm.service.provisioning.OneTimeSpaceInitService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.securespaces.android.ssm.service/com.securespaces.android.ssm.service.provisioning.OneTimeSpaceInitService" />
+</activity>
+</rules>

@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.evernote/com.evernote.android.collect.CollectImageUriReceiver" />
+<component-filter name="com.evernote/com.evernote.ui.LGSmartBulletinWidget" />
+<component-filter name="com.evernote/com.evernote.widget.EvernoteWidgetListClickActionService" />
+<component-filter name="com.evernote/com.evernote.widget.EvernoteWidgetListRemoteViewService" />
+<component-filter name="com.evernote/com.evernote.widget.EvernoteWidgetListService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.evernote/com.evernote.android.collect.CollectImageUriReceiver" />
+<component-filter name="com.evernote/com.evernote.ui.LGSmartBulletinWidget" />
+<component-filter name="com.evernote/com.evernote.widget.EvernoteWidgetListClickActionService" />
+<component-filter name="com.evernote/com.evernote.widget.EvernoteWidgetListRemoteViewService" />
+<component-filter name="com.evernote/com.evernote.widget.EvernoteWidgetListService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.evernote/com.evernote.android.collect.CollectImageUriReceiver" />
+<component-filter name="com.evernote/com.evernote.ui.LGSmartBulletinWidget" />
+<component-filter name="com.evernote/com.evernote.widget.EvernoteWidgetListClickActionService" />
+<component-filter name="com.evernote/com.evernote.widget.EvernoteWidgetListRemoteViewService" />
+<component-filter name="com.evernote/com.evernote.widget.EvernoteWidgetListService" />
+</activity>
+</rules>

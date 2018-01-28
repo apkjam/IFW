@@ -1,0 +1,29 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.baidu.netdisk/com.baidu.android.pushservice.CommandService" />
+<component-filter name="com.baidu.netdisk/com.baidu.android.pushservice.PushService" />
+<component-filter name="com.baidu.netdisk/com.baidu.android.pushservice.PushServiceReceiver" />
+<component-filter name="com.baidu.netdisk/com.baidu.cyberplayer.dlna.NetworkChangeReceiver" />
+<component-filter name="com.baidu.netdisk/com.baidu.devicesecurity.receiver.DSDeviceAdminReceiver" />
+<component-filter name="com.baidu.netdisk/com.baidu.location.f" />
+<component-filter name="com.baidu.netdisk/com.baidu.netdisk.push.NetdiskPushMessageReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.baidu.netdisk/com.baidu.android.pushservice.CommandService" />
+<component-filter name="com.baidu.netdisk/com.baidu.android.pushservice.PushService" />
+<component-filter name="com.baidu.netdisk/com.baidu.android.pushservice.PushServiceReceiver" />
+<component-filter name="com.baidu.netdisk/com.baidu.cyberplayer.dlna.NetworkChangeReceiver" />
+<component-filter name="com.baidu.netdisk/com.baidu.devicesecurity.receiver.DSDeviceAdminReceiver" />
+<component-filter name="com.baidu.netdisk/com.baidu.location.f" />
+<component-filter name="com.baidu.netdisk/com.baidu.netdisk.push.NetdiskPushMessageReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.baidu.netdisk/com.baidu.android.pushservice.CommandService" />
+<component-filter name="com.baidu.netdisk/com.baidu.android.pushservice.PushService" />
+<component-filter name="com.baidu.netdisk/com.baidu.android.pushservice.PushServiceReceiver" />
+<component-filter name="com.baidu.netdisk/com.baidu.cyberplayer.dlna.NetworkChangeReceiver" />
+<component-filter name="com.baidu.netdisk/com.baidu.devicesecurity.receiver.DSDeviceAdminReceiver" />
+<component-filter name="com.baidu.netdisk/com.baidu.location.f" />
+<component-filter name="com.baidu.netdisk/com.baidu.netdisk.push.NetdiskPushMessageReceiver" />
+</activity>
+</rules>

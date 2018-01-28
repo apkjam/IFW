@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.PushReceiverHms" />
+<component-filter name="cn.com.cmbc.newmbank/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.PushReceiverHms" />
+<component-filter name="cn.com.cmbc.newmbank/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="cn.com.cmbc.newmbank/cn.com.cmbc.newmbank.push.PushReceiverHms" />
+<component-filter name="cn.com.cmbc.newmbank/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="cn.com.cmbc.newmbank/com.igexin.sdk.PushReceiver" />
+</activity>
+</rules>

@@ -1,0 +1,29 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.ishowedu.peiyin/cn.jpush.android.service.PushReceiver" />
+<component-filter name="com.ishowedu.peiyin/com.ishowedu.peiyin.services.BootUpReceiver" />
+<component-filter name="com.ishowedu.peiyin/com.ishowedu.peiyin.thirdparty.XiaoMiPushReceiver" />
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ishowedu.peiyin/io.rong.push.PushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.ishowedu.peiyin/cn.jpush.android.service.PushReceiver" />
+<component-filter name="com.ishowedu.peiyin/com.ishowedu.peiyin.services.BootUpReceiver" />
+<component-filter name="com.ishowedu.peiyin/com.ishowedu.peiyin.thirdparty.XiaoMiPushReceiver" />
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ishowedu.peiyin/io.rong.push.PushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.ishowedu.peiyin/cn.jpush.android.service.PushReceiver" />
+<component-filter name="com.ishowedu.peiyin/com.ishowedu.peiyin.services.BootUpReceiver" />
+<component-filter name="com.ishowedu.peiyin/com.ishowedu.peiyin.thirdparty.XiaoMiPushReceiver" />
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.ishowedu.peiyin/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.ishowedu.peiyin/io.rong.push.PushReceiver" />
+</activity>
+</rules>

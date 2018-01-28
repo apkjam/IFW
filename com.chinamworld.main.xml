@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.BootBroadcastReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.BootBroadcastReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.chinamworld.main/com.ccb.android.yxpush.mif.BootBroadcastReceiver" />
+</activity>
+</rules>

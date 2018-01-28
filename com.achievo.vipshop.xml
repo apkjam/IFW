@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.achievo.vipshop/com.achievo.vipshop.commons.push.HaweiPushReceiver" />
+<component-filter name="com.achievo.vipshop/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.achievo.vipshop/com.tencent.qalsdk.core.NetConnInfoCenter" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.achievo.vipshop/com.achievo.vipshop.commons.push.HaweiPushReceiver" />
+<component-filter name="com.achievo.vipshop/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.achievo.vipshop/com.tencent.qalsdk.core.NetConnInfoCenter" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.achievo.vipshop/com.achievo.vipshop.commons.push.HaweiPushReceiver" />
+<component-filter name="com.achievo.vipshop/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.achievo.vipshop/com.tencent.qalsdk.core.NetConnInfoCenter" />
+</activity>
+</rules>

@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.luojilab.player/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.luojilab.player/com.luojilab.netsupport.push.platform.huawei.HWPushMsgReceiver" />
+<component-filter name="com.luojilab.player/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.luojilab.player/io.rong.push.PushReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.luojilab.player/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.luojilab.player/com.luojilab.netsupport.push.platform.huawei.HWPushMsgReceiver" />
+<component-filter name="com.luojilab.player/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.luojilab.player/io.rong.push.PushReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.luojilab.player/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.luojilab.player/com.luojilab.netsupport.push.platform.huawei.HWPushMsgReceiver" />
+<component-filter name="com.luojilab.player/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.luojilab.player/io.rong.push.PushReceiver" />
+</activity>
+</rules>

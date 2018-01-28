@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.taobao.idlefish/com.taobao.accs.EventReceiver" />
+<component-filter name="com.taobao.idlefish/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.taobao.idlefish/org.android.agoo.huawei.HuaWeiReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.taobao.idlefish/com.taobao.accs.EventReceiver" />
+<component-filter name="com.taobao.idlefish/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.taobao.idlefish/org.android.agoo.huawei.HuaWeiReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.taobao.idlefish/com.taobao.accs.EventReceiver" />
+<component-filter name="com.taobao.idlefish/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.taobao.idlefish/org.android.agoo.huawei.HuaWeiReceiver" />
+</activity>
+</rules>

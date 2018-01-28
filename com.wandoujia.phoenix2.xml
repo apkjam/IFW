@@ -1,0 +1,14 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.wandoujia.phoenix2/com.taobao.accs.EventReceiver" />
+<component-filter name="com.wandoujia.phoenix2/com.wandoujia.jupiter.floatwindow.KeepLiveReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.wandoujia.phoenix2/com.taobao.accs.EventReceiver" />
+<component-filter name="com.wandoujia.phoenix2/com.wandoujia.jupiter.floatwindow.KeepLiveReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.wandoujia.phoenix2/com.taobao.accs.EventReceiver" />
+<component-filter name="com.wandoujia.phoenix2/com.wandoujia.jupiter.floatwindow.KeepLiveReceiver" />
+</activity>
+</rules>

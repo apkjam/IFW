@@ -1,0 +1,23 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.zhihu.android/com.huawei.hms.activity.BridgeActivity" />
+<component-filter name="com.zhihu.android/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.zhihu.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.push.huawei.HuaweiMessageReceiver" />
+<component-filter name="com.zhihu.android/com.zhihu.android.push.receiver.AliasAVBroadcastReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.zhihu.android/com.huawei.hms.activity.BridgeActivity" />
+<component-filter name="com.zhihu.android/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.zhihu.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.push.huawei.HuaweiMessageReceiver" />
+<component-filter name="com.zhihu.android/com.zhihu.android.push.receiver.AliasAVBroadcastReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.zhihu.android/com.huawei.hms.activity.BridgeActivity" />
+<component-filter name="com.zhihu.android/com.huawei.hms.support.api.push.PushEventReceiver" />
+<component-filter name="com.zhihu.android/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.push.huawei.HuaweiMessageReceiver" />
+<component-filter name="com.zhihu.android/com.zhihu.android.push.receiver.AliasAVBroadcastReceiver" />
+</activity>
+</rules>

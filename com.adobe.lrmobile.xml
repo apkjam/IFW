@@ -1,0 +1,11 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.adobe.lrmobile/com.adobe.lrmobile.profilecorrection.NetworkStatusReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.adobe.lrmobile/com.adobe.lrmobile.profilecorrection.NetworkStatusReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.adobe.lrmobile/com.adobe.lrmobile.profilecorrection.NetworkStatusReceiver" />
+</activity>
+</rules>

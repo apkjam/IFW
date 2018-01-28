@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.yidian.xiaomi/com.taobao.accs.EventReceiver" />
+<component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.push.YdPushMessageReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.util.fetchnews.WakeReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.yidian.xiaomi/com.taobao.accs.EventReceiver" />
+<component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.push.YdPushMessageReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.util.fetchnews.WakeReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.yidian.xiaomi/com.taobao.accs.EventReceiver" />
+<component-filter name="com.yidian.xiaomi/com.xiaomi.push.service.receivers.PingReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.push.YdPushMessageReceiver" />
+<component-filter name="com.yidian.xiaomi/com.yidian.news.util.fetchnews.WakeReceiver" />
+</activity>
+</rules>

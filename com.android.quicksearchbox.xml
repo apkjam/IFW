@@ -1,0 +1,17 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.android.quicksearchbox/com.android.quicksearchbox.push.QsbPushMessageReceiver" />
+<component-filter name="com.android.quicksearchbox/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.android.quicksearchbox/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.android.quicksearchbox/com.android.quicksearchbox.push.QsbPushMessageReceiver" />
+<component-filter name="com.android.quicksearchbox/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.android.quicksearchbox/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.android.quicksearchbox/com.android.quicksearchbox.push.QsbPushMessageReceiver" />
+<component-filter name="com.android.quicksearchbox/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.android.quicksearchbox/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+</activity>
+</rules>

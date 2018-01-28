@@ -1,0 +1,20 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.wali.live/com.mi.milink.sdk.receiver.AlarmReceiver" />
+<component-filter name="com.wali.live/com.wali.live.tpl.TplMiPushMessageReceiver" />
+<component-filter name="com.wali.live/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.wali.live/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.wali.live/com.mi.milink.sdk.receiver.AlarmReceiver" />
+<component-filter name="com.wali.live/com.wali.live.tpl.TplMiPushMessageReceiver" />
+<component-filter name="com.wali.live/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.wali.live/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.wali.live/com.mi.milink.sdk.receiver.AlarmReceiver" />
+<component-filter name="com.wali.live/com.wali.live.tpl.TplMiPushMessageReceiver" />
+<component-filter name="com.wali.live/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.wali.live/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>
