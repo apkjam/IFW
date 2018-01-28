@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xiaomi.finddevice/com.xiaomi.mipush.sdk.MessageHandleService"/>
+</service>
+</rules>

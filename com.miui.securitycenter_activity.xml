@@ -1,0 +1,5 @@
+<rules>
+<activity block="true" log="false">
+<component-filter name="com.miui.securitycenter/com.miui.optimizemanage.MainActivity"/>
+</activity>
+</rules>

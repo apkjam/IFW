@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.google.android.gms/com.google.android.gms.feedback.LegacyBugReportService"/>
+</service>
+</rules>

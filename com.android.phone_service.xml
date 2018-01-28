@@ -1,0 +1,7 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.android.phone/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.android.phone/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.android.phone/com.android.phone.TelephonyDebugService"/>
+</service>
+</rules>

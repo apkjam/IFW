@@ -1,0 +1,7 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.miui.cloudservice/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.miui.cloudservice/com.miui.cloudservice.push.MicloudPushService"/>
+<component-filter name="com.miui.cloudservice/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+</service>
+</rules>

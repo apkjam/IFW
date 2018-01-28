@@ -1,0 +1,6 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xiaomi.vipaccount/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.xiaomi.vipaccount/com.xiaomi.push.service.XMJobService"/>
+</service>
+</rules>
