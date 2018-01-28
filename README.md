@@ -1,4 +1,4 @@
-IFW rules from [MAT backup](https://github.com/apkjam/MAT-backup)
+IFW rules from [MAT backup](https://github.com/apkjam/MAT-backup) with [MAT2IFW](https://github.com/apkjam/MAT2IFW)
 
 ---
 
