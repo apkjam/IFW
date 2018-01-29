@@ -1,0 +1,32 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.netease.onmyoji/com.netease.cc.record.service.RecordFloatWindowService" />
+<component-filter name="com.netease.onmyoji/com.netease.cloud.nos.android.receiver.ConnectionChangeReceiver" />
+<component-filter name="com.netease.onmyoji/com.netease.cloud.nos.android.service.MonitorService" />
+<component-filter name="com.netease.onmyoji/com.netease.mpay.widget.AlerterWindowService" />
+<component-filter name="com.netease.onmyoji/com.netease.onmyoji.AlarmReceiver" />
+<component-filter name="com.netease.onmyoji/com.netease.onmyoji.PushNotificationReceiver" />
+<component-filter name="com.netease.onmyoji/com.netease.pushservice.PushService" />
+<component-filter name="com.netease.onmyoji/com.netease.pushservice.PushServiceReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.netease.onmyoji/com.netease.cc.record.service.RecordFloatWindowService" />
+<component-filter name="com.netease.onmyoji/com.netease.cloud.nos.android.receiver.ConnectionChangeReceiver" />
+<component-filter name="com.netease.onmyoji/com.netease.cloud.nos.android.service.MonitorService" />
+<component-filter name="com.netease.onmyoji/com.netease.mpay.widget.AlerterWindowService" />
+<component-filter name="com.netease.onmyoji/com.netease.onmyoji.AlarmReceiver" />
+<component-filter name="com.netease.onmyoji/com.netease.onmyoji.PushNotificationReceiver" />
+<component-filter name="com.netease.onmyoji/com.netease.pushservice.PushService" />
+<component-filter name="com.netease.onmyoji/com.netease.pushservice.PushServiceReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.netease.onmyoji/com.netease.cc.record.service.RecordFloatWindowService" />
+<component-filter name="com.netease.onmyoji/com.netease.cloud.nos.android.receiver.ConnectionChangeReceiver" />
+<component-filter name="com.netease.onmyoji/com.netease.cloud.nos.android.service.MonitorService" />
+<component-filter name="com.netease.onmyoji/com.netease.mpay.widget.AlerterWindowService" />
+<component-filter name="com.netease.onmyoji/com.netease.onmyoji.AlarmReceiver" />
+<component-filter name="com.netease.onmyoji/com.netease.onmyoji.PushNotificationReceiver" />
+<component-filter name="com.netease.onmyoji/com.netease.pushservice.PushService" />
+<component-filter name="com.netease.onmyoji/com.netease.pushservice.PushServiceReceiver" />
+</activity>
+</rules>

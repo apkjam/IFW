@@ -1,0 +1,62 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.happyelements.AndroidClover/cn.egame.terminal.sdk.EgameCoreReceiver" />
+<component-filter name="com.happyelements.AndroidClover/cn.egame.terminal.sdk.EgameCoreService" />
+<component-filter name="com.happyelements.AndroidClover/com.atlassian.jconnect.droid.service.FeedbackPollingService" />
+<component-filter name="com.happyelements.AndroidClover/com.atlassian.jconnect.droid.service.RemoteFeedbackService" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.AndroidClover.share.AlarmManagerReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.AndroidClover.share.AnimalBootAlarmBroadCast" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.gcn.FakeService" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.gcn.GcnBroadcastReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.gcn.PollingService" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.mi.MiMessageReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.webview.utils.FirstLoadingX5Service" />
+<component-filter name="com.happyelements.AndroidClover/com.unicom.wostore.unipay.paysecurity.SecurityServiceFramework" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.happyelements.AndroidClover/cn.egame.terminal.sdk.EgameCoreReceiver" />
+<component-filter name="com.happyelements.AndroidClover/cn.egame.terminal.sdk.EgameCoreService" />
+<component-filter name="com.happyelements.AndroidClover/com.atlassian.jconnect.droid.service.FeedbackPollingService" />
+<component-filter name="com.happyelements.AndroidClover/com.atlassian.jconnect.droid.service.RemoteFeedbackService" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.AndroidClover.share.AlarmManagerReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.AndroidClover.share.AnimalBootAlarmBroadCast" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.gcn.FakeService" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.gcn.GcnBroadcastReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.gcn.PollingService" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.mi.MiMessageReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.webview.utils.FirstLoadingX5Service" />
+<component-filter name="com.happyelements.AndroidClover/com.unicom.wostore.unipay.paysecurity.SecurityServiceFramework" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.happyelements.AndroidClover/cn.egame.terminal.sdk.EgameCoreReceiver" />
+<component-filter name="com.happyelements.AndroidClover/cn.egame.terminal.sdk.EgameCoreService" />
+<component-filter name="com.happyelements.AndroidClover/com.atlassian.jconnect.droid.service.FeedbackPollingService" />
+<component-filter name="com.happyelements.AndroidClover/com.atlassian.jconnect.droid.service.RemoteFeedbackService" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.AndroidClover.share.AlarmManagerReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.AndroidClover.share.AnimalBootAlarmBroadCast" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.gcn.FakeService" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.gcn.GcnBroadcastReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.gcn.PollingService" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.gsp.android.notification.mi.MiMessageReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.happyelements.webview.utils.FirstLoadingX5Service" />
+<component-filter name="com.happyelements.AndroidClover/com.unicom.wostore.unipay.paysecurity.SecurityServiceFramework" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.receivers.NetworkStatusReceiver" />
+<component-filter name="com.happyelements.AndroidClover/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

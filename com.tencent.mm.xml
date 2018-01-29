@@ -1,0 +1,26 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.tencent.mm/com.tencent.mm.booter.InstallReceiver" />
+<component-filter name="com.tencent.mm/com.tencent.mm.booter.cache.CacheService" />
+<component-filter name="com.tencent.mm/com.tencent.mm.crash.CrashUploaderService" />
+<component-filter name="com.tencent.mm/com.tencent.mm.sandbox.monitor.CrashUploadAlarmReceiver" />
+<component-filter name="com.tencent.mm/com.tencent.mm.sandbox.updater.UpdaterService" />
+<component-filter name="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.tencent.mm/com.tencent.mm.booter.InstallReceiver" />
+<component-filter name="com.tencent.mm/com.tencent.mm.booter.cache.CacheService" />
+<component-filter name="com.tencent.mm/com.tencent.mm.crash.CrashUploaderService" />
+<component-filter name="com.tencent.mm/com.tencent.mm.sandbox.monitor.CrashUploadAlarmReceiver" />
+<component-filter name="com.tencent.mm/com.tencent.mm.sandbox.updater.UpdaterService" />
+<component-filter name="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.tencent.mm/com.tencent.mm.booter.InstallReceiver" />
+<component-filter name="com.tencent.mm/com.tencent.mm.booter.cache.CacheService" />
+<component-filter name="com.tencent.mm/com.tencent.mm.crash.CrashUploaderService" />
+<component-filter name="com.tencent.mm/com.tencent.mm.sandbox.monitor.CrashUploadAlarmReceiver" />
+<component-filter name="com.tencent.mm/com.tencent.mm.sandbox.updater.UpdaterService" />
+<component-filter name="com.tencent.mm/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
+</activity>
+</rules>

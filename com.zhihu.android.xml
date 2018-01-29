@@ -1,0 +1,50 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.zhihu.android/android.support.v4.media.session.MediaButtonReceiver" />
+<component-filter name="com.zhihu.android/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.zhihu.android/com.avos.avoscloud.PushService" />
+<component-filter name="com.zhihu.android/com.instabug.library.network.InstabugNetworkReceiver" />
+<component-filter name="com.zhihu.android/com.instabug.library.network.UploadCacheService" />
+<component-filter name="com.zhihu.android/com.liulishuo.filedownloader.services.FileDownloadService\$SeparateProcessService" />
+<component-filter name="com.zhihu.android/com.liulishuo.filedownloader.services.FileDownloadService\$SharedMainProcessService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.live.receiver.LivePlayBroadcastReceiver" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.push.NotificationWebSocketService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.push.PushActionService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.push.PushReceiver" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.service.VideoUploadService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.jobService.PollingPushService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.push.receiver.AwakeReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.zhihu.android/android.support.v4.media.session.MediaButtonReceiver" />
+<component-filter name="com.zhihu.android/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.zhihu.android/com.avos.avoscloud.PushService" />
+<component-filter name="com.zhihu.android/com.instabug.library.network.InstabugNetworkReceiver" />
+<component-filter name="com.zhihu.android/com.instabug.library.network.UploadCacheService" />
+<component-filter name="com.zhihu.android/com.liulishuo.filedownloader.services.FileDownloadService\$SeparateProcessService" />
+<component-filter name="com.zhihu.android/com.liulishuo.filedownloader.services.FileDownloadService\$SharedMainProcessService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.live.receiver.LivePlayBroadcastReceiver" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.push.NotificationWebSocketService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.push.PushActionService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.push.PushReceiver" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.service.VideoUploadService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.jobService.PollingPushService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.push.receiver.AwakeReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.zhihu.android/android.support.v4.media.session.MediaButtonReceiver" />
+<component-filter name="com.zhihu.android/com.avos.avoscloud.AVBroadcastReceiver" />
+<component-filter name="com.zhihu.android/com.avos.avoscloud.PushService" />
+<component-filter name="com.zhihu.android/com.instabug.library.network.InstabugNetworkReceiver" />
+<component-filter name="com.zhihu.android/com.instabug.library.network.UploadCacheService" />
+<component-filter name="com.zhihu.android/com.liulishuo.filedownloader.services.FileDownloadService\$SeparateProcessService" />
+<component-filter name="com.zhihu.android/com.liulishuo.filedownloader.services.FileDownloadService\$SharedMainProcessService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.live.receiver.LivePlayBroadcastReceiver" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.push.NotificationWebSocketService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.push.PushActionService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.push.PushReceiver" />
+<component-filter name="com.zhihu.android/com.zhihu.android.app.service.VideoUploadService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.jobService.PollingPushService" />
+<component-filter name="com.zhihu.android/com.zhihu.android.push.receiver.AwakeReceiver" />
+</activity>
+</rules>

@@ -1,0 +1,38 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.XGPushReceiver" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.rpc.XGRemoteService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.service.XGPushService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.component.plugin.server.PluginService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.dns.HttpDnsCache\$ConnectivityChangeReceiver" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.notice.RollFloatService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.qqgamemi.QMiService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.qqgamemi.QmiPluginTreeReceiver" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.tmdownloader.TMAssistantDownloadService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.XGPushReceiver" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.rpc.XGRemoteService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.service.XGPushService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.component.plugin.server.PluginService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.dns.HttpDnsCache\$ConnectivityChangeReceiver" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.notice.RollFloatService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.qqgamemi.QMiService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.qqgamemi.QmiPluginTreeReceiver" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.tmdownloader.TMAssistantDownloadService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.XGPushReceiver" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.rpc.XGRemoteService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.android.tpush.service.XGPushService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.component.plugin.server.PluginService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.dns.HttpDnsCache\$ConnectivityChangeReceiver" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.msdk.notice.RollFloatService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.qqgamemi.QMiService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.qqgamemi.QmiPluginTreeReceiver" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
+<component-filter name="com.tencent.tmgp.sgame/com.tencent.tmdownloader.TMAssistantDownloadService" />
+</activity>
+</rules>

@@ -1,0 +1,56 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.taobao.qianniu/com.alibaba.analytics.AnalyticsService" />
+<component-filter name="com.taobao.qianniu/com.alibaba.hwpush.HWPushReceiver" />
+<component-filter name="com.taobao.qianniu/com.alibaba.mipush.MiPushMessageReceiver" />
+<component-filter name="com.taobao.qianniu/com.alibaba.mtl.appmonitor.AppMonitorService" />
+<component-filter name="com.taobao.qianniu/com.alibaba.tcms.mipush.MiPushBroadcastReceiver" />
+<component-filter name="com.taobao.qianniu/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="com.taobao.qianniu/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.taobao.qianniu/com.huawei.android.pushagent.PushService" />
+<component-filter name="com.taobao.qianniu/com.taobao.qianniu.receiver.hwpush.HuaWeiPushReceiver" />
+<component-filter name="com.taobao.qianniu/com.taobao.qianniu.receiver.mipush.MIPushReceiverMC" />
+<component-filter name="com.taobao.qianniu/com.taobao.qianniu.receiver.mipush.MiMessageReceiver" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.push.service.receivers.PingReceiver" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.taobao.qianniu/com.alibaba.analytics.AnalyticsService" />
+<component-filter name="com.taobao.qianniu/com.alibaba.hwpush.HWPushReceiver" />
+<component-filter name="com.taobao.qianniu/com.alibaba.mipush.MiPushMessageReceiver" />
+<component-filter name="com.taobao.qianniu/com.alibaba.mtl.appmonitor.AppMonitorService" />
+<component-filter name="com.taobao.qianniu/com.alibaba.tcms.mipush.MiPushBroadcastReceiver" />
+<component-filter name="com.taobao.qianniu/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="com.taobao.qianniu/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.taobao.qianniu/com.huawei.android.pushagent.PushService" />
+<component-filter name="com.taobao.qianniu/com.taobao.qianniu.receiver.hwpush.HuaWeiPushReceiver" />
+<component-filter name="com.taobao.qianniu/com.taobao.qianniu.receiver.mipush.MIPushReceiverMC" />
+<component-filter name="com.taobao.qianniu/com.taobao.qianniu.receiver.mipush.MiMessageReceiver" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.push.service.receivers.PingReceiver" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.taobao.qianniu/com.alibaba.analytics.AnalyticsService" />
+<component-filter name="com.taobao.qianniu/com.alibaba.hwpush.HWPushReceiver" />
+<component-filter name="com.taobao.qianniu/com.alibaba.mipush.MiPushMessageReceiver" />
+<component-filter name="com.taobao.qianniu/com.alibaba.mtl.appmonitor.AppMonitorService" />
+<component-filter name="com.taobao.qianniu/com.alibaba.tcms.mipush.MiPushBroadcastReceiver" />
+<component-filter name="com.taobao.qianniu/com.huawei.android.pushagent.PushBootReceiver" />
+<component-filter name="com.taobao.qianniu/com.huawei.android.pushagent.PushEventReceiver" />
+<component-filter name="com.taobao.qianniu/com.huawei.android.pushagent.PushService" />
+<component-filter name="com.taobao.qianniu/com.taobao.qianniu.receiver.hwpush.HuaWeiPushReceiver" />
+<component-filter name="com.taobao.qianniu/com.taobao.qianniu.receiver.mipush.MIPushReceiverMC" />
+<component-filter name="com.taobao.qianniu/com.taobao.qianniu.receiver.mipush.MiMessageReceiver" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.mipush.sdk.MessageHandleService" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.mipush.sdk.PushMessageHandler" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.push.service.XMJobService" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.push.service.XMPushService" />
+<component-filter name="com.taobao.qianniu/com.xiaomi.push.service.receivers.PingReceiver" />
+</activity>
+</rules>

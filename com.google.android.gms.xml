@@ -1,0 +1,53 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.AdRequestBrokerService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.measurement.AdsMeasurementBroadcastReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.measurement.AdsMeasurementService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.social.DoritosReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.social.GcmSchedulerWakeupService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.service.PlayLogMonitorIntervalService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.common.analytics.CoreAnalyticsAlarmReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.mdm.receivers.ConnectivityReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.playlog.uploader.UploaderIntentService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.update.SystemUpdateService\$ActiveReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.CrashReportIntentService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.analytics.AnalyticsIntentService" />
+</service>
+<broadcast block="true" log="false">
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.AdRequestBrokerService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.measurement.AdsMeasurementBroadcastReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.measurement.AdsMeasurementService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.social.DoritosReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.social.GcmSchedulerWakeupService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.service.PlayLogMonitorIntervalService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.common.analytics.CoreAnalyticsAlarmReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.mdm.receivers.ConnectivityReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.playlog.uploader.UploaderIntentService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.update.SystemUpdateService\$ActiveReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.CrashReportIntentService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.analytics.AnalyticsIntentService" />
+</broadcast>
+<activity block="true" log="false">
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.AdRequestBrokerService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.identifier.service.AdvertisingIdService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.measurement.AdsMeasurementBroadcastReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.measurement.AdsMeasurementService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.social.DoritosReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.social.GcmSchedulerWakeupService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.service.PlayLogMonitorIntervalService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.common.analytics.CoreAnalyticsAlarmReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.mdm.receivers.ConnectivityReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.playlog.uploader.UploaderIntentService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.update.SystemUpdateService\$ActiveReceiver" />
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.CrashReportIntentService" />
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.analytics.AnalyticsIntentService" />
+</activity>
+</rules>
