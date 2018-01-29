@@ -1,5 +1,28 @@
 <rules>
 <service block="true" log="false">
 <component-filter name="com.google.android.gms/com.google.android.gms.feedback.LegacyBugReportService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.icing.service.IndexService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.chimera.PersistentBoundBrokerService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.cache.CacheBrokerService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.measurement.GmpConversionTrackingBrokerService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.GservicesValueBrokerService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.ads.jams.NegotiationService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.usagereporting.service.UsageReportingIntentService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.usagereporting.service.UsageReportingService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.measurement.AppMeasurementJobService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.measurement.AppMeasurementService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.car.diagnostics.CrashReporterService2"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.address.AddressService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.walletp2p.service.firstparty.FirstPartyWalletP2PService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.GcmReceiverService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.PaymentService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.walletp2p.service.secondparty.SecondPartyWalletP2PService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.WalletGcmTaskService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.walletp2p.service.zeroparty.ZeroPartyWalletP2PService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.service.AnalyticsService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.AnalyticsService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.analytics.AnalyticsTaskService"/>
+<component-filter name="com.google.android.gms/com.google.android.location.internal.AnalyticsUploadIntentService"/>
 </service>
 </rules>
