@@ -25,5 +25,6 @@
 <component-filter name="com.google.android.gms/com.google.android.gms.analytics.AnalyticsTaskService"/>
 <component-filter name="com.google.android.gms/com.google.android.location.internal.AnalyticsUploadIntentService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.backup.BackupTransportService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.gcm.GcmService"/>
 </service>
 </rules>
