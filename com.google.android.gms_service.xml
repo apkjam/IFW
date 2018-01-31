@@ -13,7 +13,6 @@
 <component-filter name="com.google.android.gms/com.google.android.gms.measurement.AppMeasurementJobService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.measurement.AppMeasurementService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.car.diagnostics.CrashReporterService2"/>
-<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.address.AddressService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.walletp2p.service.firstparty.FirstPartyWalletP2PService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.wallet.GcmReceiverService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.PaymentService"/>
@@ -26,5 +25,6 @@
 <component-filter name="com.google.android.gms/com.google.android.location.internal.AnalyticsUploadIntentService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.backup.BackupTransportService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.gcm.GcmService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.address.AddressService"/>
 </service>
 </rules>
