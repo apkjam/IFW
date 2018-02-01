@@ -26,5 +26,8 @@
 <component-filter name="com.google.android.gms/com.google.android.gms.backup.BackupTransportService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.gcm.GcmService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.wallet.service.address.AddressService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.deviceconnection.service.DeviceConnectionWatcherService"/>
+<component-filter name="com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService"/>
 </service>
 </rules>
