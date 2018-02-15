@@ -3,5 +3,6 @@
 <component-filter name="com.android.calendar/com.xiaomi.mipush.sdk.PushMessageHandler"/>
 <component-filter name="com.android.calendar/com.xiaomi.mipush.sdk.MessageHandleService"/>
 <component-filter name="com.android.calendar/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.android.calendar/com.xiaomi.push.service.XMPushService"/>
 </service>
 </rules>
