@@ -6,5 +6,6 @@
 <component-filter name="com.miui.securitycenter/com.xiaomi.mipush.sdk.PushMessageHandler"/>
 <component-filter name="com.miui.securitycenter/com.xiaomi.push.service.XMPushService"/>
 <component-filter name="com.miui.securitycenter/com.miui.securitycenter.memory.MemoryCheckService"/>
+<component-filter name="com.miui.securitycenter/com.miui.powercenter.provider.PowerSaveService"/>
 </service>
 </rules>
