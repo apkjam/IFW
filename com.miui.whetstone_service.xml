@@ -1,0 +1,6 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.miui.whetstone/com.miui.whetstone.autoClean.status.StatusUpdateJobService"/>
+<component-filter name="com.miui.whetstone/com.miui.whetstone.autoClean.entry.WhetstoneAutoCleanTriggerService"/>
+</service>
+</rules>
