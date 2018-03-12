@@ -29,5 +29,10 @@
 <component-filter name="com.google.android.gms/com.google.android.gms.deviceconnection.service.DeviceConnectionWatcherService"/>
 <component-filter name="com.google.android.gms/com.google.location.nearby.direct.service.NearbyDirectService"/>
 <component-filter name="com.google.android.gms/com.google.android.gms.nearby.messages.service.NearbyMessagesService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.security.verifier.ApkUploadService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.nearby.discovery.service.DiscoveryService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.subscribedfeeds.GcmReceiverService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.security.verifier.InternalApkUploadService"/>
+<component-filter name="com.google.android.gms/com.google.android.gms.auth.account.be.channelid.ChannelBindingStateIntentService"/>
 </service>
 </rules>
