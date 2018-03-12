@@ -1,0 +1,5 @@
+<rules>
+<broadcast block="true" log="false">
+<component-filter name="com.google.android.gsf/com.google.android.gsf.subscribedfeeds.SubscribedFeedsGCMBroadcastReceiver"/>
+</broadcast>
+</rules>

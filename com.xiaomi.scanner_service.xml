@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xiaomi.scanner/mtopsdk.xstate.XStateService"/>
+</service>
+</rules>

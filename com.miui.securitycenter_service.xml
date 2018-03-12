@@ -1,0 +1,10 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.miui.securitycenter/com.miui.gamebooster.gbservices.AntiMsgAccessibilityService"/>
+<component-filter name="com.miui.securitycenter/com.miui.gamebooster.service.GameBoosterService"/>
+<component-filter name="com.miui.securitycenter/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.miui.securitycenter/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.miui.securitycenter/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.miui.securitycenter/com.miui.securitycenter.memory.MemoryCheckService"/>
+</service>
+</rules>

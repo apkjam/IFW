@@ -1,0 +1,6 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.android.thememanager/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.android.thememanager/com.xiaomi.mipush.sdk.MessageHandleService"/>
+</service>
+</rules>

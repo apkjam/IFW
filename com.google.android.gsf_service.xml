@@ -1,0 +1,6 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.google.android.gsf/com.google.android.gsf.subscribedfeeds.GCMIntentService"/>
+<component-filter name="com.google.android.gsf/com.google.android.gsf.gtalkservice.PushMessagingRegistrarProxy"/>
+</service>
+</rules>

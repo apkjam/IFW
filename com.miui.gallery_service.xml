@@ -1,0 +1,8 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.miui.gallery/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.miui.gallery/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.miui.gallery/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.miui.gallery/com.xiaomi.push.service.XMPushService"/>
+</service>
+</rules>

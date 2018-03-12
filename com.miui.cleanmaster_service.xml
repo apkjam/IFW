@@ -1,0 +1,6 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.miui.cleanmaster/com.miui.optimizecenter.timed.TimedScanJobService"/>
+<component-filter name="com.miui.cleanmaster/com.miui.optimizecenter.timed.TimedUpdateCleanUpDbJobService"/>
+</service>
+</rules>

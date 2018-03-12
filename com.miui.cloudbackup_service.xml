@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.miui.cloudbackup/com.miui.cloudbackup.miuisettings.SettingsBackupDebugService"/>
+</service>
+</rules>
