@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.halfbrick.colossatron/org.openudid.OpenUDID_service"/>
+</service>
+</rules>

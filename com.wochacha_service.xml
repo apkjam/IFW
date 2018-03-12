@@ -1,0 +1,10 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.wochacha/com.taobao.accs.ChannelService"/>
+<component-filter name="com.wochacha/com.taobao.accs.ChannelService$KernelService"/>
+<component-filter name="com.wochacha/org.android.agoo.accs.AgooService"/>
+<component-filter name="com.wochacha/com.umeng.message.UmengIntentService"/>
+<component-filter name="com.wochacha/com.umeng.message.UmengMessageIntentReceiverService"/>
+<component-filter name="com.wochacha/com.umeng.message.UmengMessageCallbackHandlerService"/>
+</service>
+</rules>

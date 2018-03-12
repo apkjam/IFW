@@ -5,5 +5,7 @@
 <component-filter name="com.wali.live/com.xiaomi.push.service.XMJobService"/>
 <component-filter name="com.wali.live/com.xiaomi.mipush.sdk.PushMessageHandler"/>
 <component-filter name="com.wali.live/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.wali.live/anetwork.channel.aidl.NetworkService"/>
+<component-filter name="com.wali.live/mtopsdk.xstate.XStateService"/>
 </service>
 </rules>
