@@ -1,6 +1,10 @@
 <rules>
 <service block="true" log="false">
-<component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushService"/>
+<component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGPushServiceV3"/>
+<component-filter name="com.jd.jrapp/com.tencent.android.tpush.service.XGDaemonService"/>
 <component-filter name="com.jd.jrapp/com.tencent.android.tpush.rpc.XGRemoteService"/>
+<component-filter name="com.jd.jrapp/com.jingdong.jdpush_new.JDSPushService"/>
+<component-filter name="com.jd.jrapp/com.robile.push.JDPushService"/>
+<component-filter name="com.jd.jrapp/com.jd.jrapp.daemon.DaemonService"/>
 </service>
 </rules>

@@ -1,0 +1,6 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.cxland.one/cn.jpush.android.service.DaemonService"/>
+<component-filter name="com.cxland.one/cn.jpush.android.service.PushService"/>
+</service>
+</rules>

@@ -1,0 +1,24 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.ss.android.ugc.aweme/com.ss.android.newmedia.message.MessageHandler"/>
+<component-filter name="com.ss.android.ugc.aweme/com.ss.android.push.daemon.PushService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.huawei.android.pushagent.PushService"/>
+<component-filter name="com.ss.android.ugc.aweme/cn.jpush.android.service.DaemonService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.baidu.android.pushservice.CommandService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.igexin.sdk.PushService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.xiaomi.push.service.XMPushService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.xiaomi.push.service.XMJobService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.xiaomi.mipush.sdk.PushMessageHandler"/>
+<component-filter name="com.ss.android.ugc.aweme/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.taobao.accs.ChannelService"/>
+<component-filter name="com.ss.android.ugc.aweme/org.android.agoo.accs.AgooService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.umeng.message.UmengIntentService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.umeng.message.UmengMessageCallbackHandlerService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.umeng.message.UmengMessageIntentReceiverService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.umeng.UmengMessageHandler"/>
+<component-filter name="com.ss.android.ugc.aweme/com.taobao.accs.ChannelService$KernelService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.alibaba.sdk.android.push.channel.TaobaoRecvService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.coloros.mcssdk.PushService"/>
+<component-filter name="com.ss.android.ugc.aweme/com.ss.android.push.DefaultService"/>
+</service>
+</rules>

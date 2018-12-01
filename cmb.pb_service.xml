@@ -4,6 +4,7 @@
 <component-filter name="cmb.pb/com.xiaomi.push.service.XMPushService"/>
 <component-filter name="cmb.pb/com.xiaomi.mipush.sdk.PushMessageHandler"/>
 <component-filter name="cmb.pb/com.xiaomi.mipush.sdk.MessageHandleService"/>
+<component-filter name="cmb.pb/com.coloros.mcssdk.PushService"/>
 <component-filter name="cmb.pb/com.huawei.android.pushagent.PushService"/>
 </service>
 </rules>

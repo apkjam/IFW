@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="net.antoniy.gidder.beta/net.antoniy.gidder.beta.service.SSHDaemonService"/>
+</service>
+</rules>

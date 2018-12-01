@@ -1,0 +1,7 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.idreamsky.carcrash.mi/com.yumi.android.sdk.ads.service.YumiAdsEventService"/>
+<component-filter name="com.idreamsky.carcrash.mi/com.afk.client.ads.DownloadService"/>
+<component-filter name="com.idreamsky.carcrash.mi/com.ks.client.ads.DownloadService"/>
+</service>
+</rules>

@@ -1,0 +1,8 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="com.xiaoniu.finance/com.tencent.android.tpush.service.XGPushServiceV3"/>
+<component-filter name="com.xiaoniu.finance/com.tencent.android.tpush.rpc.XGRemoteService"/>
+<component-filter name="com.xiaoniu.finance/cn.jpush.android.service.PushService"/>
+<component-filter name="com.xiaoniu.finance/cn.jpush.android.service.DaemonService"/>
+</service>
+</rules>

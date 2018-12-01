@@ -1,0 +1,5 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="ru.yandex.mail/com.yandex.mail.push.PushService"/>
+</service>
+</rules>

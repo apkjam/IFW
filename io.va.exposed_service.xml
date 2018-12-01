@@ -1,0 +1,6 @@
+<rules>
+<service block="true" log="false">
+<component-filter name="io.va.exposed/com.lody.virtual.client.stub.DaemonService"/>
+<component-filter name="io.va.exposed/com.lody.virtual.client.stub.DaemonService$InnerService"/>
+</service>
+</rules>
